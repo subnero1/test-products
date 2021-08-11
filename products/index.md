@@ -52,7 +52,7 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
     <img class='align-self-start mr-3' alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>      
      <div class='media-body product product-content'>
     <h3 style="text-transform: none;">Subnero Water Assessment Network</h3>
-    <p>Scalable automous platforms for in-situ water quality measurements.</p>
+    <p>Scalable autonomous platforms for in-situ water quality measurements.</p>
     </div>
   </div>
   </a>
