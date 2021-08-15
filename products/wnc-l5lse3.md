@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WNC-M25MSE3
+title: WNC-L5LSE3
 banner : images/banner-silver.jpg
 thumbnail : images/thumbnail-wnc-m25mse3.jpg
 excerpt: Subnero silver edition of underwater acoustic modems are the workhorse communication nodes for use in general commercial deployments.
@@ -95,11 +95,11 @@ Subnero's silver edition underwater modem is the workhorse communication node to
   <div class='collapsible-content'>
 <div class="brochure-container">
   <a href="{{site.baseurl}}/brochures/Subnero-Modem-Brochure.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Brochure.pdf" target="_blank">Subnero M25M Underwater Modems</a>
+  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Brochure.pdf" target="_blank">Subnero Underwater Modems</a>
 </div>
 <div class="brochure-container">
   <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/spec.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications.pdf" target="_blank">Subnero M25M Underwater Modems Technical Specifications</a>
+  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications.pdf" target="_blank">Subnero Underwater Modems Technical Specifications</a>
 </div>
 </div>
 </div>
