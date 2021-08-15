@@ -20,7 +20,49 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
 
 <div class='cGBxoB'>
 <section class='bsPRnx'>
+    <h1 class='thin' style='text-align: center'>Subnero L5L series acoustic modems</h1>
+    <h3 class='thin' style='text-align: center'>Subnero's low frequency long range modem offerings</h3>
+    <div class='eyXpDN'>
+        <div class='cmXrEt'>
+            <h1 class='thin' style='text-align: center'>Silver Edition</h1>
+            <ul class="gfXsQG">
+                <li class="fuqHMA">
+                    <div class="hOXnHC">
+                        {% assign product_pages = site.pages | where:"categories","modem" %}
+                        {% for page in product_pages %}
+                        {% if page.title contains "WNC-L5LSS3" %}
+                        <div class='mod modBlogPost'>
+                            <h2 class="new-tag"> NEW </h2>
+                            <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mss3.jpg" />
+                            <div class='content'>
+                            <h2>Standalone Configuration <br>WNC-L5LSS3</h2>
+                          </div></a>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </li>
+                <li class="fuqHMA">
+                    <div class="hOXnHC">
+                        {% assign product_pages = site.pages | where:"categories","modem" %}
+                        {% for page in product_pages %}
+                        {% if page.title contains "WNC-L5LSE3" %}
+                        <div class='mod modBlogPost'>
+                            <h2 class="new-tag"> NEW </h2>
+                            <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mse3.jpg" />
+                            <div class='content'>
+                            <h2>Embedded Configuration <br>WNC-L5LSE3</h2>
+                          </div></a>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
     <h1 class='thin' style='text-align: center'>Subnero M25M series acoustic modems</h1>
+    <h3 class='thin' style='text-align: center'>Subnero's medium frequency medium range modem offerings</h3>
     <div class='eyXpDN'>
         <div class='cmXrEt'>
             <h1 class='thin' style='text-align: center'>Platinum Edition</h1>
