@@ -4274,11 +4274,6 @@ p.small-title {
   .product-content{
     padding-left: 40px;
   }
-
-  p{
-    font-size: 1.3rem;
-  }
-
   #company{
     font-size: 1em;
   }
@@ -4316,18 +4311,22 @@ p.small-title {
     font-size:4em;
   }
 
+  .fullscreen .announcements h2 {
+    font-size:2em;
+  }
 
-.distributor-img img{
-  width: 60%;
-}
+  .distributor-img img{
+    width: 60%;
+  }
 
-.type-item{
-  font-size:1.6rem;
-  color:#222;
-} 
-.about-text-section{
-  padding: 5em;
-}
+  .type-item{
+    font-size:1.6rem;
+    color:#222;
+  }
+
+  .about-text-section{
+    padding: 5em;
+  }
 
   .about-text-section{
     padding: 0 5em 5em 5em;
@@ -4385,9 +4384,6 @@ p.small-title {
     min-height:200px;
   }
 
-  p{
-    font-size:1.3rem;
-  }
 
   .full.tall{
     padding:0px;
@@ -4452,7 +4448,7 @@ p.small-title {
   }
 
   .about-text-section{
-    padding: 0 5em 5em 5em;
+    padding: 5em;
   }
 
 }
@@ -4469,6 +4465,7 @@ p.small-title {
     height: 180px;
     width:100vw;
   }
+
 
   .media.product img{
       height:100%;
@@ -4496,7 +4493,11 @@ p.small-title {
     color: #E6782F;
   }
 
-  p{
+  .product-content{
+    /*padding-left: 30px;*/
+  }
+
+  .product p{
     font-size:1.1rem;
   }
 
@@ -4562,7 +4563,7 @@ p.small-title {
   }
 
   .about-text-section{
-    padding: 0 5em 5em 5em;
+    padding: 5em;
   }
 
 }
@@ -4664,7 +4665,7 @@ p.small-title {
   }
   
   .about-text-section{
-    padding: 0 5em 5em 5em;
+    padding: 5em;
   }
 }
 
@@ -4694,6 +4695,7 @@ p.small-title {
   .product.post{
     min-height: 240px;
   }
+
 
   .product.post h3{
     font-size:1.5em;
@@ -4805,11 +4807,11 @@ p.small-title {
   }
 
 
-.tab-panels{
-    padding:0 !important;  
-}
+  .tab-panels{
+    padding:0 !important; 
+  }
 
-.about-text-section{
+  .about-text-section{
     padding: 0;
   }
 
@@ -4898,7 +4900,7 @@ p.small-title {
     padding: 0;
   }
 
-.about-text-section{
+  .about-text-section{
     padding: 0;
   }
 
@@ -5495,19 +5497,20 @@ ul{
 
 .about-thumbnail-container{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .about-thumbnail{
   width: 200px;
-  height:130px;
-  padding:2em;
+  height:180px;
+  padding:3em;
+  flex:1;
 }
 
 .about-text-highlight{
-  color:#E6782F;
+  color:#FF8C00;
   font-weight:800;
   margin:0;
 }
@@ -5522,4 +5525,3 @@ h1.about-text-highlight{
   flex-direction: column;
   padding-bottom: 1.5em;
 }
-
