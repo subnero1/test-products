@@ -4230,6 +4230,10 @@ p.small-title {
     color:#222;
   }
 
+  .about-text-section{
+    padding: 5em;
+  }
+
 }
 
 /*
@@ -4313,13 +4317,16 @@ p.small-title {
 }
 
 .distributor-img img{
-    width: 60%;
+  width: 60%;
 }
 
 .type-item{
-    font-size:1.6rem;
-    color:#222;
-  }
+  font-size:1.6rem;
+  color:#222;
+} 
+.about-text-section{
+  padding: 5em;
+}
 
 }
 
@@ -4421,6 +4428,10 @@ p.small-title {
 .type-item{
     font-size:1.3rem;
     color:#222;
+}
+
+.about-text-section{
+    padding: 5em;
   }
 
 }
@@ -4527,6 +4538,10 @@ p.small-title {
 .type-item{
     font-size:1.1rem;
     color:#222;
+}
+
+.about-text-section{
+    padding: 5em;
   }
 
 }
@@ -4621,6 +4636,10 @@ p.small-title {
 .type-item{
     font-size:1.1rem;
     color:#222;
+}
+
+.about-text-section{
+    padding: 5em;
   }
 }
 
@@ -4762,6 +4781,10 @@ h1{
 
 .tab-panels{
     padding:0 !important;  
+}
+
+.about-text-section{
+    padding: 0;
   }
 
 }
@@ -4857,6 +4880,10 @@ h1{
     font-size: 1.1rem;
     line-height: 2.3rem;
     margin-right: 10px;
+  }
+
+.about-text-section{
+    padding: 0;
   }
 
   p, .direct ul{
@@ -5552,3 +5579,70 @@ p, ul li{
 ul{
   margin-left:1.3rem;
 }
+
+.about-container{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  padding:3em;
+}
+
+.about-text-section{
+  width: 60vw;
+  text-align: center;
+}
+
+.about-text-section p{
+  font-size:1.4rem;
+}
+
+.about-image-container{
+  display:flex;
+  justify-content: flex-start;
+}
+
+.about-button-container{
+  display:flex;
+  justify-content: center;
+}
+
+.about-button-container a {
+  margin-right: 3em;
+}
+
+.about-image-item{
+  width: 33.3vw;
+  height:auto;
+}
+
+.about-thumbnail-container{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.about-thumbnail{
+  width: 200px;
+  height:180px;
+  padding:3em;
+  flex:1;
+}
+
+.about-text-highlight{
+  color:#FF8C00;
+  font-weight:800;
+  margin:0;
+}
+
+h1.about-text-highlight{
+  line-height: 1;
+}
+
+.about-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 1.5em;
+}
+
