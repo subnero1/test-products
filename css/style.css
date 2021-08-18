@@ -4229,6 +4229,10 @@ p.small-title {
     padding: 0 5em 5em 5em;
   }
 
+  .about-text-section{
+    padding: 5em;
+  }
+
 }
 
 /*
@@ -4320,14 +4324,17 @@ p.small-title {
     font-size:2em;
   }
 
-  .distributor-img img{
-    width: 60%;
-  }
+.distributor-img img{
+  width: 60%;
+}
 
-  .type-item{
-    font-size:1.6rem;
-    color:#222;
-  }
+.type-item{
+  font-size:1.6rem;
+  color:#222;
+} 
+.about-text-section{
+  padding: 5em;
+}
 
   .about-text-section{
     padding: 0 5em 5em 5em;
@@ -4439,8 +4446,8 @@ p.small-title {
     color:#222;
 }
 
-  .about-text-section{
-    padding: 0 5em 5em 5em;
+.about-text-section{
+    padding: 5em;
   }
 
 }
@@ -4543,6 +4550,10 @@ p.small-title {
   .type-item{
     font-size:1.1rem;
     color:#222;
+}
+
+.about-text-section{
+    padding: 5em;
   }
 
   .about-text-section{
@@ -4641,14 +4652,10 @@ p.small-title {
   .type-item{
     font-size:1.1rem;
     color:#222;
-  }
-  
-  .about-text-section{
-    padding: 0 5em 5em 5em;
-  }
-  
-  .about-text-section{
-    padding: 0 5em 5em 5em;
+}
+
+.about-text-section{
+    padding: 5em;
   }
 }
 
@@ -4788,11 +4795,11 @@ p.small-title {
     color:#222;
   }
 
-  .tab-panels{
-    padding:0 !important; 
-  }
+.tab-panels{
+    padding:0 !important;  
+}
 
-  .about-text-section{
+.about-text-section{
     padding: 0;
   }
 
@@ -4891,7 +4898,7 @@ p.small-title {
     margin-right: 10px;
   }
 
-  .about-text-section{
+.about-text-section{
     padding: 0;
   }
 
@@ -5455,12 +5462,16 @@ ul{
   display:flex;
   justify-content: center;
   flex-wrap:wrap;
-  padding:8em 1em;
+  padding:3em;
 }
 
-.about-heading{
-  width: 100%;
+.about-text-section{
+  width: 60vw;
   text-align: center;
+}
+
+.about-text-section p{
+  font-size:1.4rem;
 }
 
 .about-image-container{
@@ -5474,8 +5485,7 @@ ul{
 }
 
 .about-button-container a {
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-right: 3em;
 }
 
 .about-image-item{
@@ -5483,10 +5493,34 @@ ul{
   height:auto;
 }
 
-.about-text-padding{
-  padding:1em;
+.about-thumbnail-container{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.column-margin{
-  margin:2em;
+.about-thumbnail{
+  width: 200px;
+  height:180px;
+  padding:3em;
+  flex:1;
 }
+
+.about-text-highlight{
+  color:#FF8C00;
+  font-weight:800;
+  margin:0;
+}
+
+h1.about-text-highlight{
+  line-height: 1;
+}
+
+.about-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 1.5em;
+}
+
