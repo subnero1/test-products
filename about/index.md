@@ -2,7 +2,7 @@
 layout: default
 title:  About Us - Subnero
 banner : images/banner-solutions.jpg
-excerpt:
+excerpt: Subnero is the future of underwater wireless technology that makes underwater communication, networking, navigation and monitoring possible.
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
