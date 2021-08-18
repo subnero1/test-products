@@ -4225,6 +4225,10 @@ p.small-title {
     padding: 0 5em 5em 5em;
   }
 
+  .about-text-section{
+    padding: 5em;
+  }
+
 }
 
 /*
@@ -4266,11 +4270,6 @@ p.small-title {
   .product-content{
     padding-left: 40px;
   }
-
-  p{
-    font-size: 1.3rem;
-  }
-
   #company{
     font-size: 1em;
   }
@@ -4306,6 +4305,10 @@ p.small-title {
 
   .fullscreen .announcements h1 {
     font-size:4em;
+  }
+
+  .fullscreen .announcements h2 {
+    font-size:2em;
   }
 
   .fullscreen .announcements h2 {
@@ -4375,10 +4378,6 @@ p.small-title {
   .product-content{
     padding-left: 40px;
     min-height:200px;
-  }
-
-  p{
-    font-size:1.3rem;
   }
 
   .full.tall{
@@ -4458,7 +4457,6 @@ p.small-title {
     width:100vw;
   }
 
-
   .media.product img{
       height:100%;
       max-width:100%;
@@ -4485,7 +4483,11 @@ p.small-title {
     color: #E6782F;
   }
 
-  p{
+  .product-content{
+    /*padding-left: 30px;*/
+  }
+
+  .product p{
     font-size:1.1rem;
   }
 
@@ -4548,6 +4550,10 @@ p.small-title {
 
   .about-text-section{
     padding: 0 5em 5em 5em;
+  }
+
+  .about-text-section{
+    padding: 5em;
   }
 
 }
@@ -4647,6 +4653,10 @@ p.small-title {
   .about-text-section{
     padding: 0 5em 5em 5em;
   }
+  
+  .about-text-section{
+    padding: 5em;
+  }
 }
 
 /*
@@ -4675,7 +4685,6 @@ p.small-title {
   .product.post{
     min-height: 240px;
   }
-
 
   .product.post h3{
     font-size:1.5em;
@@ -4873,6 +4882,20 @@ p.small-title {
   .socials ul, .socials ul li{
     padding: 0;
     margin-right:0;
+  }
+
+  .socials ul li a i{
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: #eee;
+    color: #333;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 2.3rem;
+    margin-right: 10px;
   }
 
   .about-text-section{
@@ -5472,19 +5495,20 @@ ul{
 
 .about-thumbnail-container{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .about-thumbnail{
   width: 200px;
-  height:130px;
-  padding:2em;
+  height:180px;
+  padding:3em;
+  flex:1;
 }
 
 .about-text-highlight{
-  color:#E6782F;
+  color:#FF8C00;
   font-weight:800;
   margin:0;
 }
