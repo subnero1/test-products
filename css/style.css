@@ -4377,12 +4377,9 @@ p.small-title {
     min-height:200px;
   }
 
-<<<<<<< HEAD
-=======
   p{
     font-size:1.3rem;
   }
->>>>>>> fix(aout):Centering icons
 
   .full.tall{
     padding:0px;
@@ -5442,12 +5439,16 @@ ul{
   display:flex;
   justify-content: center;
   flex-wrap:wrap;
-  padding:8em 1em;
+  padding:3em;
 }
 
-.about-heading{
-  width: 100%;
+.about-text-section{
+  /*width: 60vw;*/
   text-align: center;
+}
+
+.about-text-section p{
+  font-size:1.4rem;
 }
 
 .about-image-container{
@@ -5461,8 +5462,7 @@ ul{
 }
 
 .about-button-container a {
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-right: 3em;
 }
 
 .about-image-item{
@@ -5470,10 +5470,32 @@ ul{
   height:auto;
 }
 
-.about-text-padding{
-  padding:1em;
+.about-thumbnail-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.column-margin{
-  margin:2em;
+.about-thumbnail{
+  width: 200px;
+  height:130px;
+  padding:2em;
+}
+
+.about-text-highlight{
+  color:#E6782F;
+  font-weight:800;
+  margin:0;
+}
+
+h1.about-text-highlight{
+  line-height: 1;
+}
+
+.about-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 1.5em;
 }
