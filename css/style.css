@@ -5495,16 +5495,15 @@ ul{
 
 .about-thumbnail-container{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .about-thumbnail{
   width: 200px;
-  height:180px;
-  padding:3em;
-  flex:1;
+  height:130px;
+  padding:2em;
 }
 
 .about-text-highlight{
