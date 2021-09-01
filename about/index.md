@@ -2,7 +2,7 @@
 layout: default
 title:  About Us - Subnero
 banner : images/banner-solutions.jpg
-excerpt: Subnero provides underwater wireless communication, navigation, monitoring and sensing, using underwater acoustic modems and unmanned surface vehicles for water quality monitoring.
+excerpt: Subnero provides technology and solutions for underwater communication, navigation, monitoring and sensing.
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
@@ -16,26 +16,17 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
 </div>
 
 <div class='about-container'>
-    <div class='large-3 columns bg-grey column-margin'>
-        <div class='centered-text'>
-            <i class='icon fa fa-landmark'></i> 
-            <h2 align="center">Our company</h2>
-            <p class='about-text-padding'>Subnero is a Singapore-based company which provides state-of-the-art products and solutions to facilitate underwater wireless networked communications, localization and in-water sensing & monitoring.</p>
-        </div>
+    <div class='about-text-section'>
+        <h1 align="center"> Our company</h1>
+        <p>Sbnero is a Singapore-based company which provides state-of-the-art products and solutions to facilitate underwater wireless networked communications, localization and in-water sensing & monitoring.</p>
     </div>
-    <div class='large-3 columns bg-grey column-margin'>
-        <div class='centered-text'>
-            <i class='icon fa fa-hands-helping'></i>
-            <h2 align="center">Our mission</h2>
-            <p class='about-text-padding'>To offer high performance underwater communication, navigation, monitoring and sensing solutions for commercial deployments.</p>
-        </div>            
+    <div class='about-text-section'>
+        <h1 align="center"> Our mission</h1>
+        <p>To offer high performance underwater communication, navigation, monitoring and sensing solutions for commercial deployments.</p>
     </div>
-    <div class='large-3 columns bg-grey column-margin'>
-        <div class='centered-text'>
-            <i class='icon fa fa-hand-holding-water'></i>
-            <h2 align="center"> Our vision</h2>
-            <p class='about-text-padding'>To be the de-facto standard for underwater communication and in-water sensing networks.</p>
-        </div>            
+    <div class='about-text-section'>
+        <h1 align="center"> Our vision</h1>
+        <p>To be the de-facto standard for underwater communication and in-water sensing networks.</p>
     </div>
 </div>
 <div class='about-image-container'>
@@ -56,20 +47,50 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
     <div class='about-heading'>
         <i class='icon fa fa-users'></i>
         <h2 align="center"> Our team</h2>
+        <div class='about-info'>
+        <h1 class='about-text-highlight'>11 </h1><span> members </span>
+        </div>
+        <p>An exuberant team of electrical, mechanical and software engineers who are driven by innovation, to build the best quality products. The team is forefronted by a skilled and enthusiastic business team.</p>
     </div>
-    <p>We are a team of curious and passionate folks, always looking for new ways to push the limits of today's technology in the realm of underwater wireless networking and in-water sensing. We dabble with digital communication techniques for fun, and play with unmanned surface vehicles for stress relief. We decorate our christmas trees with colorful PCBs, have religious debates about what programming languages or design techniques are the best (we all have our favorites) and we turn debugging sessions into hackacthons.</p>
-    <p>We take ownership in everything that we do and are proud of what we do at Subnero. We end our weeks with Friday hacks, plan weekend dive trips and are excited for Monday mornings.</p>
-    <p style='width: 100%'><a href='{{site.baseurl}}/careers'>Let us know</a> if you would like to be part of our vibrant team.</p>
-
-    <div class='spacing'></div>
-    <div class='about-heading'>
-        <i class='icon fas fa-drafting-compass'></i>
-        <h2 align="center"> Our Technology</h2>
-    </div>        
-    <p>In today's world, we take connectivity for granted. Technologies like Wifi and GPS have become so ubiquitous that we rarely think about them. Robust wireless communications, networking, and localization are key to exploration and expanding our knowledge about the world, lack of which is why we understand less about our oceans as compared to the Moon or Mars. We intend to change that with our technology and offerings.</p>
-    <div class='spacing'></div>
-    <div class='about-button-container'>
-        <a href='{{site.baseurl}}/products'><button class='button-outline'>Browse our products</button></a>
-        <a href='{{site.baseurl}}/solutions'><button class='button-outline'>Explore our solutions</button></a>
+    <div class='about-text-section'>
+        <h2 align="center"> Our works</h2>
+        <div class='about-info'>
+        <h1 class='about-text-highlight'>100+ </h1><span> products sold </span>
+        </div>
+        <p>We focus on <span class='about-text-highlight'>innovation</span>. We build with <span class='about-text-highlight'>passion</span>. We deliver with <span class='about-text-highlight'>quality</span>. We customize on <span class='about-text-highlight'>demand</span>.</p>
+        <div class='about-button-container'>
+            <a href='{{site.baseurl}}/products'><button>Browse our products</button></a>
+            <a href='{{site.baseurl}}/solutions'><button>Explore our solutions</button></a>
+        </div>
     </div>
+</div>
+<div class='about-image-container'>
+    <img src='{{site.baseurl}}/images/about-image2.jpg' class='about-image-item'>
+    <img src='{{site.baseurl}}/images/about-image1.jpg' class='about-image-item'>
+    <img src='{{site.baseurl}}/images/about-image2.jpg' class='about-image-item'>
+</div>
+<div class='about-container'>
+    <div class='about-text-section'>
+        <h2 align="center"> Our partners</h2>
+        <div class='about-info'>
+        <h1 class='about-text-highlight'>5 </h1><span> regional partners and growing </span>
+        </div>
+        <div class='about-thumbnail-container'>
+            <img src='{{site.baseurl}}/images/about-met.jpg' class='about-thumbnail'>
+            <img src='{{site.baseurl}}/images/about-seabreath.jpg' class='about-thumbnail'>
+            <img src='{{site.baseurl}}/images/about-romor.jpg' class='about-thumbnail'>
+            <img src='{{site.baseurl}}/images/about-smartsea.jpg' class='about-thumbnail'>
+        </div>
+    </div>
+    <div class='about-text-section'>
+        <h2 align="center"> Our customers</h2>
+        <div class='about-info'>
+        <h1 class='about-text-highlight'>50+ </h1><span> and growing fast globally </span>
+        </div>
+    </div>
+</div>
+<div class='about-image-container'>
+    <img src='{{site.baseurl}}/images/customer-map.png' class='about-image-item'>
+    <img src='{{site.baseurl}}/images/customer-map.png' class='about-image-item'>
+    <img src='{{site.baseurl}}/images/customer-map.png' class='about-image-item'>
 </div>
