@@ -2,7 +2,7 @@
 layout: default
 title:  About Us
 banner : images/banner-solutions.jpg
-excerpt: Subnero is the future of underwater wireless technology that makes underwater communication, networking, navigation and monitoring possible.
+excerpt: Subnero provides technology and solutions for underwater communication, navigation, monitoring and sensing.
 ---
 
 <div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
@@ -17,15 +17,15 @@ excerpt: Subnero is the future of underwater wireless technology that makes unde
 
 <div class='about-container'>
     <div class='about-text-section'>
-        <h2 align="center"> Our company</h2>
-        <p>We are a Singapore-based company who provide state-of-the-art products and solutions to facilitate underwater wireless networked communications and in-water sensing & monitoring.</p>
+        <h1 align="center"> Our company</h1>
+        <p>Sbnero is a Singapore-based company which provides state-of-the-art products and solutions to facilitate underwater wireless networked communications, localization and in-water sensing & monitoring.</p>
     </div>
     <div class='about-text-section'>
-        <h2 align="center"> Our mission</h2>
-        <p>To offer high performance underwater communications, navigation, monitoring and sensing solutions for commercial deployments.</p>
+        <h1 align="center"> Our mission</h1>
+        <p>To offer high performance underwater communication, navigation, monitoring and sensing solutions for commercial deployments.</p>
     </div>
     <div class='about-text-section'>
-        <h2 align="center"> Our vision</h2>
+        <h1 align="center"> Our vision</h1>
         <p>To be the de-facto standard for underwater communication and in-water sensing networks.</p>
     </div>
 </div>
@@ -69,6 +69,9 @@ excerpt: Subnero is the future of underwater wireless technology that makes unde
 <div class='about-container'>
     <div class='about-text-section'>
         <h2 align="center"> Our partners</h2>
+        <div class='about-info'>
+        <h1 class='about-text-highlight'>5 </h1><span> regional partners and growing </span>
+        </div>
         <div class='about-thumbnail-container'>
             <img src='{{site.baseurl}}/images/about-met.jpg' class='about-thumbnail'>
             <img src='{{site.baseurl}}/images/about-seabreath.jpg' class='about-thumbnail'>
@@ -78,18 +81,13 @@ excerpt: Subnero is the future of underwater wireless technology that makes unde
     </div>
     <div class='about-text-section'>
         <h2 align="center"> Our customers</h2>
-        <div class='about-thumbnail-container'>
-            <img src='{{site.baseurl}}/images/about-seabreath.jpg' class='about-thumbnail'>
-            <img src='{{site.baseurl}}/images/about-met.jpg' class='about-thumbnail'>
-            <img src='{{site.baseurl}}/images/about-smartsea.jpg' class='about-thumbnail'>
-            <img src='{{site.baseurl}}/images/about-romor.jpg' class='about-thumbnail'>
+        <div class='about-info'>
+        <h1 class='about-text-highlight'>50+ </h1><span> and growing fast globally </span>
         </div>
     </div>
-    <div class='about-text-section'>
-        <h2 align="center"> Our motivations</h2>
-        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua”</p>
-        <p align='right'>- Customer name</p>
-        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua”</p>
-        <p align='right'>- Customer name</p>
-    </div>
+</div>
+<div class='about-image-container'>
+    <img src='{{site.baseurl}}/images/customer-map.png' class='about-image-item'>
+    <img src='{{site.baseurl}}/images/customer-map.png' class='about-image-item'>
+    <img src='{{site.baseurl}}/images/customer-map.png' class='about-image-item'>
 </div>
