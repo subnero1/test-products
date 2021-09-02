@@ -4125,9 +4125,9 @@ p.small-title {
 */
 @media (min-width: 1593px){
   .media.product{
-    background:#ffffff;
+    /*background:#ffffff;*/
     min-height: 249px;
-    width:58vw;
+    width:100%;
   }
 
   .product img{
@@ -5251,7 +5251,7 @@ input[type='checkbox']{
 .type-container{
   display: flex;
   justify-content: space-evenly;
-  line-height: 10em;
+  max-height: 10em;
 }
 
 .type-item{
@@ -5259,3 +5259,13 @@ input[type='checkbox']{
   font-size:2rem;
   color:#222;
 }
+
+.category-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.category-content{
+  align-items: flex-start;
+}
+
