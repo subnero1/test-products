@@ -21,16 +21,17 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
 <div class='type-container sticky'>
     <div class='type-item'>All products</div>
     <div class='type-item'>
-        <a href='{{site.baseurl}}{{page.url}}#L5Lseries'>L5L series</a>
+        <a href='{{site.baseurl}}{{page.url}}#main'>L5L series</a>
     </div>
     <div class='type-item'>
-        <a href='{{site.baseurl}}{{page.url}}#M25Mseries'>M25M series</a>
+        <a href='{{site.baseurl}}{{page.url}}#L5Lseries'>M25M series</a>
     </div>
     <div class='type-item'>
-        <a href='{{site.baseurl}}{{page.url}}#OptionalAccessories'>Optional accessories</a>
+        <a href='{{site.baseurl}}{{page.url}}#Research'>Optional accessories</a>
     </div>
 </div>
-<div class='four spacing' id='L5Lseries'></div>
+<div class='section-spacing'></div>
+<div class='product-section' id='L5Lseries'>
 <h1 class='modem-heading'>ACOUSTIC MODEMS - L5L SERIES</h1>
 <h2 class='modem-sub-heading'>Low frequency. Long range.</h2>
 <div class='grey-container'>
@@ -70,7 +71,9 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
         </li>
     </ul>
 </div>
-<div class='four spacing' id='M25Mseries'></div>
+</div>
+<div class='section-spacing'></div>
+<div class='product-section' id='M25Mseries'>
 <h1 class='modem-heading'>ACOUSTIC MODEMS - M25M SERIES</h1>
 <h2 class='modem-sub-heading'>Medium frequency. Medium range.</h2>
 <div class='grey-container'>
@@ -161,7 +164,7 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
         </li>
     </ul>
 </div>
-<div class='grey-container'>
+<div class='grey-container' id='Research'>
     <h2 class='edition'>Research Edition</h2>
     <ul class="edition-container">
         <li class="modem-container"></li>
@@ -183,7 +186,9 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
         <li class="modem-container"></li>
     </ul>
 </div>
-<div class='four spacing' id='OptionalAccessories'></div>
+</div>
+<div class='section-spacing'></div>
+<div class='product-section' id='OptionalAccessories'>
 <h1 class='modem-heading'>Optional Accessories and Upgrades</h1>
 <div class='grey-container'>
     <ul class="edition-container">
@@ -208,6 +213,7 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
         </li>
         <li class="modem-container"></li>
     </ul>
+</div>
 </div>
 <div class='type-container'>
     <p>

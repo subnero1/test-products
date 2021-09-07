@@ -5276,17 +5276,14 @@ input[type='checkbox']{
   background-color: #FFFFFF;
 }
 
+.type-container p{
+  padding-top: 3em;
+}
+
 .type-item{
   text-decoration: underline;
   font-size:2rem;
   color:#222;
-}
-
-.type-fixed{
-  top:10;
-  left: 0;
-  width: 100%
-  z-index:99;
 }
 
 .category-container{
@@ -5296,6 +5293,14 @@ input[type='checkbox']{
 
 .category-content{
   align-items: flex-start;
+}
+
+/*.product-section{
+  position: relative;
+}*/
+
+:target{
+  top: 40em;
 }
 
 .modem-heading{
@@ -5366,3 +5371,6 @@ h2.modem-sub-heading{
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
 }
 
+.section-spacing{
+  height: 60px;
+}
