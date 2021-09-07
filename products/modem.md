@@ -8,7 +8,7 @@ section_id: products
 excerpt: Subnero's software-defined underwater acoustic modems for underwater wireless communication and networking. Subnero's multi-channel modems for data acquisition.
 ---
 
-<div class='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
+<div class='full tall sticky' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='row'>
     <div class='large-12 columns'>
       <!-- {% include section-header.html title=page.title tagline=page.tagline color=page.title_color class="big" %} -->
@@ -18,7 +18,7 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
   <div class='four spacing'></div>
 </div>
 
-<div class='type-container'>
+<div class='type-container sticky'>
     <div class='type-item'>All products</div>
     <div class='type-item'>
         <a href='{{site.baseurl}}{{page.url}}#L5Lseries'>L5L series</a>
@@ -34,7 +34,7 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
 <h1 class='modem-heading'>ACOUSTIC MODEMS - L5L SERIES</h1>
 <h2 class='modem-sub-heading'>Low frequency. Long range.</h2>
 <div class='grey-container'>
-    <h1 class='edition'>Silver Edition</h1>
+    <h2 class='edition'>Silver Edition</h2>
     <ul class="edition-container">
         <li class="modem-container">
             <div class="hOXnHC">
@@ -74,7 +74,7 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
 <h1 class='modem-heading'>ACOUSTIC MODEMS - M25M SERIES</h1>
 <h2 class='modem-sub-heading'>Medium frequency. Medium range.</h2>
 <div class='grey-container'>
-    <h1 class='edition'>Platinum Edition</h1>
+    <h2 class='edition'>Platinum Edition</h2>
     <ul class="edition-container">
         <li class="modem-container">
             <div class="hOXnHC">
@@ -109,7 +109,7 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
     </ul>
 </div>
 <div class='grey-container'>
-    <h1 class='edition'>Silver Edition</h1>
+    <h2 class='edition'>Silver Edition</h2>
     <ul class="edition-container">
         <li class="modem-container">
             <div class="hOXnHC">
@@ -162,7 +162,7 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
     </ul>
 </div>
 <div class='grey-container'>
-    <h1 class='edition'>Research Edition</h1>
+    <h2 class='edition'>Research Edition</h2>
     <ul class="edition-container">
         <li class="modem-container"></li>
         <li class="modem-container">

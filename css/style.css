@@ -4814,60 +4814,6 @@ h1{
 }
 
 /*End of media queries for products page*/
-.modem-heading{
-  margin-top: 1em;
-  text-align: center;
-}
-
-.modem-sub-heading{
-  text-transform: none;
-  text-align: center;
-  color:#E6782F;
-}
-
-.edition{
-  text-align: center;
-  padding-top: 2em;
-  width: 100%;
-}
-
-.grey-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-left: 15rem;
-  margin-right: 15rem;
-  margin-top: 3rem;
-  background-color:#F5F5F5;
-  
-}
-
-.edition-container {
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-  justify-content: space-evenly;
-  list-style-type: none;
-  list-style-position: initial;
-  list-style-image: initial;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  margin-top: 0;
-  margin-right: -3em;
-  margin-bottom: 0;
-  margin-left: -3em;
-  width: 100%;
-}
-
-.modem-container {
-  margin-top: 3em;
-  margin-right: 3em;
-  margin-left: 3em;
-  text-align: center;
-  width:20em;
-}
 
 li {
   display: list-item;
@@ -5251,13 +5197,21 @@ input[type='checkbox']{
 .type-container{
   display: flex;
   justify-content: space-evenly;
-  max-height: 10em;
+  line-height: 8em;
+  background-color: #FFFFFF;
 }
 
 .type-item{
   text-decoration: underline;
   font-size:2rem;
   color:#222;
+}
+
+.type-fixed{
+  top:10;
+  left: 0;
+  width: 100%
+  z-index:99;
 }
 
 .category-container{
@@ -5267,5 +5221,73 @@ input[type='checkbox']{
 
 .category-content{
   align-items: flex-start;
+}
+
+.modem-heading{
+  margin-top: 1em;
+  text-align: center;
+}
+
+.modem-sub-heading{
+  text-transform: none;
+  text-align: center;
+  color:#E6782F;
+}
+
+h2.modem-sub-heading{
+  font-size: 1.6rem;
+}
+
+.edition{
+  text-align: center;
+  padding-top: 2em;
+  width: 100%;
+}
+
+.grey-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 3rem;
+  background-color:#F5F5F5;
+  
+}
+
+.edition-container {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  justify-content: space-evenly;
+  list-style-type: none;
+  list-style-position: initial;
+  list-style-image: initial;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: -3em;
+  margin-bottom: 0;
+  margin-left: -3em;
+  width: 100%;
+}
+
+.modem-container {
+  margin-top: 3em;
+  margin-right: 3em;
+  margin-left: 3em;
+  text-align: center;
+  width:20em;
+}
+
+.full.tall.sticky.fixed{
+  top: 7em;
+}
+
+.type-container.sticky.fixed{
+  top: 25em;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
 }
 
