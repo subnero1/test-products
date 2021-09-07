@@ -14,18 +14,23 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
   <div class='four spacing'></div>
 </div>
 
-<div class='full' style='background: #f5f5f5'>
-  <div class='row'>
-    <h1 class='thin'>PRODUCTS</h1>
+<div class='full'>
+  <div class='type-container'>
+    <div class='type-item'>
+      <h2>PRODUCT CATEGORY</h2>
+    </div>
+  </div>
 
   {% assign product_pages = site.pages | where:"categories","underwatermodem" %}
   {% for page in product_pages %}
   <a href="{{site.baseurl}}{{page.url}}">
-  <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>    
-    <div class='media-body product product-content'>
-    <h3 class="mt-0" style="text-transform: none;">Wireless Networked Communications</h3>
-    <p>Software defined underwater acoustic modems for networking, navigation and sensing.</p>
+  <div class ='category-container bg-grey'>
+    <div class='category-content'>
+      <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>    
+    </div>
+    <div class='category-content'>
+      <h3 style="text-transform: none;">Wireless Networked Communications</h3>
+      <p>Software defined underwater acoustic modems for networking, navigation and sensing.</p>
     </div>
   </div>
   </a>
@@ -34,8 +39,8 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
   {% assign product_pages = site.pages | where:"categories","unet" %}
   {% for page in product_pages %}
   <a href="{{site.baseurl}}{{page.url}}">
-  <div class ='media product' style='background:#F5F5F5;'>      
-    <div class='media-body product product-content' style='background:#F5F5F5'>
+  <div class ='media product'>      
+    <div class='media-body product product-content'>
     <h3 style="text-transform: none;">Underwater Network Stack & Simulator</h3>
     <p>An agent-based software stack and simulator for underwater networks.</p>
     </div>
@@ -59,5 +64,4 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
     {% endfor %}
 
 <div class='four spacing'></div>
-</div>
 </div>
