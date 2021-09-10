@@ -2,7 +2,7 @@
 layout: default
 title: Subnero M25M series modems
 banner : images/banner-modem.jpg
-thumbnail: images/boxart-modem.jpg
+thumbnail: images/pulse-thumbnail-ieee-earthzine_grey.jpg
 categories: underwatermodem
 section_id: products
 excerpt: Subnero's software-defined underwater acoustic modems for underwater wireless communication and networking. Subnero's multi-channel modems for data acquisition.
@@ -18,205 +18,32 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
   <div class='four spacing'></div>
 </div>
 
-<div class='type-container sticky'>
-    <div class='type-item'>All products</div>
-    <div class='type-item'>
-        <a href='{{site.baseurl}}{{page.url}}#main'>L5L series</a>
+<div>
+    {% for item in site.data.product-tabs %}
+        {% if item.name ==  "All Products" %}
+            {% assign checked = "checked" %}
+        {% else %}
+            {% assign checked = "" %}
+        {% endif %}
+
+    <input id="{{ item.input_id }}" name='tab-control' type='radio' class='radio' {{checked}}>
+    {% endfor %}
+    <div class='type-container sticky'>
+        {% for item in site.data.product-tabs %}
+            <label class='type-item' id="{{ item.id }}" for="{{ item.input_id }}">{{ item.name }}</label>
+        {% endfor %}
     </div>
-    <div class='type-item'>
-        <a href='{{site.baseurl}}{{page.url}}#L5Lseries'>M25M series</a>
+    <div class="tab-panels">
+        {% assign product_tabs = site.pages | where:"categories","product-type" | sort: "order" %}
+        <div id='panel-one' class='tab-panel'>
+            {% for page in product_tabs %}
+                {{ page.content }}
+            {% endfor %}
+        </div>
+        {% for page in product_tabs %}
+        <div id='{{page.tab-id}}' class='tab-panel'>
+            {{ page.content }}
+        </div>
+        {% endfor %}
     </div>
-    <div class='type-item'>
-        <a href='{{site.baseurl}}{{page.url}}#Research'>Optional accessories</a>
-    </div>
-</div>
-<div class='section-spacing'></div>
-<div class='product-section' id='L5Lseries'>
-<h1 class='modem-heading'>ACOUSTIC MODEMS - L5L SERIES</h1>
-<h2 class='modem-sub-heading'>Low frequency. Long range.</h2>
-<div class='grey-container'>
-    <h2 class='edition'>Silver Edition</h2>
-    <ul class="edition-container">
-        <li class="modem-container">
-            <div class="hOXnHC">
-                {% assign product_pages = site.pages | where:"categories","modem" %}
-                {% for page in product_pages %}
-                {% if page.title contains "WNC-L5LSS3" %}
-                <div class='mod modBlogPost'>
-                    <h2 class="new-tag"> NEW </h2>
-                    <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mss3.jpg" />
-                    <div class='content'>
-                    <h2>Standalone Configuration <br>WNC-L5LSS3</h2>
-                  </div></a>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </li>
-        <li class="modem-container">
-            <div class="hOXnHC">
-                {% assign product_pages = site.pages | where:"categories","modem" %}
-                {% for page in product_pages %}
-                {% if page.title contains "WNC-L5LSE3" %}
-                <div class='mod modBlogPost'>
-                    <h2 class="new-tag"> NEW </h2>
-                    <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mse3.jpg" />
-                    <div class='content'>
-                    <h2>Embedded Configuration <br>WNC-L5LSE3</h2>
-                  </div></a>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </li>
-    </ul>
-</div>
-</div>
-<div class='section-spacing'></div>
-<div class='product-section' id='M25Mseries'>
-<h1 class='modem-heading'>ACOUSTIC MODEMS - M25M SERIES</h1>
-<h2 class='modem-sub-heading'>Medium frequency. Medium range.</h2>
-<div class='grey-container'>
-    <h2 class='edition'>Platinum Edition</h2>
-    <ul class="edition-container">
-        <li class="modem-container">
-            <div class="hOXnHC">
-                {% assign product_pages = site.pages | where:"categories","modem" %}
-                {% for page in product_pages %}
-                {% if page.title contains "WNC-M25MPS3" %}
-                <div class='mod modBlogPost'>
-                    <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mps3.jpg" />
-                    <div class='content'>
-                    <h2>Standalone Configuration <br>WNC-M25MPS3</h2>
-                  </div></a>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </li>
-        <li class="modem-container">
-            <div class="hOXnHC">
-                {% assign product_pages = site.pages | where:"categories","modem" %}
-                {% for page in product_pages %}
-                {% if page.title contains "WNC-M25MPE3" %}
-                <div class='mod modBlogPost'>
-                    <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mpe3.jpg" />
-                    <div class='content'>
-                    <h2>Embedded Configuration <br>WNC-M25MPE3</h2>
-                  </div></a>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </li>
-    </ul>
-</div>
-<div class='grey-container'>
-    <h2 class='edition'>Silver Edition</h2>
-    <ul class="edition-container">
-        <li class="modem-container">
-            <div class="hOXnHC">
-                {% assign product_pages = site.pages | where:"categories","modem" %}
-                {% for page in product_pages %}
-                {% if page.title contains "WNC-M25MSS3" %}
-                <div class='mod modBlogPost'>
-                    <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mss3.jpg" />
-                    <div class='content'>
-                    <h2>Standalone Configuration <br>WNC-M25MSS3</h2>
-                  </div></a>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </li>
-        <li class="modem-container">
-            <div class="hOXnHC">
-                {% assign product_pages = site.pages | where:"categories","modem" %}
-                {% for page in product_pages %}
-                {% if page.title contains "WNC-M25MSE3" %}
-                <div class='mod modBlogPost'>
-                    <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mse3.jpg" />
-                    <div class='content'>
-                    <h2>Embedded Configuration <br>WNC-M25MSE3</h2>
-                  </div></a>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </li>
-        <li class="modem-container">
-            <div class="hOXnHC">
-                {% assign product_pages = site.pages | where:"categories","wnc" %}
-                {% for page in product_pages %}
-                {% if page.title contains "WNC-M25MSS3+xCh" %}
-                <div class='mod modBlogPost'>
-                    <a href="{{site.baseurl}}{{page.url}}">
-                        <h2 class="new-tag"> NEW </h2>
-                        <img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-multichannel.jpg" />
-                        <div class='content'>
-                            <h2>Multi-Channel Configuration <br>WNC-M25MSS3+xCh</h2>
-                        </div>
-                    </a>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </li>
-    </ul>
-</div>
-<div class='grey-container' id='Research'>
-    <h2 class='edition'>Research Edition</h2>
-    <ul class="edition-container">
-        <li class="modem-container"></li>
-        <li class="modem-container">
-            <div class="hOXnHC">
-                {% assign product_pages = site.pages | where:"categories","modem" %}
-                {% for page in product_pages %}
-                {% if page.title contains "WNC-M25MRS3" %}
-                <div class='mod modBlogPost'>
-                    <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
-                    <div class='content'>
-                    <h2>Standalone Configuration <br>WNC-M25MRS3</h2>
-                  </div></a>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </li>
-        <li class="modem-container"></li>
-    </ul>
-</div>
-</div>
-<div class='section-spacing'></div>
-<div class='product-section' id='OptionalAccessories'>
-<h1 class='modem-heading'>Optional Accessories and Upgrades</h1>
-<div class='grey-container'>
-    <ul class="edition-container">
-        <li class="modem-container"></li>
-        <li class="modem-container">
-            <div class="hOXnHC">
-                {% assign product_pages = site.pages | where:"categories","accessories" %}
-                {% for page in product_pages %}
-                {% if page.title contains "Subnero Modem Accessories" %}
-                <div class='mod modBlogPost'>
-                    <a href="{{site.baseurl}}{{page.url}}">
-                        <h2 class="new-tag"> NEW </h2>
-                        <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
-                        <div class='content'>
-                            <h2>Accessories</h2>
-                        </div>
-                    </a>
-                </div>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </li>
-        <li class="modem-container"></li>
-    </ul>
-</div>
-</div>
-<div class='type-container'>
-    <p>
-    Looking for customized modems? At Subnero, we customize the products according to your needs. <a href="mailto:sales@subnero.com">Contact us</a> to find out more about our customized products.
-    </p>
 </div>
