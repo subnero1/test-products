@@ -18,7 +18,7 @@ excerpt: Subnero provides technology and solutions for underwater communication,
 <div class='about-container'>
     <div class='about-text-section'>
         <h2 align="center" class='about-text-highlight'> Our company</h2>
-        <p>Sbnero is a Singapore-based company which provides state-of-the-art products and solutions to facilitate underwater wireless networked communications, localization and in-water sensing & monitoring.</p>
+        <p>Subnero is a Singapore-based company which provides state-of-the-art products and solutions to facilitate underwater wireless networked communications, localization and in-water sensing & monitoring.</p>
     </div>
     <div class='about-text-section'>
         <h2 align="center" class='about-text-highlight'> Our mission</h2>
@@ -39,7 +39,7 @@ excerpt: Subnero provides technology and solutions for underwater communication,
         <h2 align="center" class='about-text-highlight'> Our journey</h2>
         <div class='about-info'>
         </div>
-        <p>An exuberant team of electrical and mechanical engineers who build robust products which are tuned for communications, sensing and monitoring by a team of dedicated software engineers, which is then offered to the customers by a skilled business team.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <div class='about-text-section'>
         <h2 align="center" class='about-text-highlight'> Our team</h2>
