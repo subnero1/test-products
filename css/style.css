@@ -5272,8 +5272,11 @@ input[type='checkbox']{
 .type-container{
   display: flex;
   justify-content: space-evenly;
-  line-height: 8em;
   background-color: #FFFFFF;
+  list-style: none;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
 }
 
 .type-container p{
@@ -5281,37 +5284,25 @@ input[type='checkbox']{
 }
 
 .type-item{
-  text-decoration: underline;
-  font-size:2rem;
+  font-size:1.6rem;
   color:#222;
 }
 
-.category-container{
-  display: flex;
-  justify-content: space-evenly;
+.type-item:hover,
+.type-item:focus{
+  border-bottom:3px solid #E6782F;
 }
 
-.category-content{
-  align-items: flex-start;
-}
-
-/*.product-section{
-  position: relative;
-}*/
-
-:target{
-  top: 40em;
-}
-
-.modem-heading{
-  margin-top: 1em;
+.panel-heading{
+  margin-top: 2em;
   text-align: center;
 }
 
-.modem-sub-heading{
+.panel-sub-heading{
   text-transform: none;
   text-align: center;
   color:#E6782F;
+  font-size: 1.8rem;
 }
 
 h2.modem-sub-heading{
@@ -5328,9 +5319,9 @@ h2.modem-sub-heading{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: 15rem;
-  margin-right: 15rem;
-  margin-top: 3rem;
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-top: 3em;
   background-color:#F5F5F5;
   
 }
@@ -5371,6 +5362,94 @@ h2.modem-sub-heading{
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
 }
 
-.section-spacing{
-  height: 60px;
+/* Why Learn CSS green bg */
+
+.tab-panels{
+  min-height:200px;
+  width:100%;
+  overflow:hidden;
+  padding:3em 15em 5em 15em;  
 }
+.tab-panel{
+  display:none;
+  animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold
+}
+.radio{
+  display:none;
+}
+
+input[name="tab-control"]:checked+label{
+    border-bottom:3px solid #E6782F;
+}
+
+#radio-one:checked ~ .tab-panels #panel-one,
+#radio-two:checked ~ .tab-panels #panel-two,
+#radio-three:checked ~ .tab-panels #panel-three, 
+#radio-four:checked ~ .tab-panels #panel-four {
+  display:block
+}
+#radio-one:checked ~ .tabs #tab-one,
+#radio-two:checked ~ .tabs #tab-two,
+#radio-three:checked ~ .tabs #tab-three,
+#radio-four:checked ~ .tabs #tab-four{
+  background:#fffffff6;
+  color:#222222;
+}
+/* End of tabs section */
+
+.category-container{
+  display: flex;
+  justify-content: space-evenly;
+  height: 50em;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+.category-content{
+  padding: 7em;
+  align-self: center;
+}
+
+.category-container .category-content img{
+  width:500px;
+  height: auto;
+}
+
+.category-content h1{
+  text-transform: none;
+}
+
+.category-content h3{
+  text-transform: none;
+  font-size: 1.5rem;
+}
+
+.media .modem-type{
+  width: 25em;
+  padding-top: 4em;
+}
+
+.media .modem-type button{
+  background-color: transparent;
+  color:#222222;
+  border: 3px solid #E6782F;
+}
+
+.media .modem-type button.unet{
+  background-color: transparent;
+  color:#222222;
+  border: 3px solid #1881D1;
+}
+
