@@ -5411,24 +5411,30 @@ input[name="tab-control"]:checked+label{
 
 .category-container{
   display: flex;
-  justify-content: space-evenly;
-  height: 50em;
-  margin-left: 8em;
-  margin-right: 8em;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 3em 0;
+}
+
+.category-img{
+  display: flex;
+  justify-content: center;
+  flex: 1;
 }
 
 .category-content{
-  padding: 7em;
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  flex:2;
 }
 
 .category-container .category-content img{
-  width:500px;
-  height: auto;
+  padding-top: 2em;
 }
 
 .category-content h1{
   text-transform: none;
+  font-size: 3rem;
 }
 
 .category-content h3{
@@ -5437,7 +5443,6 @@ input[name="tab-control"]:checked+label{
 }
 
 .media .modem-type{
-  width: 25em;
   padding-top: 4em;
 }
 
