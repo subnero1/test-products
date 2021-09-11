@@ -18,10 +18,10 @@ image: images/distributors-grey.jpg
   <div class='row'>
     <h1 class="thin">{{page.title}}</h1>
     <div><img alt="" src="{{site.baseurl}}/{{page.image}}" /></div>
-    <p>We have partnered with distributors around the world to help you get our products faster and easier.</p>
+    <p>We have distributors around the world to help you get our products & support locally. See the list of our distributors and their contact information below.</p>
     <div>
-      <p>Would you like to become our distributor ?</p>
-      <a href='{{site.baseurl}}/contact'><button>Contact us</button></a>
+      <p><a href='mailto:sales@subnero.com'>Let us know</a> if you would like to become our distributor.</p>
+      <a href='mailto:sales@subnero.com'><button>Become our distributor</button></a>
     </div>
     <div class='four spacing'></div>
     <div class='large-12 columns' class='container'>

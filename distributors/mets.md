@@ -4,7 +4,7 @@ title: Met-Solutions
 banner : images/banner-pulse-standard.jpg
 external_url:  http://www.met-solutions.co.kr/
 categories: distributors
-thumbnail: images/distributor-met.jpg
+thumbnail: images/distributor-mets.png
 ---
 <p class='distributor-addr'>49, Sasang-ro, Sasang-gu,
 Busan, 47001 Republic of Korea

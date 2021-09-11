@@ -4,7 +4,7 @@ title: SeaBreath
 banner : images/banner-pulse-standard.jpg
 external_url:  https://www.sea-breath.com/
 categories: distributors
-thumbnail: images/distributor-seabreath.jpg
+thumbnail: images/distributor-seabreath.png
 ---
 <p class='distributor-addr'>1 Martha Avenue,
 Uniacke Business Park

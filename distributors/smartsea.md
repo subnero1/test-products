@@ -4,7 +4,7 @@ title: Wuxi Smartsea Technology Co. Ltd
 banner : images/banner-pulse-standard.jpg
 external_url:  http://www.smartseatech.com/en/index.aspx
 categories: distributors
-thumbnail: images/distributor-smartsea.jpg
+thumbnail: images/distributor-smartsea.png
 ---
 <p class='distributor-addr'>1 Martha Avenue,
 Uniacke Business Park

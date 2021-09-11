@@ -4,7 +4,7 @@ title: Romor Ocean Solutions
 banner : images/banner-pulse-standard.jpg
 external_url:  https://romor.ca/
 categories: distributors
-thumbnail: images/distributor-romor.jpg
+thumbnail: images/distributor-romor.png
 ---
 <p class='distributor-addr'>1 Martha Avenue,
 Uniacke Business Park
