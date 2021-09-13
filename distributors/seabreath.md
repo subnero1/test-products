@@ -5,10 +5,10 @@ banner : images/banner-pulse-standard.jpg
 external_url:  https://www.sea-breath.com/
 categories: distributors
 thumbnail: images/distributor-seabreath.png
-phone: 03-6240-9627
+address: |
+    Location 303, Daiko Building, 
+    1-27-5 Asakusabashi, Taito-ku, 
+    Tokyo 111-0053
+phone: +3-6240-9627
 web: https://www.sea-breath.com/
 ---
-<p class='distributor-addr'>Location 303, Daiko Building, 
-1-27-5 Asakusabashi, Taito-ku, 
-Tokyo 111-0053
-</p>
