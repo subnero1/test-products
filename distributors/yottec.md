@@ -12,5 +12,6 @@ address: |
 web:  https://yottec.com/
 phone: +91-80-2972-4525
 email:  contact@yottec.com
+coords: "750,380,30"
 ---
 

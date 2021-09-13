@@ -11,4 +11,5 @@ address: |
 phone: +82-51-316-7107
 email: info@met-solutions.co.kr
 web: http://www.met-solutions.co.kr/
+coords: "880,320,18"
 ---

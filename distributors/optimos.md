@@ -12,4 +12,5 @@ address: |
 phone: +61-409-359-155
 email: info@optimosgroup.com
 web: https://www.optimosgroup.com/
+coords: "900,500,40" 
 ---

@@ -12,4 +12,5 @@ address: |
 phone: +3-6240-9627
 email: yamada.naosuke@sea-breath.com
 web: https://www.sea-breath.com/
+coords: "920,320,18" 
 ---

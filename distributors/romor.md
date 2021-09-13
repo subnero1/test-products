@@ -13,4 +13,5 @@ address: |
 phone: +1-902-466-7000
 email: sales@romor.ca
 web: https://romor.ca/
+coords: "180,220,45"
 ---

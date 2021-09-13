@@ -13,19 +13,15 @@ image: images/distributors-grey.jpg
   <div class='four spacing'></div>
   <div class='four spacing'></div>
 </div>
-
+{% assign distributor_pages = site.pages | where:"categories","distributors" %}
 <div class='full'>
   <div class='row'>
     <h1 class="thin">{{page.title}}</h1>
-    <!-- <div><img alt="" src="{{site.baseurl}}/{{page.image}}" /></div> -->
     <div><img alt="" src="{{site.baseurl}}/{{page.image}}" usemap="#distributor-map"/></div>
     <map name="distributor-map">
-      <area shape='circle' coords="880,320,18" href="http://www.met-solutions.co.kr/" target="blank" alt="Met-Solutions"/>
-      <area shape='circle' coords="920,320,18" href="https://www.sea-breath.com/" target="blank" alt="SeaBreath"/>
-      <area shape='circle' coords="780,320,45" href="http://www.smartseatech.com" target="blank" alt="SmartSeaTech"/>
-      <area shape='circle' coords="900,500,40" href="https://www.optimosgroup.com/" target="blank" alt="Optimos"/>
-      <area shape='circle' coords="180,220,45" href="https://romor.ca/" target="blank" alt="Romor"/>
-      <area shape='circle' coords="750,380,30" href="https://yottec.com/" target="blank" alt="Yottec"/>
+    {% for page in distributor_pages %}
+    <area shape='circle' coords="{{ page.coords}}" href="{{page.web}}" target="_blank" alt="{{page.title}}"/>
+    {% endfor %}
     </map>
     <p>We have distributors around the world to help you get our products & support locally. See the list of our distributors and their contact information below.</p>
     <div>
@@ -34,7 +30,6 @@ image: images/distributors-grey.jpg
     </div>
     <div class='four spacing'></div>
     <div class='large-12 columns' class='container'>
-    {% assign distributor_pages = site.pages | where:"categories","distributors" %}
     {% for page in distributor_pages %}
     <div class='large-4 columns'>
     <div class='mod modBlogPost'>

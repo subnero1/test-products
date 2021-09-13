@@ -12,4 +12,5 @@ address: |
 email: sales@smartseatech.com
 phone: "+510-85880495\n+510-85880496\n+510-85880497"
 web: http://www.smartseatech.com
+coords: "780,320,45" 
 ---
