@@ -2,7 +2,7 @@
 layout: default
 title:  Distributors
 banner : images/banner-pulse.jpg
-image: images/Distributors_grey1.jpg
+image: images/distributors-grey.jpg
 ---
 
 <div class ='full tall' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
