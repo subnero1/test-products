@@ -1,0 +1,62 @@
+- title: Met-Solutions
+  thumbnail: images/distributor-mets.png
+  address: |
+    49, Sasang-ro, Sasang-gu,
+    Busan, 47001 Republic of Korea
+  phone: +82-51-316-7107
+  email: info@met-solutions.co.kr
+  web: http://www.met-solutions.co.kr/
+  coords: "880,320,18"
+- title: Optimos Group
+  thumbnail: images/distributor-optimos.png
+  address: |
+    PO Box 1237
+    Hawksburn Vic 3142
+    Australia
+  phone: +61-409-359-155
+  email: info@optimosgroup.com
+  web: https://www.optimosgroup.com/
+  coords: "900,500,40" 
+- title: Romor Ocean Solutions
+  thumbnail: images/distributor-romor.png
+  address: |
+    41 Martha Avenue,
+    Uniacke Business Park
+    Mount Uniacke, NS
+    B0N 1Z0, Canada
+  phone: +1-902-466-7000
+  email: sales@romor.ca
+  web: https://romor.ca/
+  coords: "180,220,45"
+- title: SeaBreath
+  thumbnail: images/distributor-seabreath.png
+  address: |
+      Location 303, Daiko Building, 
+      1-27-5 Asakusabashi, Taito-ku, 
+      Tokyo 111-0053
+  phone: +3-6240-9627
+  email: yamada.naosuke@sea-breath.com
+  web: https://www.sea-breath.com/
+  coords: "920,320,18" 
+- title: Wuxi Smartsea Technology Co. Ltd
+  thumbnail: images/distributor-smartsea.png
+  address: |
+      Taihu technonlogy vallley, No. 86-1, 
+      Ditui Road, Binhu District, 
+      Wuxi - 214072
+  email: sales@smartseatech.com
+  phone: "+510-85880495\n+510-85880496\n+510-85880497"
+  web: http://www.smartseatech.com
+  coords: "780,320,45"
+- title: Yottec
+  thumbnail: images/distributor-yottec.png
+  address: |
+      114/C, 6th Main, Tumkur Main Road (Service Road),
+      Yeswanthpur Industrial Suburb, 2nd Stage,
+      Bangalore- 560022
+      Karnataka, India.
+  web:  https://yottec.com/
+  phone: +91-80-2972-4525
+  email:  contact@yottec.com
+  coords: "750,380,30"
+
