@@ -4,18 +4,11 @@ title: SeaBreath
 banner : images/banner-pulse-standard.jpg
 external_url:  https://www.sea-breath.com/
 categories: distributors
-thumbnail: images/distributor-seabreath.png
+thumbnail: images/distributor-seabreath1.png
+phone: 03-6240-9627
+web: https://www.sea-breath.com/
 ---
-<p class='distributor-addr'>1 Martha Avenue,
-Uniacke Business Park
-Mount Uniacke, NS
-B0N 1Z0, Canada
+<p class='distributor-addr'>Location 303, Daiko Building, 
+1-27-5 Asakusabashi, Taito-ku, 
+Tokyo 111-0053
 </p>
-
-<div class='distributor-info'>
-<p><i class="fa fa-phone"></i> </p>
-<p><i class="fa fa-envelope"></i></p>
-<p><i class="fa fa-globe"></i>
-    <a href='https://www.sea-breath.com/'>https://www.sea-breath.com/</a>
-</p>
-</div>

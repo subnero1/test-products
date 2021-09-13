@@ -36,6 +36,16 @@ image: images/distributors-grey.jpg
         <div class='distributor-info'>
           <h2>{{ page.title }}</h2>
           {{ page.content }}
+          <div class='distributor-info'>
+            <p><i class="fa fa-phone"></i> {{page.phone}}</p>
+            <p>
+                <i class="fa fa-envelope"></i> 
+                <a href='mailto:{{page.email}}'>{{page.email}}</a>
+            </p>
+            <p><i class="fa fa-globe"></i>
+                <a href='{{page.web}}' target="_blank">{{ page.web }}</a>
+            </p>
+            </div>
         </div>
       </div>
     </div>
