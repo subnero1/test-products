@@ -10,7 +10,7 @@ address: |
     Uniacke Business Park
     Mount Uniacke, NS
     B0N 1Z0, Canada
-phone: 1-902-466-7000
+phone: +1-902-466-7000
 email: sales@romor.ca
 web: https://romor.ca/
 ---

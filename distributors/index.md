@@ -20,7 +20,7 @@ image: images/distributors-grey.jpg
     <div><img alt="" src="{{site.baseurl}}/{{page.image}}" /></div>
     <p>We have distributors around the world to help you get our products & support locally. See the list of our distributors and their contact information below.</p>
     <div>
-      <p><a href='mailto:sales@subnero.com'>Let us know</a> if you would like to become our distributor.</p>
+      <p>Let us know if you would like to become our distributor.</p>
       <a href='mailto:sales@subnero.com'><button>Become our distributor</button></a>
     </div>
     <div class='four spacing'></div>
@@ -39,19 +39,25 @@ image: images/distributors-grey.jpg
           <h2>{{ page.title }}</h2>
           <p class='distributor-addr'>{{ page.address }}</p>
           <div class='distributor-info'>
+            {% if page.phone %}            
             <p><i class="fa fa-phone"></i>  
               {% capture phone %}
                 {{ page.phone }}
               {% endcapture %}
               {{ phone | lstrip | newline_to_br  }}
             </p>
+            {% endif %}
+            {% if page.email %}
             <p>
                 <i class="fa fa-envelope"></i> 
                 <a href='mailto:{{page.email}}'>{{page.email}}</a>
             </p>
+            {% endif %}
+            {% if page.web %}
             <p><i class="fa fa-globe"></i>
                 <a href='{{page.web}}' target="_blank">{{ page.web }}</a>
             </p>
+            {% endif %}
             </div>
         </div>
       </div>
