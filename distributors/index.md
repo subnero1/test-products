@@ -23,7 +23,7 @@ image: images/distributors-grey.jpg
       <area shape='circle' coords="880,320,18" href="http://www.met-solutions.co.kr/" target="blank" alt="Met-Solutions"/>
       <area shape='circle' coords="920,320,18" href="https://www.sea-breath.com/" target="blank" alt="SeaBreath"/>
       <area shape='circle' coords="780,320,45" href="http://www.smartseatech.com" target="blank" alt="SmartSeaTech"/>
-      <area shape='circle' coords="880,600,30" href="https://www.optimosgroup.com/" target="blank" alt="Optimos"/>
+      <area shape='circle' coords="900,500,40" href="https://www.optimosgroup.com/" target="blank" alt="Optimos"/>
       <area shape='circle' coords="180,220,45" href="https://romor.ca/" target="blank" alt="Romor"/>
       <area shape='circle' coords="750,380,30" href="https://yottec.com/" target="blank" alt="Yottec"/>
     </map>
