@@ -27,13 +27,11 @@ image: images/distributors-grey.jpg
     <div class='large-12 columns' class='container'>
     {% assign distributor_pages = site.pages | where:"categories","distributors" %}
     {% for page in distributor_pages %}
-    <div class='large-4 columns' id='pulsepage'>
+    <div class='large-4 columns'>
     <div class='mod modBlogPost'>
-      <div class='content'>
+      <div class='distributor-cards'>
         <div class='distributor-img'>
-        <a target="_blank" href="{{site.baseurl}}{{page.external_url}}">
           <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
-        </a>
         </div>
         <div class='distributor-info'>
           <h2>{{ page.title }}</h2>

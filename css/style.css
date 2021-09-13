@@ -5327,6 +5327,12 @@ input[type='checkbox']{
   flex-wrap: wrap; 
 }
 
+.distributor-cards{
+  background-color: #F5F5F5;
+  height: 550px;
+  padding: 20px;
+}
+
 .distributor-addr{
   white-space: break-spaces;
 }
@@ -5335,24 +5341,34 @@ input[type='checkbox']{
   margin-top: 2em;
 }
 
-.modBlogPost .content .distributor-info h2{
+.distributor-cards .distributor-info h2{
   font-size: 1.5em;
+  text-transform: none;     
 }
 
 .distributor-info p{
+  display: flex;
   margin-bottom: 0.5em;
   overflow-wrap: break-word;
 }
 
 .distributor-info i{
+  margin-top: 0.3em;
   margin-right: 0.5em;
   color:#E6782F;
 }
 
+.distributor-info a{
+  overflow-wrap: anywhere;
+}
+
 .distributor-img{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
 }
 
 .distributor-img img{
-  width: 50%;
+  width: 60%;
 }
