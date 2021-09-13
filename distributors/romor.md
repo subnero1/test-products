@@ -6,7 +6,7 @@ external_url:  https://romor.ca/
 categories: distributors
 thumbnail: images/distributor-romor.png
 address: |
-    1 Martha Avenue,
+    41 Martha Avenue,
     Uniacke Business Park
     Mount Uniacke, NS
     B0N 1Z0, Canada
