@@ -1,0 +1,16 @@
+- name: All Products
+  id: tab-one
+  input_id: radio-one
+  panel_id: panel-one
+- name: L5L series
+  id: tab-two
+  input_id: radio-two
+  panel_id: panel-two
+- name: M25M series
+  id: tab-three
+  input_id: radio-three
+  panel_id: panel-three
+- name: Optional accessories
+  id: tab-four
+  input_id: radio-four
+  panel_id: panel-four
