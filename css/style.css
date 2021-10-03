@@ -5385,14 +5385,14 @@ h2.modem-sub-heading{
 #all-products:checked ~ .type-container #tab-one,
 #L5Lseries:checked ~ .type-container #tab-two,
 #M25Mseries:checked ~ .type-container #tab-three, 
-#radio-four:checked ~ .type-container #tab-four {
+#optacc:checked ~ .type-container #tab-four {
     border-bottom:2px solid #E6782F;
 }
 
 #all-products:checked ~ .tab-panels #panel-one,
 #L5Lseries:checked ~ .tab-panels #panel-two,
 #M25Mseries:checked ~ .tab-panels #panel-three, 
-#radio-four:checked ~ .tab-panels #panel-four {
+#optacc:checked ~ .tab-panels #panel-four {
   display:block
 }
 /* End of tabs section */
@@ -5437,13 +5437,13 @@ h2.modem-sub-heading{
   margin-right: 1em;
 }
 
-.media .modem-type button{
+.media .modem-type .button-outline{
   background-color: transparent;
   color:#222222;
   border: 2px solid #E6782F;
 }
 
-.media .modem-type button.unet{
+.media .modem-type .button-outline.unet{
   background-color: transparent;
   color:#222222;
   border: 2px solid #1881D1;
