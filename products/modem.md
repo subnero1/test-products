@@ -11,11 +11,11 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
 <div class='full tall sticky' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
   <div class='row'>
     <div class='large-12 columns'>
-      <!-- {% include section-header.html title=page.title tagline=page.tagline color=page.title_color class="big" %} -->
     </div>
   </div>
-  <div class='four spacing'></div>
-  <div class='four spacing'></div>
+  <div class='spacing'></div>
+  <div class='spacing'></div>
+  <div class='spacing'></div>
 </div>
 
 <div>
@@ -47,3 +47,4 @@ excerpt: Subnero's software-defined underwater acoustic modems for underwater wi
         {% endfor %}
     </div>
 </div>
+{%- include radio-select.html -%}
