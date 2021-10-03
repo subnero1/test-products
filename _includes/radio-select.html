@@ -2,9 +2,9 @@
 <script>
 var url = new URL(document.URL);
 var params = new URLSearchParams(url.search);
-var name = params.get("name");
+var name = params.get("section");
 if(name != 'null') {
-	document.getElementById('radio-one').removeAttribute("checked");
+	document.getElementById('all-products').removeAttribute("checked");
 	document.getElementById(name).setAttribute("checked","");	
 }
 </script>
