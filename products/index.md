@@ -15,11 +15,6 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
 </div>
 
 <div class='full'>
-  <div class='type-container'>
-      <h2>PRODUCT CATEGORY</h2>
-  </div>
-
-  <!-- <div class ='category-container '> -->
   {% assign product_pages = site.pages | where:"categories","underwatermodem" %}
   {% for page in product_pages %}
   <div class='category-container bg-grey'>
@@ -57,11 +52,6 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
         <div class='category-content'>
           <h1><a href="{{site.baseurl}}/products/unet.html" class='unet-color'>Underwater Network Stack & Simulator</a></h1>
           <h3>An agent-based software stack and simulator for underwater networks and protocols.</h3>
-          <div class='media'>
-            <div class='modem-type'>
-              <a href='{{site.baseurl}}/products/unet.html#licensing'><button class='button-outline unet'>UnetStack Editions</button></a>
-            </div>
-          </div>
         </div>
       </div>
     </div>

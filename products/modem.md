@@ -8,16 +8,6 @@ section_id: products
 excerpt: Subnero's software-defined underwater acoustic modems for underwater wireless communication and networking. Subnero's multi-channel modems for data acquisition.
 ---
 
-<div class='full tall sticky' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
-  <div class='row'>
-    <div class='large-12 columns'>
-    </div>
-  </div>
-  <div class='spacing'></div>
-  <div class='spacing'></div>
-  <div class='spacing'></div>
-</div>
-
 <div>
     {% for item in site.data.product-tabs %}
         {% if item.name ==  "All Products" %}
