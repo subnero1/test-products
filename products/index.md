@@ -34,11 +34,11 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
             <div class='media'>
               <div class='modem-type'>
               <p>Low frequency series</p>
-              <a href='{{site.baseurl}}/products/modem.html?&section=L5Lseries'><button>L5L series</button></a>
+              <a href='{{site.baseurl}}/products/modem.html?&section=L5Lseries'><button>New L5L series</button></a>
               </div>
               <div class='modem-type'>
               <p>Medium frequency series</p>
-              <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'><button>M25M series</button></a>
+              <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'><button class='button-outline'>M25M series</button></a>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
           <h3>An agent-based software stack and simulator for underwater networks and protocols.</h3>
           <div class='media'>
             <div class='modem-type'>
-              <a href='{{site.baseurl}}/products/unet.html#licensing'><button class='unet'>UnetStack Editions</button></a>
+              <a href='{{site.baseurl}}/products/unet.html#licensing'><button class='button-outline unet'>UnetStack Editions</button></a>
             </div>
           </div>
         </div>
@@ -79,12 +79,6 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
         <div class='category-content'>
           <h1><a href="{{site.baseurl}}/products/swan.html">Subnero Water Assessment Network</a></h1>
           <h3>Scalable autonomous platforms for real-time in-situ water quality measurements.</h3>
-          <!-- <div class='media'>
-            <div class='modem-type'>
-            <p>SWAN Network and components</p>
-            <a href='{{site.baseurl}}/products/swan.html'><button>SWAN</button></a>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
