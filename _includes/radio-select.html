@@ -1,0 +1,11 @@
+<!-- Start radio-select.html -->
+<script>
+var url = new URL(document.URL);
+var params = new URLSearchParams(url.search);
+var name = params.get("name");
+if(name != 'null') {
+	document.getElementById('radio-one').removeAttribute("checked");
+	document.getElementById(name).setAttribute("checked","");	
+}
+</script>
+<!-- End radio-select.html -->
