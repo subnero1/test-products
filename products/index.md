@@ -84,6 +84,4 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
     </div>
   </div>
     {% endfor %}
-<!-- </div> -->
-<div class='four spacing'></div>
 </div>
