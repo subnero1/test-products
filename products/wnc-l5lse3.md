@@ -14,11 +14,10 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 
 ## Key Features
 
-- Up to 15 kbps data rate\*.
-- Up to 5 km communication range in tropical waters.
-- Ranging functionality with 0.1 m precision.
+- Up to 100 bps data rate\*.
+- Up to 20 km communication range in tropical shallow waters.
+- Ranging functionality with 1 m precision.
 - Doppler resilience of ±4 knots or better.
-- Support for coherent and incoherent communication schemes.
 - Support for arbitrary signal transmission as well as recording (passband, baseband).
 - Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}).
 
