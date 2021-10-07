@@ -4618,7 +4618,7 @@ p.small-title {
 }
 
 .type-item{
-    font-size:1.3rem;
+    font-size:1.1rem;
     color:#222;
   }
 }
@@ -5349,11 +5349,6 @@ input[type='checkbox']{
   padding-top: 3em;
 }
 
-/*.type-item{
-  font-size:1.6rem;
-  color:#222;
-}*/
-
 .type-item:hover,
 .type-item:focus{
   border-bottom:2px solid #E6782F;
@@ -5505,6 +5500,7 @@ h2.modem-sub-heading{
 .category-content h3{
   text-transform: none;
   font-size: 1.3rem;
+  color:#555;
 }
 
 .media .modem-type{
