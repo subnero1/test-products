@@ -2,7 +2,7 @@
 layout: default
 title: Coprocessor
 banner : images/banner-electrical.jpg
-thumbnail: images/thumbnail-coprocessor.jpg
+thumbnail: images/thumbnail-coprocessor.png
 categories: accessories
 excerpt: Co-processor for Subnero underwater acoustic modems.
 ---

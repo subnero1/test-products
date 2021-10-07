@@ -2,7 +2,7 @@
 layout: default
 title: Sensors
 banner : images/banner-electrical.jpg
-thumbnail: images/thumbnail-sensors.jpg
+thumbnail: images/thumbnail-sensors.png
 categories: accessories
 excerpt: Additional sensors for Subnero underwater acoustic modems.
 ---

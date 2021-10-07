@@ -2,7 +2,7 @@
 layout: default
 title: Cables
 banner : images/banner-mechanical.jpg
-thumbnail: images/thumbnail-cables.jpg
+thumbnail: images/thumbnail-cables.png
 categories: accessories
 excerpt: Additional storage for Subnero underwater acoustic modems.
 ---
