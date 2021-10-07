@@ -2,7 +2,7 @@
 layout: page
 title: WNC-M25MPS3
 banner : images/banner-platinum.jpg
-thumbnail : images/thumbnail-wnc-m25mps3.jpg
+thumbnail : images/thumbnail-wnc-m25mps3.png
 excerpt: Subnero platinum edition of underwater acoustic modems delivering performance under the toughest environmental conditions.
 categories: modem
 section_id: products

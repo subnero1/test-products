@@ -2,7 +2,7 @@
 layout: page
 title: WNC-L5LSE3
 banner : images/banner-silver.jpg
-thumbnail : images/thumbnail-wnc-m25mse3.jpg
+thumbnail : images/thumbnail-wnc-l5lse4.png
 excerpt: Subnero silver edition of underwater acoustic modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
 section_id: products
