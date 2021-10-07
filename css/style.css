@@ -4136,7 +4136,7 @@ p.small-title {
   }
 
   .type-item{
-    font-size:0.9rem;
+    font-size:1rem;
     color:#222;
   }
 }
@@ -4893,7 +4893,7 @@ h1{
   }
 
   .type-item{
-    font-size:0.9rem;
+    font-size:1rem;
     color:#222;
   }
 
@@ -4914,9 +4914,6 @@ li {
   text-align: -webkit-match-parent;
 }
 
-.hOXnHC {
-  margin-top: 2em;
-}
 photon-wifi:49*, *:after, *:before {
   box-sizing: border-box;
 }
