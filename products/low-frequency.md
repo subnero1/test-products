@@ -31,7 +31,7 @@ order: 1
             {% if page.title contains "WNC-L5LSE3" %}
             <div class='mod modBlogPost bg-grey'>
                 <h2 class="new-tag"> NEW </h2>
-                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mse3.jpg" />
+                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-l5lse4.png" />
                 <div class='content'>
                 <h2>Embedded Configuration <br>WNC-L5LSE3</h2>
               </div></a>

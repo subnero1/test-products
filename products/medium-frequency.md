@@ -16,7 +16,7 @@ order: 2
             {% for page in product_pages %}
             {% if page.title contains "WNC-M25MPS3" %}
             <div class='mod modBlogPost bg-grey'>
-                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mps3.jpg" />
+                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mps3.png" />
                 <div class='content'>
                 <h2>Standalone Configuration <br>WNC-M25MPS3</h2>
               </div></a>
@@ -47,7 +47,7 @@ order: 2
             {% for page in product_pages %}
             {% if page.title contains "WNC-M25MSS3" %}
             <div class='mod modBlogPost bg-grey'>
-                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mss3.jpg" />
+                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mss3.png" />
                 <div class='content'>
                 <h2>Standalone Configuration <br>WNC-M25MSS3</h2>
               </div></a>
@@ -60,7 +60,7 @@ order: 2
             {% for page in product_pages %}
             {% if page.title contains "WNC-M25MSE3" %}
             <div class='mod modBlogPost bg-grey'>
-                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mse3.jpg" />
+                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mse3.png" />
                 <div class='content'>
                 <h2>Embedded Configuration <br>WNC-M25MSE3</h2>
               </div></a>
@@ -75,7 +75,7 @@ order: 2
             <div class='mod modBlogPost bg-grey'>
                 <a href="{{site.baseurl}}{{page.url}}">
                     <h2 class="new-tag"> NEW </h2>
-                    <img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-multichannel.jpg" />
+                    <img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-multichannel.png" />
                     <div class='content'>
                         <h2>Multi-Channel Configuration <br>WNC-M25MSS3+xCh</h2>
                     </div>
@@ -95,7 +95,7 @@ order: 2
             {% for page in product_pages %}
             {% if page.title contains "WNC-M25MRS3" %}
             <div class='mod modBlogPost bg-grey'>
-                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/{{page.thumbnail}}" />
+                <a href="{{site.baseurl}}{{page.url}}"><img alt="" src="{{site.baseurl}}/images/thumbnail-wnc-m25mrs3.png" />
                 <div class='content'>
                 <h2>Standalone Configuration <br>WNC-M25MRS3</h2>
               </div></a>
