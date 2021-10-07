@@ -28,11 +28,9 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
             <h3>Software defined underwater acoustic modems for networking, navigation and monitoring.</h3>
             <div class='media'>
               <div class='modem-type'>
-              <p>Low frequency series</p>
-              <a href='{{site.baseurl}}/products/modem.html?&section=L5Lseries'><button>New L5L series</button></a>
+              <a href='{{site.baseurl}}/products/modem.html?&section=L5Lseries'><button>L5L series</button></a>
               </div>
               <div class='modem-type'>
-              <p>Medium frequency series</p>
               <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'><button class='button-outline'>M25M series</button></a>
               </div>
             </div>
