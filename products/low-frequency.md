@@ -6,8 +6,8 @@ tab-id: panel-two
 order: 1
 ---
 
-<h1 class='panel-heading'>ACOUSTIC MODEMS - L5L SERIES</h1>
-<h2 class='panel-sub-heading'>Low frequency. Long range.</h2>
+<h1 class='panel-heading'>L5L SERIES ACOUSTIC MODEMS</h1>
+<h2 class='panel-sub-heading'>For long range communications</h2>
 <div class='grey-container'>
     <h2 class='edition'>Silver Edition</h2>
     <ul class="edition-container">
