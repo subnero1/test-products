@@ -6,8 +6,8 @@ tab-id: panel-three
 order: 2
 ---
 
-<h1 class='panel-heading'>ACOUSTIC MODEMS - M25M SERIES</h1>
-<h2 class='panel-sub-heading'>Medium frequency. Medium range.</h2>
+<h1 class='panel-heading'>M25M SERIES ACOUSTIC MODEMS</h1>
+<h2 class='panel-sub-heading'>For high bandwidth applications</h2>
 <div class='grey-container'>
     <h2 class='edition'>Platinum Edition</h2>
     <ul class="edition-container">
