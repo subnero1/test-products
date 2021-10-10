@@ -1,7 +1,7 @@
 ---
 layout: page
 title: WNC-L5LSE3
-banner : images/banner-silver.jpg
+banner : images/banner-silver-l5l.jpg
 thumbnail : images/thumbnail-wnc-l5lse4.png
 excerpt: Subnero silver edition of underwater acoustic modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
@@ -10,7 +10,7 @@ section_id: products
 
 ## Silver Edition Embedded Configuration Modem
 
-Subnero's silver edition underwater modem is the workhorse communication node to be used in the general commercial deployments. This modem also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
+Subnero’s L5L series long-range modems provide the capability to communicate underwater over 20 km in some of the most challenging environments with data rates up to 100 bps, in a compact form factor. In addition, they also provide ranging and localization support. The silver edition underwater modems also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
 
 ## Key Features
 
@@ -28,7 +28,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-m25mse3.jpg"/>
+    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-l5lse4.png"/>
     <div class='media-body product product-content'>
     <h3 style="text-transform: none;" id="surface">Embedded Configuration</h3>
         <p>Designed with ease of integration and flexibility as the primary focus, the embedded configuration (EC) is ideal for integration to bigger platforms such as AUV, ROVs or sensors. Available with pressure hull option for free flooded platforms.</p>
