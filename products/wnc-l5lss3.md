@@ -14,12 +14,13 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 
 ## Key Features
 
-- Up to 100 bps data rate\*.
 - Up to 20 km communication range in tropical shallow waters.
+- Up to 100 bps data rate\*.
 - Ranging functionality with 1 m precision.
 - Doppler resilience of ±4 knots or better.
-- Support for arbitrary signal transmission as well as recording (passband, baseband).
+- Support for arbitrary waveform transmission as well as recording (passband, baseband).
 - Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}).
+- Enhanced performance with additional receiving channels
 
 \* Depending on channel conditions and reliability requirements.
 
@@ -47,13 +48,14 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
-| Modulation (software defined)          | FH-BFSK                                   |
-| FEC (Forward Error Correction)         | - TODO <br>- JANUS (1/2 rate convolution code)|
-| JANUS support                          | TODO Yes, subject to operating frequency band  |
+| Modulation (software defined)          | FH-BFSK\*                                 |
+| FEC (Forward Error Correction)         | BCH, LDPC, Convolution code               |
+| JANUS support                          | Yes, subject to operating frequency band  |
 | Carrier frequency                      | 5 kHz                                     |
 | Bandwidth                              | 1 kHz (4.5 - 5.5 kHz)                     |
 | Source level                           | 185 dB re 1 µPa @ 1 m rms (nominal)       |
 
+\* Software defined, user customizable
 ### Software
 
 | Feature                                | Details                                   |
@@ -67,20 +69,19 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
 | Power supply                           | 22 - 28 VDC (24 VDC recommended)          |
-| Power consumption                      | < 3 W (receive mode, nominal)<br>< 60 W (transmit mode, avg.)<br>< 100 W (transmit mode, max.)|
-| External interface                     | Ethernet (10/100 Mbps)*                   |
-| On-board storage                       | 32 GB*                                    |
+| Power consumption                      | < 4 W (receive mode, max.)<br>< 100 W (transmit mode, max.)|
+| External interface                     | Ethernet (10/100 Mbps) \**                |
+| On-board storage                       | 32 GB \**                                 |
 
 ### Mechanical
 
 | Feature                                | Details                                   |
 | -------------------------------------- | ----------------------------------------- |
-| Hull material                          | Aluminum*                                 |
-| Operating depth                        | 100 m*                                    |
-| Dimensions                             | TODO ⌀ 127 ✕ 280 mm                       |
+| Hull material                          | Aluminum \**                              |
+| Operating depth                        | 100 m \**                                 |
 | Operating temperature                  | 0 to 40 °C                                |
 
-\* Upgrades available. [Read more](./accessories.md).
+\** Upgrades available. [Read more](./accessories.md).
 
 </div>
 </div>
@@ -91,12 +92,8 @@ Subnero's silver edition underwater modem is the workhorse communication node to
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Brochure.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Brochure.pdf" target="_blank">Subnero Underwater Modems</a>
-</div>
-<div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/spec.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications.pdf" target="_blank">Subnero Underwater Modems Technical Specifications</a>
+  <a href="{{site.baseurl}}/brochures/Subnero-LF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem6.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/Subnero-LF-Modems.pdf" target="_blank">Subnero L5L Series Underwater Modems</a>
 </div>
 </div>
 </div>
