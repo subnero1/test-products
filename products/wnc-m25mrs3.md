@@ -2,7 +2,7 @@
 layout: page
 title: WNC-M25MRS3
 banner : images/banner-research.jpg
-thumbnail : images/thumbnail-wnc-m25mrs3.jpg
+thumbnail : images/thumbnail-wnc-m25mrs3.png
 excerpt: Subnero research edition of underwater acoustic modems are geared towards academic researchers and underwater technology enthusiasts.
 categories: modem
 section_id: products
@@ -90,12 +90,12 @@ Our research edition modems are designed to bridge the gap between developing ap
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Brochure.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Brochure.pdf" target="_blank">Subnero Underwater Modems</a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
 </div>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/spec.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications.pdf" target="_blank">Subnero Underwater Modems Technical Specifications</a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modem-Specifications.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/spec.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modem-Specifications.pdf" target="_blank">Subnero M25M Underwater Modems Technical Specifications</a>
 </div>
 </div>
 </div>

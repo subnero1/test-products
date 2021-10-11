@@ -2,7 +2,7 @@
 layout: default
 title: Mechanical Accessories
 banner : images/banner-mechanical.jpg
-thumbnail: images/thumbnail-clamps.jpg
+thumbnail: images/thumbnail-mechanical.png
 categories: accessories
 excerpt: Additional storage for Subnero underwater acoustic modems.
 ---

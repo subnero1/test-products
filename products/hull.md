@@ -2,7 +2,7 @@
 layout: default
 title: Hulls
 banner : images/banner-mechanical.jpg
-thumbnail: images/thumbnail-hull.jpg
+thumbnail: images/thumbnail-hull.png
 categories: accessories
 excerpt: Additional storage for Subnero underwater acoustic modems.
 ---

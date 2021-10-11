@@ -14,50 +14,84 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
   <div class='four spacing'></div>
 </div>
 
-<div class='full' style='background: #f5f5f5'>
-  <div class='row'>
-    <h1 class='thin'>PRODUCTS</h1>
-
+<div class='full'>
   {% assign product_pages = site.pages | where:"categories","underwatermodem" %}
   {% for page in product_pages %}
-  <a href="{{site.baseurl}}{{page.url}}">
-  <div class ='media product' >
-    <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>    
-    <div class='media-body product product-content'>
-    <h3 class="mt-0" style="text-transform: none;">Wireless Networked Communications</h3>
-    <p>Software defined underwater acoustic modems for networking, navigation and sensing.</p>
+  <div class='category-container bg-grey'>
+    <div class='category-row'>
+        <div class='large-3 columns category-img'>
+          <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+        </div>
+        <div class='large-9 columns'>
+          <div class='category-content'>
+            <h1>Wireless Networked Communications</h1>
+            <h3>Software defined underwater acoustic modems for networking, navigation and monitoring.</h3>
+            <div class='media'>
+              <div class='modem-type'>
+                <a href='{{site.baseurl}}/products/modem.html?&section=L5Lseries'>
+                  <button class='button-outline'>L5L series</button>
+                </a>
+                <p>Long range modems</p>
+              </div>
+              <div class='modem-type'>
+                <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'>
+                  <button class='button-outline'>M25M series</button>
+                </a>
+                <p>Medium range modems</p>                
+              </div>
+              <div class='modem-type'>
+                <a href='{{site.baseurl}}/products/modem.html'>
+                  <button class='button-outline'>View all</button>
+                </a>
+                <p>All products</p>                
+              </div>
+            </div>
+          </div>
+      </div>
     </div>
   </div>
-  </a>
   {% endfor %}
-
   {% assign product_pages = site.pages | where:"categories","unet" %}
   {% for page in product_pages %}
-  <a href="{{site.baseurl}}{{page.url}}">
-  <div class ='media product' style='background:#F5F5F5;'>      
-    <div class='media-body product product-content' style='background:#F5F5F5'>
-    <h3 style="text-transform: none;">Underwater Network Stack & Simulator</h3>
-    <p>An agent-based software stack and simulator for underwater networks.</p>
+  <div class='category-container'>
+    <div class='category-row'>
+      <div class='large-3 columns category-img'>
+        <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
+      </div>   
+      <div class='large-9 columns'> 
+        <div class='category-content'>
+          <h1>Underwater Network Stack & Simulator</h1>
+          <h3>An agent-based software stack and simulator for underwater networks and protocols.</h3>
+          <div class='media'>
+            <div class='modem-type'>
+              <a href='{{site.baseurl}}/products/unet'><button class='button-outline'>View details</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <img class='ml-3' alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>
   </div>
-  </a>
-
   {% endfor %}
 
   {% assign product_pages = site.pages | where:"categories","water-quality-management" %}
   {% for page in product_pages %}
-  <a href="{{site.baseurl}}{{page.url}}">
-  <div class ='media product'>
-    <img class='align-self-start mr-3' alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/>      
-     <div class='media-body product product-content'>
-    <h3 style="text-transform: none;">Subnero Water Assessment Network</h3>
-    <p>Scalable autonomous platforms for in-situ water quality measurements.</p>
+  <div class ='category-container bg-grey'>
+    <div class='category-row'>    
+      <div class='large-3 columns category-img'>
+        <img alt="" src="{{site.baseurl}}/{{page.thumbnail}}"/> 
+      </div>
+      <div class='large-9 columns'>       
+        <div class='category-content'>
+          <h1>Subnero Water Assessment Network</h1>
+          <h3>Scalable, autonomous network of unmanned surface vehicles for real-time in-situ, water quality measurements.</h3>
+          <div class='media'>
+            <div class='modem-type'>
+              <a href='{{site.baseurl}}/products/swan'><button class='button-outline'>View details</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  </a>
     {% endfor %}
-
-<div class='four spacing'></div>
-</div>
 </div>

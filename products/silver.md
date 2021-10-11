@@ -101,17 +101,17 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 
 \* Upgrades available
 
-- Details of optional upgrades and accessories available [here](./accessories.md).
+- Details of optional upgrades and accessories available [here]({{site.baseurl}}/products/modem.html?&section=Accessories).
 
 <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
 
 <h2>Brochures</h2>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Brochure.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Brochure.pdf" target="_blank">Subnero Underwater Modems</a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero Underwater Modems</a>
 </div>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/spec.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications.pdf" target="_blank">Subnero Underwater Modems Technical Specifications</a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modem-Specifications.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/spec.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modem-Specifications.pdf" target="_blank">Subnero Underwater Modems Technical Specifications</a>
 </div>
 

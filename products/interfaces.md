@@ -2,7 +2,7 @@
 layout: default
 title: Interfaces
 banner : images/banner-electrical.jpg
-thumbnail: images/thumbnail-rs232.jpg
+thumbnail: images/thumbnail-rs232.png
 categories: accessories
 excerpt: Electrical interfaces for Subnero underwater acoustic modems
 ---

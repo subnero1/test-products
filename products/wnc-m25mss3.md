@@ -2,7 +2,7 @@
 layout: page
 title: WNC-M25MSS3
 banner : images/banner-silver.jpg
-thumbnail : images/thumbnail-wnc-m25mss3.jpg
+thumbnail : images/thumbnail-wnc-m25mss3.png
 excerpt: Subnero silver edition of underwater acoustic modems are the workhorse communication nodes for use in general commercial deployments.
 categories: modem
 section_id: products
@@ -82,7 +82,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | Dimensions                             | ⌀ 127 ✕ 280 mm                            |
 | Operating temperature                  | 0 to 40 °C                                |
 
-\* Upgrades available. [Read more](./accessories.md).
+\* Upgrades available. [Read more]({{site.baseurl}}/products/modem.html?&section=Accessories).
 
 </div>
 </div>
@@ -93,12 +93,12 @@ Subnero's silver edition underwater modem is the workhorse communication node to
   <label class='lbl-toggle' for='compatibility'></label>
   <div class='collapsible-content'>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Brochure.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Brochure.pdf" target="_blank">Subnero Underwater Modems</a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/modem4.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modems.pdf" target="_blank">Subnero M25M Underwater Modems</a>
 </div>
 <div class="brochure-container">
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/spec.jpg"></a>
-  <a href="{{site.baseurl}}/brochures/Subnero-Modem-Specifications.pdf" target="_blank">Subnero Underwater Modems Technical Specifications</a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modem-Specifications.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/spec.jpg"></a>
+  <a href="{{site.baseurl}}/brochures/Subnero-MF-Modem-Specifications.pdf" target="_blank">Subnero M25M Underwater Modems Technical Specifications</a>
 </div>
 </div>
 </div>

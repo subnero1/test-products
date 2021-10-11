@@ -2,7 +2,7 @@
 layout: default
 title: Primary Battery Packs
 banner : images/banner-battery.jpg
-thumbnail: images/accessories-batterypack02.jpg
+thumbnail: images/thumbnail-batterypack.png
 categories: accessories
 excerpt: Underwater battery packs for deployment of Subnero underwater acoustic modems.
 ---
