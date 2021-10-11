@@ -787,7 +787,7 @@ ul.shortcode-list i {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #fff;
-  background: #E6782F;
+  background: transparent;
   border: 2px solid #E6782F;
 }
 
@@ -5395,8 +5395,6 @@ h2.modem-sub-heading{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /*margin-left: 8em;
-  margin-right: 8em;*/
   margin-top: 3em;
   background-color:#F5F5F5;
   
@@ -5498,6 +5496,7 @@ h2.modem-sub-heading{
 
 .category-img{
   margin-bottom: 2em;
+  text-align: center;
 }
 
 .category-content{
@@ -5519,6 +5518,7 @@ h2.modem-sub-heading{
 .media .modem-type{
   padding-top: 3em;
   margin-right: 1em;
+  align-self: flex-end;
 }
 
 .media .modem-type .button-outline{
@@ -5527,20 +5527,10 @@ h2.modem-sub-heading{
   border: 2px solid #E6782F;
 }
 
-.media .modem-type .button-outline.unet{
-  background-color: transparent;
-  color:#222222;
-  border: 2px solid #1881D1;
-}
-
 .media .icon{
   font-size: 1.8em;
   color:#E6782F;
   align-self: start;
   padding: 1em;
-}
-
-.unet-color{
-  color:#1881D1;
 }
 

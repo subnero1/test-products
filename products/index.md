@@ -24,16 +24,24 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
         </div>
         <div class='large-9 columns'>
           <div class='category-content'>
-            <h1><a href="{{site.baseurl}}/products/modem.html">Wireless Networked Communications</a></h1>
+            <h1>Wireless Networked Communications</h1>
             <h3>Software defined underwater acoustic modems for networking, navigation and monitoring.</h3>
             <div class='media'>
               <div class='modem-type'>
-              <a href='{{site.baseurl}}/products/modem.html?&section=L5Lseries'><button>L5L series</button></a>
+                <p>Long range modems</p>
+                <a href='{{site.baseurl}}/products/modem.html?&section=L5Lseries'><button class='button-outline'>L5L series</button></a>
               </div>
               <div class='modem-type'>
-              <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'><button class='button-outline'>M25M series</button></a>
+                <p>Medium range modems</p>
+                <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'><button class='button-outline'>M25M series</button></a>
               </div>
             </div>
+            <!-- <div class='media'>
+              <div class='modem-type'>
+                <p>All products</p>
+                <a href='{{site.baseurl}}/products/modem.html'><button class='button-outline'>Show all</button></a>
+              </div>
+            </div> -->
           </div>
       </div>
     </div>
@@ -48,8 +56,13 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
       </div>   
       <div class='large-9 columns'> 
         <div class='category-content'>
-          <h1><a href="{{site.baseurl}}/products/unet.html" class='unet-color'>Underwater Network Stack & Simulator</a></h1>
+          <h1>Underwater Network Stack & Simulator</h1>
           <h3>An agent-based software stack and simulator for underwater networks and protocols.</h3>
+          <div class='media'>
+            <div class='modem-type'>
+              <a href='{{site.baseurl}}/products/unet'><button class='button-outline'>View details</button></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -65,8 +78,13 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
       </div>
       <div class='large-9 columns'>       
         <div class='category-content'>
-          <h1><a href="{{site.baseurl}}/products/swan.html">Subnero Water Assessment Network</a></h1>
+          <h1>Subnero Water Assessment Network</h1>
           <h3>Scalable, autonomous network of unmanned surface vehicles for real-time in-situ, water quality measurements.</h3>
+          <div class='media'>
+            <div class='modem-type'>
+              <a href='{{site.baseurl}}/products/swan'><button class='button-outline'>View details</button></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
