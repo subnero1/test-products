@@ -24,14 +24,49 @@ Subnero’s L5L series long-range modems provide the capability to communicate u
 
 \* Depending on channel conditions and reliability requirements.
 
+<div class='spacing'></div>
+
 <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
+
+<!-- <div class='full' style='background: #f5f5f5'> -->
+  <div class='row bg-white'>
+    <div class='large-4 columns'>
+      <div class ='media'>
+        <i class='icon fa fa-broadcast-tower'></i>
+        <div class='media-body product product-content'>
+          <h3>Extended Communication Range</h3>
+          <p>Subnero’s  L5L  series  long-range  modems  provide  the capability  to  communicate underwater  over  20  km  in some of the most challenging environments  with  data  rates up  to  100  bps,  in  a  compact form factor. </p>
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <div class ='media' >
+        <i class='icon fa fa-tachometer-alt'></i>
+        <div class='media-body product product-content'>
+        <h3>Application Diversity</h3>
+            <p>Designed to take monitoring and  command  &  control applications  to  the  next level, the L5L series modems are  ideal  for  applications such  as  passive  acoustic monitoring,  water  quality monitoring,  long  range  AUV command  and  control, seismic monitoring.</p>
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <div class ='media' >
+        <i class='icon fa fa-cogs'></i>
+        <div class='media-body product product-content'>
+          <h3>Seamless Integration</h3>
+          <p>Subnero’s  L5L  series  long-range  modems  provide  the capability  to  communicate underwater  over  20  km  in some of the most challenging environments  with  data  rates up  to  100  bps,  in  a  compact form factor. </p>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->
 
 <div class='full' style='background: #f5f5f5'>
 
   <div class ='media product' >
     <img class = "align-self-start mr-3" alt="" src="{{site.baseurl}}/images/boxart-wnc-l5lss4.png"/>
     <div class='media-body product product-content'>
-    <h3 style="text-transform: none;" id="surface">Standalone Configuration</h3>
+    <h3 id="surface">Standalone Configuration</h3>
         <p>A modem in the standalone configuration (SC) operates on external power source such as a battery (for underwater deployments) or a power supply (for deployments from the water surface).</p>
     </div>
   </div>
