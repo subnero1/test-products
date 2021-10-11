@@ -5007,6 +5007,10 @@ photon-wifi:49*, *:after, *:before {
   overflow-y: hidden;
 }
 
+.row-width{
+  max-width: 90rem;
+}
+
 .jumbotron {
   height: 500px;
   display: flex;
@@ -5529,7 +5533,7 @@ h2.modem-sub-heading{
 }
 
 .media .icon{
-  font-size: 2em;
+  font-size: 1.8em;
   color:#E6782F;
   align-self: start;
   padding: 1em;
