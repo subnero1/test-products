@@ -4921,6 +4921,7 @@ photon-wifi:49*, *:after, *:before {
 
 .product h3{
   text-transform: none;
+  padding-bottom: 0.5em;
 }
 
 .media-body.product.product-content{
