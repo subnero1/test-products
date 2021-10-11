@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Subnero Modem Accessories
 banner : images/banner-accessories.jpg
 thumbnail: images/thumbnail-accessories.png

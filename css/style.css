@@ -5463,14 +5463,14 @@ h2.modem-sub-heading{
 #all-products:checked ~ .type-container #tab-one,
 #L5Lseries:checked ~ .type-container #tab-two,
 #M25Mseries:checked ~ .type-container #tab-three, 
-#optacc:checked ~ .type-container #tab-four {
+#Accessories:checked ~ .type-container #tab-four {
     border-bottom:2px solid #E6782F;
 }
 
 #all-products:checked ~ .tab-panels #panel-one,
 #L5Lseries:checked ~ .tab-panels #panel-two,
 #M25Mseries:checked ~ .tab-panels #panel-three, 
-#optacc:checked ~ .tab-panels #panel-four {
+#Accessories:checked ~ .tab-panels #panel-four {
   display:block
 }
 /* End of tabs section */

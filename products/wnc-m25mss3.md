@@ -82,7 +82,7 @@ Subnero's silver edition underwater modem is the workhorse communication node to
 | Dimensions                             | ⌀ 127 ✕ 280 mm                            |
 | Operating temperature                  | 0 to 40 °C                                |
 
-\* Upgrades available. [Read more](./accessories.md).
+\* Upgrades available. [Read more]({{site.baseurl}}/products/modem.html?&section=Accessories).
 
 </div>
 </div>

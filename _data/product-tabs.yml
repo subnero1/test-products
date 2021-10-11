@@ -12,5 +12,5 @@
   panel_id: panel-three
 - name: Optional accessories
   id: tab-four
-  input_id: optacc
+  input_id: Accessories
   panel_id: panel-four

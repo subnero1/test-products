@@ -88,7 +88,7 @@ Delivering performance under the toughest environmental conditions, Subnero's pl
 | Operating temperature                  | SC: 0 to 50 °C<br>EC: 0 to 70 °C (Electronics), 0 to 50 °C (Transducer)|
 | Supported MIL standards                | MIL-STD-810G, MIL-STD-810E, MIL-STD-461E  |
 
-- Details of optional upgrades and accessories available [here](./accessories.md).
+- Details of optional upgrades and accessories available [here]({{site.baseurl}}/products/modem.html?&section=Accessories).
 
 <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
 
