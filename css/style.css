@@ -4148,7 +4148,7 @@ p.small-title {
 */
 @media (min-width: 1593px){
   .media.product{
-    /*background:#ffffff;*/
+    background:#ffffff;
     min-height: 249px;
     width:100%;
   }
