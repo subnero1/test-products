@@ -116,7 +116,7 @@ Subnero’s L5L series long-range modems provide the capability to communicate u
 | Operating depth                        | 100 m \**                                 |
 | Operating temperature                  | 0 to 40 °C                                |
 
-\** Upgrades available. [Read more](./accessories.md).
+\** Upgrades available. [Read more]({{site.baseurl}}/products/modem.html?&section=Accessories).
 
 </div>
 </div>
