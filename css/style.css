@@ -4163,11 +4163,12 @@ p.small-title {
   }
 
   .product h3{
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     margin-bottom: 1px;
     font-size:1.8em;
     margin-top:20px
   }
+
   .product h3 a {
     color: #333;
   }
@@ -4918,6 +4919,14 @@ photon-wifi:49*, *:after, *:before {
   box-sizing: border-box;
 }
 
+.product h3{
+  text-transform: none;
+}
+
+.media-body.product.product-content{
+    padding-right: 1em;
+  }
+
 .gfXsQG {
   display: flex;
   flex-wrap: wrap;
@@ -5279,6 +5288,10 @@ input[type='checkbox']{
   background: #f5f5f5;
 }
 
+.bg-white{
+  background: #ffffff;
+}
+
 .video{
   margin-left: 8vw;
   margin-right: 8vw;
@@ -5404,9 +5417,7 @@ h2.modem-sub-heading{
 }
 
 .modem-container {
-  margin-top: 3em;
-  margin-right: 3em;
-  margin-left: 3em;
+  margin-top: 2em;
   text-align: center;
   width:20em;
 }
@@ -5515,6 +5526,13 @@ h2.modem-sub-heading{
   background-color: transparent;
   color:#222222;
   border: 2px solid #1881D1;
+}
+
+.media .icon{
+  font-size: 2em;
+  color:#E6782F;
+  align-self: start;
+  padding: 1em;
 }
 
 .unet-color{
