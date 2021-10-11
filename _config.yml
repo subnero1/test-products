@@ -2,8 +2,8 @@
 title: Subnero
 description: > # this means to ignore newlines until "baseurl:"
   The future of underwater wireless.
-baseurl: "/test-products" # the subpath of your site, e.g. /blog/
-url: "https://subnero.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://subnero1.github.io/" # the base hostname & protocol for your site
 twitter_username: subnero
 github_username:  subnero1
 default_image: images/pulse-thumbnail-default.jpg
