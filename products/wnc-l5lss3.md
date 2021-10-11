@@ -20,7 +20,7 @@ The silver edition underwater modems also provides options for customization and
 - Doppler resilience of ±4 knots or better.
 - Support for arbitrary waveform transmission as well as recording (passband, baseband).
 - Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}).
-- Enhanced performance with additional receiving channels
+- Enhanced performance with additional receiving channels.
 
 \* Depending on channel conditions and reliability requirements.
 
