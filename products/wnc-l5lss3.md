@@ -10,7 +10,7 @@ section_id: products
 
 ## Silver Edition Standalone Configuration Modem
 
-Subnero’s L5L series long-range modems provide the capability to communicate underwater over 20 km in some of the most challenging environments with data rates up to 100 bps, in a compact form factor. In addition, they also provide ranging and localization support. The silver edition underwater modems also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
+The silver edition underwater modems also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
 
 ## Key Features
 
@@ -24,27 +24,25 @@ Subnero’s L5L series long-range modems provide the capability to communicate u
 
 \* Depending on channel conditions and reliability requirements.
 
-<div class='spacing'></div>
-
 <a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
 
 <!-- <div class='full' style='background: #f5f5f5'> -->
   <div class='row bg-white'>
     <div class='large-4 columns'>
       <div class ='media'>
-        <i class='icon fa fa-broadcast-tower'></i>
+        <i class='icon fa fa-paper-plane'></i>
         <div class='media-body product product-content'>
-          <h3>Extended Communication Range</h3>
-          <p>Subnero’s  L5L  series  long-range  modems  provide  the capability  to  communicate underwater  over  20  km  in some of the most challenging environments  with  data  rates up  to  100  bps,  in  a  compact form factor. </p>
+          <h3>Application Diversity</h3>
+            <p>Ideal for passive acoustic monitoring, water quality monitoring, long range AUV command and control applications.</p>
         </div>
       </div>
     </div>
     <div class='large-4 columns'>
       <div class ='media' >
-        <i class='icon fa fa-tachometer-alt'></i>
+        <i class='icon fa fa-code'></i>
         <div class='media-body product product-content'>
-        <h3>Application Diversity</h3>
-            <p>Designed to take monitoring and  command  &  control applications  to  the  next level, the L5L series modems are  ideal  for  applications such  as  passive  acoustic monitoring,  water  quality monitoring,  long  range  AUV command  and  control, seismic monitoring.</p>
+        <h3>Software-defined Core</h3>
+          <p>Fully configurable modulation and FEC parameters through UnetStack APIs and commands.</p>
         </div>
       </div>
     </div>
@@ -53,7 +51,7 @@ Subnero’s L5L series long-range modems provide the capability to communicate u
         <i class='icon fa fa-cogs'></i>
         <div class='media-body product product-content'>
           <h3>Seamless Integration</h3>
-          <p>Subnero’s  L5L  series  long-range  modems  provide  the capability  to  communicate underwater  over  20  km  in some of the most challenging environments  with  data  rates up  to  100  bps,  in  a  compact form factor. </p>
+          <p>Seamless integration with Subnero's M25M series modems to build true heterogenous networks.</p>
           <div class='spacing'></div>
         </div>
       </div>
