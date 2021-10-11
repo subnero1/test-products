@@ -4878,6 +4878,10 @@ h1{
     padding:0 !important;  
   }
 
+  .media .modem-type .button-outline{
+    font-size:0.9rem !important;
+  }
+
 }
 
 /*End of media queries for products page*/
@@ -4963,6 +4967,7 @@ photon-wifi:49*, *:after, *:before {
 .col1 img, .col1 a{
   float: left;
   margin-left: 15px;
+  width:300px;
 }
 
 .vcard{
@@ -5432,6 +5437,7 @@ h2.modem-sub-heading{
 
 .category-content h1{
   text-transform: none;
+  font-size: 3rem;
 }
 
 .category-content h3{
@@ -5450,6 +5456,11 @@ h2.modem-sub-heading{
   background-color: transparent;
   color:#222222;
   border: 2px solid #E6782F;
+  margin-bottom: 0.5rem;
+}
+
+.media .modem-type p{
+  margin-bottom: 0.5rem
 }
 
 .media .icon{
@@ -5459,3 +5470,10 @@ h2.modem-sub-heading{
   padding: 1em;
 }
 
+p, ul li{
+  color:#777;
+}
+
+ul{
+  margin-left:1.3rem;
+}

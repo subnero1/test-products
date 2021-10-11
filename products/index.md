@@ -28,20 +28,24 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
             <h3>Software defined underwater acoustic modems for networking, navigation and monitoring.</h3>
             <div class='media'>
               <div class='modem-type'>
+                <a href='{{site.baseurl}}/products/modem.html?&section=L5Lseries'>
+                  <button class='button-outline'>L5L series</button>
+                </a>
                 <p>Long range modems</p>
-                <a href='{{site.baseurl}}/products/modem.html?&section=L5Lseries'><button class='button-outline'>L5L series</button></a>
               </div>
               <div class='modem-type'>
-                <p>Medium range modems</p>
-                <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'><button class='button-outline'>M25M series</button></a>
+                <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'>
+                  <button class='button-outline'>M25M series</button>
+                </a>
+                <p>Medium range modems</p>                
+              </div>
+              <div class='modem-type'>
+                <a href='{{site.baseurl}}/products/modem.html'>
+                  <button class='button-outline'>View all</button>
+                </a>
+                <p>All products</p>                
               </div>
             </div>
-            <!-- <div class='media'>
-              <div class='modem-type'>
-                <p>All products</p>
-                <a href='{{site.baseurl}}/products/modem.html'><button class='button-outline'>Show all</button></a>
-              </div>
-            </div> -->
           </div>
       </div>
     </div>
