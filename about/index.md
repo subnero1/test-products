@@ -17,7 +17,6 @@ excerpt: Subnero provides technology and solutions for underwater communication,
 
 <div class='about-container'>
     <div class='about-text-section'>
-
         <h2 align="center"><i class='icon fa fa-landmark'></i> Our company</h2>
         <p>Subnero is a Singapore-based company which provides state-of-the-art products and solutions to facilitate underwater wireless networked communications, localization and in-water sensing & monitoring.</p>
     </div>
