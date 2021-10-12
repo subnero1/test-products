@@ -4222,15 +4222,7 @@ p.small-title {
   }
 
   .about-text-section{
-    padding: 5em;
-  }
-
-  .about-text-section{
     padding: 0 5em 5em 5em;
-  }
-
-  .about-text-section{
-    padding: 5em;
   }
 
 }
@@ -4322,10 +4314,6 @@ p.small-title {
   .type-item{
     font-size:1.6rem;
     color:#222;
-  }
-
-  .about-text-section{
-    padding: 5em;
   }
 
   .about-text-section{
@@ -4443,10 +4431,6 @@ p.small-title {
     color:#222;
 }
 
-.about-text-section{
-    padding: 5em;
-  }
-
   .about-text-section{
     padding: 5em;
   }
@@ -4558,10 +4542,6 @@ p.small-title {
     color:#222;
 }
 
-.about-text-section{
-    padding: 5em;
-  }
-
   .about-text-section{
     padding: 5em;
   }
@@ -4658,10 +4638,6 @@ p.small-title {
   .type-item{
     font-size:1.1rem;
     color:#222;
-}
-
-.about-text-section{
-    padding: 5em;
   }
   
   .about-text-section{
@@ -4806,7 +4782,6 @@ p.small-title {
     color:#222;
   }
 
-
   .tab-panels{
     padding:0 !important; 
   }
@@ -4894,10 +4869,6 @@ p.small-title {
   .socials ul, .socials ul li{
     padding: 0;
     margin-right:0;
-  }
-
-  .about-text-section{
-    padding: 0;
   }
 
   .about-text-section{
@@ -5446,7 +5417,7 @@ h1.about-text-highlight{
 }
 
 .icon{
-  font-size: 3em;
+  font-size: 1.8em;
   color:#E6782F;
   align-self: start;
   padding: 1em 0.5em 0.5em 0.5em;
