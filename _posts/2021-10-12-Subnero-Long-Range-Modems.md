@@ -9,11 +9,11 @@ thumbnail: images/pulse-lf-modem.jpg
 
 <div style="display: flex;flex-wrap:wrap;">
     <div style="flex:50%;">
-    <img src="{{site.baseurl}}/images/thumbnail-wnc-l5lse4.png" style='width:60%;border:1px solid #555'>
+    <img src="{{site.baseurl}}/images/thumbnail-wnc-l5lss4.png" style='width:60%;border:1px solid #555'>
     <p>WNC-L5LSS3 (Standalone Configuration)</p>
     </div>
     <div style="flex:50%;">
-    <img src="{{site.baseurl}}/images/thumbnail-wnc-l5lss4.png" style='width:60%;border:1px solid #555'>
+    <img src="{{site.baseurl}}/images/thumbnail-wnc-l5lse4.png" style='width:60%;border:1px solid #555'>
     <p>WNC-L5LSE3 (Embedded Configuration)</p>
 </div>
 </div>
