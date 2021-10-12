@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing Subnero Long Range Modems
-banner : images/banner-multichannel.jpg
+banner : images/banner-silver-l5l.jpg
 date:  2021-10-12
 categories: wnc news
 thumbnail: images/pulse-lf-modem.jpg
