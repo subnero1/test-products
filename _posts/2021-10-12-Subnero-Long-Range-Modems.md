@@ -19,7 +19,7 @@ thumbnail: images/pulse-lf-modem.jpg
 </div>
 <div class="spacing"></div>
 
-Subnero’s [L5L series](https://subnero.com/products/modem.html?&section=L5Lseries) long-range modems provide the capability to communicate underwater over 20 km in some of the most challenging underwater environments with data rates up to 100 bps, in a compact form factor.
+We are excited to launch the new long-range modems. The [L5L series](https://subnero.com/products/modem.html?&section=L5Lseries) long-range modems provide the capability to communicate underwater over 20 km in some of the most challenging underwater environments with data rates up to 100 bps, in a compact form factor.
 
 ## APPLICATION DIVERSITY
 Ideal for applications such as passive acoustic monitoring, water quality monitoring, long range AUV command and control, seismic monitoring.
