@@ -31,4 +31,4 @@ Users can fully configure the modulation and FEC parameters along with support f
 L5L series modems supports seamless integration with Subnero's M25M series modems to build true heterogenous networks.
 
 
-We love to hear from you. Let us know your thoughts and comments through info@subnero.com.
+Contact us at info@subnero.com for more details.
