@@ -5412,7 +5412,7 @@ h1.about-text-highlight{
   align-self: flex-end;
 }
 
-.media .modem-type .button-outline{
+.button-outline{
   background-color: transparent;
   color:#222222;
   border: 2px solid #E6782F;
@@ -5423,11 +5423,11 @@ h1.about-text-highlight{
   margin-bottom: 0.5rem
 }
 
-.media .icon{
+.icon{
   font-size: 1.8em;
   color:#E6782F;
   align-self: start;
-  padding: 1em;
+  padding: 1em 0.5em 0.5em 0.5em;
 }
 
 p, ul li{
