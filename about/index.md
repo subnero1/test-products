@@ -45,21 +45,23 @@ excerpt: Subnero provides technology and solutions for underwater communication,
         <h2 align="center"> Our journey</h2>
         <div class='about-info'>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>The story of Subnero began in the early 2000s at the Acoustic Research Laboratory (ARL) of National University of Singapore (NUS), when a team of researchers procured acoustic modems to get periodic status updates underwater sensors used their scientific research. They quickly realized that tropical shallow waters around Singapore are some of the most challenging acoustic communication channels in the world and that no modems available back then, provided reliable and robust wireless communications underwater. The team took it as a challenge to understand what makes underwater acoustic communications so difficult and how can they make it better. A decade and multiple projects later, we had a variety of technologies and research platforms such as the Unet II modems, Water Quality Monitoring USVs and UnetStack software framework that repeatedly demonstrated superior performance in local environments.</p>
+        <br>
+        <p>Subnero was formed out of the desire to make these technologies commercially available to the wider community, so that our customers and partners can build solutions that pushes the boundaries of our knowledge and understanding about the vast oceans of planet Earth, using true heterogenous underwater networks.</p>
     </div>
     <div class='about-text-section'>
         <i class='icon fa fa-users'></i>
         <h2 align="center"> Our team</h2>
         <div class='about-info'>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>We are a team of curious and passionate folks, always looking for new ways to push the limits of today's technology in the realm of underwater wireless networking and in-water sensing.</p>
     </div>
     <div class='about-text-section'>
         <i class='icon fa fa-people-carry'></i>
         <h2 align="center"> Our works</h2>
         <div class='about-info'>
         </div>
-        <p>We focus on <span class='about-text-highlight'>innovation</span>. We build with <span class='about-text-highlight'>passion</span>. We deliver with <span class='about-text-highlight'>quality</span>. We customize on <span class='about-text-highlight'>demand</span>.</p>
+        <p>World leading offerings for underwater communications, networking and in-water sensing.</p>
         <div class='about-button-container'>
             <a href='{{site.baseurl}}/products'><button class='button-outline'>Browse our products</button></a>
             <a href='{{site.baseurl}}/solutions'><button class='button-outline'>Explore our solutions</button></a>
