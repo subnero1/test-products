@@ -53,6 +53,7 @@ excerpt: Subnero provides technology and solutions for underwater communication,
         <h2 align="center"><i class='icon fas fa-drafting-compass'></i> Our Technology</h2>
         <div class='about-info'>
         </div>
+        <p>World leading offerings for underwater communications, networking and in-water sensing.</p>
         <div class='about-button-container'>
             <a href='{{site.baseurl}}/products'><button class='button-outline'>Browse our products</button></a>
             <a href='{{site.baseurl}}/solutions'><button class='button-outline'>Explore our solutions</button></a>
