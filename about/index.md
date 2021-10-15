@@ -15,17 +15,21 @@ excerpt: Subnero provides technology and solutions for underwater communication,
   <div class='four spacing'></div>
 </div>
 
-<div class='about-container'>
-    <div class='about-text-section'>
-        <h2 align="center"><i class='icon fa fa-landmark'></i> Our company</h2>
+<div class='row about-container'>
+    <div class='spacing'></div>
+    <div class='centered-text'>
+        <i class='icon fa fa-landmark'></i> 
+        <h2 align="center">Our company</h2>
         <p>Subnero is a Singapore-based company which provides state-of-the-art products and solutions to facilitate underwater wireless networked communications, localization and in-water sensing & monitoring.</p>
     </div>
-    <div class='about-text-section'>
-        <h2 align="center"><i class='icon fa fa-hands-helping'></i> Our mission</h2>
+    <div class='centered-text'>
+        <i class='icon fa fa-hands-helping'></i>
+        <h2 align="center">Our mission</h2>
         <p>To offer high performance underwater communication, navigation, monitoring and sensing solutions for commercial deployments.</p>
     </div>
-    <div class='about-text-section'>
-        <h2 align="center"><i class='icon fa fa-hand-holding-water'></i> Our vision</h2>
+    <div class='centered-text'>
+        <i class='icon fa fa-hand-holding-water'></i>
+        <h2 align="center"> Our vision</h2>
         <p>To be the de-facto standard for underwater communication and in-water sensing networks.</p>
     </div>
 </div>
@@ -34,21 +38,25 @@ excerpt: Subnero provides technology and solutions for underwater communication,
     <img src='{{site.baseurl}}/images/about-image2.jpg' class='about-image-item'>
     <img src='{{site.baseurl}}/images/about-image3.jpg' class='about-image-item'>
 </div>
-<div class='about-container'>
+<div class='row about-container'>
+    <div class='spacing'></div>
     <div class='about-text-section'>
-        <h2 align="center"><i class='icon fa fa-plane-departure'></i> Our journey</h2>
+        <i class='icon fa fa-plane-departure'></i>
+        <h2 align="center"> Our journey</h2>
         <div class='about-info'>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <div class='about-text-section'>
-        <h2 align="center"><i class='icon fa fa-users'></i> Our team</h2>
+        <i class='icon fa fa-users'></i>
+        <h2 align="center"> Our team</h2>
         <div class='about-info'>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <div class='about-text-section'>
-        <h2 align="center"><i class='icon fa fa-people-carry'></i> Our works</h2>
+        <i class='icon fa fa-people-carry'></i>
+        <h2 align="center"> Our works</h2>
         <div class='about-info'>
         </div>
         <p>We focus on <span class='about-text-highlight'>innovation</span>. We build with <span class='about-text-highlight'>passion</span>. We deliver with <span class='about-text-highlight'>quality</span>. We customize on <span class='about-text-highlight'>demand</span>.</p>
