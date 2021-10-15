@@ -4266,6 +4266,11 @@ p.small-title {
   .product-content{
     padding-left: 40px;
   }
+
+  p{
+    font-size: 1.3rem;
+  }
+
   #company{
     font-size: 1em;
   }
@@ -4364,6 +4369,12 @@ p.small-title {
     min-height:200px;
   }
 
+<<<<<<< HEAD
+=======
+  p{
+    font-size:1.3rem;
+  }
+>>>>>>> fix(aout):Centering icons
 
   .full.tall{
     padding:0px;
@@ -4424,7 +4435,7 @@ p.small-title {
 }
 
   .about-text-section{
-    padding: 5em;
+    padding: 0 5em 5em 5em;
   }
 
 }
@@ -4469,11 +4480,7 @@ p.small-title {
     color: #E6782F;
   }
 
-  .product-content{
-    /*padding-left: 30px;*/
-  }
-
-  .product p{
+  p{
     font-size:1.1rem;
   }
 
@@ -4535,7 +4542,7 @@ p.small-title {
 }
 
   .about-text-section{
-    padding: 5em;
+    padding: 0 5em 5em 5em;
   }
 
 }
@@ -4633,7 +4640,7 @@ p.small-title {
   }
   
   .about-text-section{
-    padding: 5em;
+    padding: 0 5em 5em 5em;
   }
 }
 
@@ -5409,7 +5416,7 @@ h1.about-text-highlight{
 }
 
 .icon{
-  font-size: 1.8em;
+  font-size: 3em;
   color:#E6782F;
   align-self: start;
   padding: 1em 0.5em 0.5em 0.5em;
@@ -5431,7 +5438,7 @@ ul{
 }
 
 .about-text-section{
-  width: 60vw;
+  /*width: 60vw;*/
   text-align: center;
 }
 
