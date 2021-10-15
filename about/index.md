@@ -15,17 +15,22 @@ excerpt: Subnero provides technology and solutions for underwater communication,
   <div class='four spacing'></div>
 </div>
 
-<div class='about-container'>
-    <div class='about-text-section'>
-        <h2 align="center"><i class='icon fa fa-landmark'></i> Our Company</h2>
+
+<div class='row about-container'>
+    <div class='spacing'></div>
+    <div class='centered-text'>
+        <i class='icon fa fa-landmark'></i> 
+        <h2 align="center">Our company</h2>
         <p>Subnero is a Singapore-based company which provides state-of-the-art products and solutions to facilitate underwater wireless networked communications, localization and in-water sensing & monitoring.</p>
     </div>
-    <div class='about-text-section'>
-        <h2 align="center"><i class='icon fa fa-hands-helping'></i> Our Mission</h2>
+    <div class='centered-text'>
+        <i class='icon fa fa-hands-helping'></i>
+        <h2 align="center">Our mission</h2>
         <p>To offer high performance underwater communication, navigation, monitoring and sensing solutions for commercial deployments.</p>
     </div>
-    <div class='about-text-section'>
-        <h2 align="center"><i class='icon fa fa-hand-holding-water'></i> Our Vision</h2>
+    <div class='centered-text'>
+        <i class='icon fa fa-hand-holding-water'></i>
+        <h2 align="center"> Our vision</h2>
         <p>To be the de-facto standard for underwater communication and in-water sensing networks.</p>
     </div>
 </div>
@@ -34,9 +39,11 @@ excerpt: Subnero provides technology and solutions for underwater communication,
     <img src='{{site.baseurl}}/images/about-image2.jpg' class='about-image-item'>
     <img src='{{site.baseurl}}/images/about-image3.jpg' class='about-image-item'>
 </div>
-<div class='about-container'>
+<div class='row about-container'>
+    <div class='spacing'></div>
     <div class='about-text-section'>
-        <h2 align="center"><i class='icon fa fa-plane-departure'></i> Our Journey</h2>
+        <i class='icon fa fa-plane-departure'></i>
+        <h2 align="center"> Our journey</h2>
         <div class='about-info'>
         </div>
         <p>The story of Subnero began in the early 2000s at the Acoustic Research Laboratory (ARL) of National University of Singapore (NUS), when a team of researchers procured acoustic modems to get periodic status updates underwater sensors used their scientific research. They quickly realized that tropical shallow waters around Singapore are some of the most challenging acoustic communication channels in the world and that no modems available back then, provided reliable and robust wireless communications underwater. The team took it as a challenge to understand what makes underwater acoustic communications so difficult and how can they make it better. A decade and multiple projects later, we had a variety of technologies and research platforms such as the Unet II modems, Water Quality Monitoring USVs and UnetStack software framework that repeatedly demonstrated superior performance in local environments.</p>
@@ -44,13 +51,15 @@ excerpt: Subnero provides technology and solutions for underwater communication,
         <p>Subnero was formed out of the desire to make these technologies commercially available to the wider community, so that our customers and partners can build solutions that pushes the boundaries of our knowledge and understanding about the vast oceans of planet Earth, using true heterogenous underwater networks.</p>
     </div>
     <div class='about-text-section'>
-        <h2 align="center"><i class='icon fa fa-users'></i> Our Team</h2>
+        <i class='icon fa fa-users'></i>
+        <h2 align="center"> Our team</h2>
         <div class='about-info'>
         </div>
         <p>We are a team of curious and passionate folks, always looking for new ways to push the limits of today's technology in the realm of underwater wireless networking and in-water sensing.</p>
     </div>
     <div class='about-text-section'>
-        <h2 align="center"><i class='icon fas fa-drafting-compass'></i> Our Technology</h2>
+        <i class='icon fa fa-people-carry'></i>
+        <h2 align="center"> Our works</h2>
         <div class='about-info'>
         </div>
         <p>World leading offerings for underwater communications, networking and in-water sensing.</p>
