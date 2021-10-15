@@ -32,7 +32,7 @@ excerpt: Subnero provides technology and solutions for underwater communication,
 <div class='about-image-container'>
     <img src='{{site.baseurl}}/images/about-image1.jpg' class='about-image-item'>
     <img src='{{site.baseurl}}/images/about-image2.jpg' class='about-image-item'>
-    <img src='{{site.baseurl}}/images/about-image1.jpg' class='about-image-item'>
+    <img src='{{site.baseurl}}/images/about-image3.jpg' class='about-image-item'>
 </div>
 <div class='about-container'>
     <div class='about-text-section'>
@@ -45,7 +45,7 @@ excerpt: Subnero provides technology and solutions for underwater communication,
         <h2 align="center"><i class='icon fa fa-users'></i> Our team</h2>
         <div class='about-info'>
         </div>
-        <p>An exuberant team of electrical, mechanical and software engineers who are driven by innovation, to build the best quality products. The team is forefronted by a skilled and enthusiastic business team.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <div class='about-text-section'>
         <h2 align="center"><i class='icon fa fa-people-carry'></i> Our works</h2>
@@ -57,32 +57,4 @@ excerpt: Subnero provides technology and solutions for underwater communication,
             <a href='{{site.baseurl}}/solutions'><button class='button-outline'>Explore our solutions</button></a>
         </div>
     </div>
-</div>
-<div class='about-image-container'>
-    <img src='{{site.baseurl}}/images/about-image4.jpg' class='about-image-item'>
-    <img src='{{site.baseurl}}/images/about-image5.jpg' class='about-image-item'>
-    <img src='{{site.baseurl}}/images/about-image2.jpg' class='about-image-item'>
-</div>
-<div class='about-container'>
-    <div class='about-text-section'>
-        <h2 align="center"> Our partners</h2>
-        <div class='about-info'>
-        </div>
-        <div class='about-thumbnail-container'>
-            <img src='{{site.baseurl}}/images/about-met.jpg' class='about-thumbnail'>
-            <img src='{{site.baseurl}}/images/about-seabreath.jpg' class='about-thumbnail'>
-            <img src='{{site.baseurl}}/images/about-romor.jpg' class='about-thumbnail'>
-            <img src='{{site.baseurl}}/images/about-smartsea.jpg' class='about-thumbnail'>
-        </div>
-    </div>
-    <div class='about-text-section'>
-        <h2 align="center" class='about-text-highlight'> Our customers</h2>
-        <div class='about-info'>
-        </div>
-    </div>
-</div>
-<div class='about-image-container'>
-    <img src='{{site.baseurl}}/images/customer-map.png' class='about-image-item'>
-    <img src='{{site.baseurl}}/images/customer-map.png' class='about-image-item'>
-    <img src='{{site.baseurl}}/images/customer-map.png' class='about-image-item'>
 </div>
