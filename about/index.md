@@ -55,7 +55,9 @@ excerpt: Subnero provides technology and solutions for underwater communication,
         <h2 align="center"> Our team</h2>
         <div class='about-info'>
         </div>
-        <p>We are a team of curious and passionate folks, always looking for new ways to push the limits of today's technology in the realm of underwater wireless networking and in-water sensing.</p>
+        <p>We are a team of curious and passionate folks, always looking for new ways to push the limits of today's technology in the realm of underwater wireless networking and in-water sensing. We dabble with digital communication techniques for fun and play with unmanned surface vehicles for stress relief. We decorate our christmas trees with colorful PCBs, have religious debates about what programming languages or design techniques are the best (we all have our favorites) and we turn debugging session to hackacthons.</p>
+        <p>We take ownership in everything that we do and are proud of what we do at Subnero. We end our weeks with Friday hacks, plan weekend dive trips and are excited for Monday mornings.</p>
+        <p><span class='about-text-highlight'><a href='{{site.baseurl}}/careers'>Let us know</a></span> if you would like to join our team.</p>
     </div>
     <div class='about-text-section'>
         <i class='icon fa fa-people-carry'></i>
