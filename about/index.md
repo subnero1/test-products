@@ -46,9 +46,9 @@ excerpt: Subnero provides technology and solutions for underwater communication,
         <h2 align="center"> Our journey</h2>
         <div class='about-info'>
         </div>
-        <p>The story of Subnero began in the early 2000s at the Acoustic Research Laboratory (ARL) of National University of Singapore (NUS), when a team of researchers procured acoustic modems to get periodic status updates underwater sensors used their scientific research. They quickly realized that tropical shallow waters around Singapore are some of the most challenging acoustic communication channels in the world and that no modems available back then, provided reliable and robust wireless communications underwater. The team took it as a challenge to understand what makes underwater acoustic communications so difficult and how can they make it better. A decade and multiple projects later, we had a variety of technologies and research platforms such as the Unet II modems, Water Quality Monitoring USVs and UnetStack software framework that repeatedly demonstrated superior performance in local environments.</p>
+        <p>The story of Subnero began in the early 2000s at the Acoustic Research Laboratory (ARL) of National University of Singapore (NUS), when a team of researchers procured acoustic modems to get periodic status updates underwater sensors used their scientific research. They quickly realized that tropical shallow waters around Singapore are some of the most challenging acoustic communication channels in the world and that no modems available back then, provided reliable and robust wireless communications underwater. The team took it as a challenge to understand and overcome the difficulties in underwater acoustic communications. A decade and multiple projects later, we have a variety of technologies and research platforms such as the Unet II modems, Water Quality Monitoring USVs and UnetStack software framework that repeatedly demonstrates superior performance in local environments.</p>
         <br>
-        <p>Subnero was formed out of the desire to make these technologies commercially available to the wider community, so that our customers and partners can build solutions that pushes the boundaries of our knowledge and understanding about the vast oceans of planet Earth, using true heterogenous underwater networks.</p>
+        <p>Subnero was formed out of the desire to make these technologies commercially available to the wider community, so that our customers and partners can build solutions that push the boundaries of our knowledge and understanding about the vast oceans of planet Earth, using true heterogenous underwater networks.</p>
     </div>
     <div class='about-text-section'>
         <i class='icon fa fa-users'></i>
@@ -62,7 +62,7 @@ excerpt: Subnero provides technology and solutions for underwater communication,
         <h2 align="center"> Our works</h2>
         <div class='about-info'>
         </div>
-        <p>World leading offerings for underwater communications, networking and in-water sensing.</p>
+        <p>In today's world, we take connectivity for granted. Technologies like Wifi and GPS has become so ubiquitous that we rarely think about it. Robust wireless communications, networking, and localization are technologies that are the key to unlocking the secrets of the universe, lack of which is why we understand less about our oceans as compared to the Moon or Mars. We intend to change that with our technology and offerings.<p/>
         <div class='about-button-container'>
             <a href='{{site.baseurl}}/products'><button class='button-outline'>Browse our products</button></a>
             <a href='{{site.baseurl}}/solutions'><button class='button-outline'>Explore our solutions</button></a>
