@@ -63,7 +63,7 @@ excerpt: Subnero provides technology and solutions for underwater communication,
         <h2 align="center"> Our works</h2>
         <div class='about-info'>
         </div>
-        <p>In today's world, we take connectivity for granted. Technologies like Wifi and GPS has become so ubiquitous that we rarely think about it. Robust wireless communications, networking, and localization are technologies that are the key to unlocking the secrets of the universe, lack of which is why we understand less about our oceans as compared to the Moon or Mars. We intend to change that with our technology and offerings.<p/>
+        <p>In today's world, we take connectivity for granted. Technologies like Wifi and GPS have become so ubiquitous that we rarely think about them. Robust wireless communications, networking, and localization are key to exploration and expanding our knowledge about the world, lack of which is why we understand less about our oceans as compared to the Moon or Mars. We intend to change that with our technology and offerings.<p/>
         <div class='about-button-container'>
             <a href='{{site.baseurl}}/products'><button class='button-outline'>Browse our products</button></a>
             <a href='{{site.baseurl}}/solutions'><button class='button-outline'>Explore our solutions</button></a>
