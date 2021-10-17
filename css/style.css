@@ -5445,15 +5445,6 @@ ul{
   padding:3em;
 }
 
-.about-text-section{
-  /*width: 60vw;*/
-  text-align: center;
-}
-
-.about-text-section p{
-  font-size:1.4rem;
-}
-
 .about-image-container{
   display:flex;
   justify-content: flex-start;
