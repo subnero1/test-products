@@ -5458,15 +5458,6 @@ ul{
   padding:3em;
 }
 
-.about-text-section{
-  /*width: 60vw;*/
-  text-align: center;
-}
-
-.about-text-section p{
-  font-size:1.4rem;
-}
-
 .about-image-container{
   display:flex;
   justify-content: flex-start;
@@ -5484,34 +5475,4 @@ ul{
 .about-image-item{
   width: 33.3vw;
   height:auto;
-}
-
-.about-thumbnail-container{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.about-thumbnail{
-  width: 200px;
-  height:130px;
-  padding:2em;
-}
-
-.about-text-highlight{
-  color:#E6782F;
-  font-weight:800;
-  margin:0;
-}
-
-h1.about-text-highlight{
-  line-height: 1;
-}
-
-.about-info{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-bottom: 1.5em;
 }
