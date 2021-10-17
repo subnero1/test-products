@@ -59,7 +59,8 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
     </div>
     <div class='spacing'></div>
     <div class='centered-text'>
-        <h2 align="center"><i class='icon fas fa-drafting-compass'></i> Our Technology</h2>
+        <i class='icon fas fa-drafting-compass'></i>
+        <h2 align="center"> Our Technology</h2>
         <p>In today's world, we take connectivity for granted. Technologies like Wifi and GPS have become so ubiquitous that we rarely think about them. Robust wireless communications, networking, and localization are key to exploration and expanding our knowledge about the world, lack of which is why we understand less about our oceans as compared to the Moon or Mars. We intend to change that with our technology and offerings.</p>
         <div class='spacing'></div>
         <div class='about-button-container'>
