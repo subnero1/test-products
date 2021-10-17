@@ -45,21 +45,22 @@ excerpt: Subnero is all about underwater wireless communication, navigation, mon
     <div class='centered-text'>
         <i class='icon fa fa-plane-departure'></i>
         <h2 align="center"> Our journey</h2>
-        <p>The story of Subnero began in the early 2000s at the Acoustic Research Laboratory (ARL) of National University of Singapore (NUS), when a team of researchers procured acoustic modems to get periodic status updates underwater sensors used their scientific research. They quickly realized that tropical shallow waters around Singapore are some of the most challenging acoustic communication channels in the world and that no modems available back then, provided reliable and robust wireless communications underwater. The team took it as a challenge to understand what makes underwater acoustic communications so difficult and how can they make it better. A decade and multiple projects later, we had a variety of technologies and research platforms such as the Unet II modems, Water Quality Monitoring USVs and UnetStack software framework that repeatedly demonstrated superior performance in local environments.</p>
+        <p>The story of Subnero began in the early 2000s at the Acoustic Research Laboratory (ARL) of National University of Singapore (NUS), when a team of researchers procured acoustic modems to get periodic status updates from underwater sensors used in their scientific research. They quickly realized that tropical shallow waters around Singapore are some of the most challenging acoustic communication channels in the world and that no modems available back then, provided reliable and robust wireless communications underwater. The team took it as a challenge to understand and overcome the difficulties in underwater acoustic communications. A decade and multiple projects later, we have a variety of technologies and research platforms such as the Unet II modems, Water Quality Monitoring USVs and UnetStack software framework that repeatedly demonstrates superior performance in local environments.</p>
         <br>
-        <p>Subnero was formed out of the desire to make these technologies commercially available to the wider community, so that our customers and partners can build solutions that pushes the boundaries of our knowledge and understanding about the vast oceans of planet Earth, using true heterogenous underwater networks.</p>
+        <p>Subnero was formed out of the desire to make these technologies commercially available to the wider community, so that our customers and partners can build solutions that push the boundaries of our knowledge and understanding about the vast oceans of planet Earth, using true heterogenous underwater networks.</p>
     </div>
     <div class='spacing'></div>
     <div class='centered-text'>
         <i class='icon fa fa-users'></i>
         <h2 align="center"> Our team</h2>
-        <p>We are a team of curious and passionate folks, always looking for new ways to push the limits of today's technology in the realm of underwater wireless networking and in-water sensing.</p>
+        <p>We are a team of curious and passionate folks, always looking for new ways to push the limits of today's technology in the realm of underwater wireless networking and in-water sensing. We dabble with digital communication techniques for fun, and play with unmanned surface vehicles for stress relief. We decorate our christmas trees with colorful PCBs, have religious debates about what programming languages or design techniques are the best (we all have our favorites) and we turn debugging session to hackacthons.</p>
+        <p>We take ownership in everything that we do and are proud of what we do at Subnero. We end our weeks with Friday hacks, plan weekend dive trips and are excited for Monday mornings.</p>
+        <p><span class='about-text-highlight'><a href='{{site.baseurl}}/careers'>Let us know</a></span> if you would like to join our team.</p>
     </div>
     <div class='spacing'></div>
     <div class='centered-text'>
-        <i class='icon fa fa-people-carry'></i>
-        <h2 align="center"> Our works</h2>
-        <p>World leading offerings for underwater wireless communications, networking and in-water sensing. Our products include underwater acoustic modems for long range and medium range communications</p>
+        <h2 align="center"><i class='icon fas fa-drafting-compass'></i> Our Technology</h2>
+        <p>In today's world, we take connectivity for granted. Technologies like Wifi and GPS have become so ubiquitous that we rarely think about them. Robust wireless communications, networking, and localization are key to exploration and expanding our knowledge about the world, lack of which is why we understand less about our oceans as compared to the Moon or Mars. We intend to change that with our technology and offerings.</p>
         <div class='spacing'></div>
         <div class='about-button-container'>
             <a href='{{site.baseurl}}/products'><button class='button-outline'>Browse our products</button></a>
