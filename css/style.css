@@ -5442,7 +5442,12 @@ ul{
   display:flex;
   justify-content: center;
   flex-wrap:wrap;
-  padding:3em;
+  padding:8em 1em;
+}
+
+.about-heading{
+  width: 100%;
+  text-align: center;
 }
 
 .about-image-container{
@@ -5462,4 +5467,12 @@ ul{
 .about-image-item{
   width: 33.3vw;
   height:auto;
+}
+
+.about-text-padding{
+  padding:1em;
+}
+
+.column-margin{
+  margin:2em;
 }
