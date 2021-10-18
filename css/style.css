@@ -5444,7 +5444,12 @@ ul{
   display:flex;
   justify-content: center;
   flex-wrap:wrap;
-  padding:3em;
+  padding:8em 1em;
+}
+
+.about-heading{
+  width: 100%;
+  text-align: center;
 }
 
 .about-image-container{
@@ -5466,32 +5471,10 @@ ul{
   height:auto;
 }
 
-.about-thumbnail-container{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+.about-text-padding{
+  padding:1em;
 }
 
-.about-thumbnail{
-  width: 200px;
-  height:130px;
-  padding:2em;
-}
-
-.about-text-highlight{
-  color:#E6782F;
-  font-weight:800;
-  margin:0;
-}
-
-h1.about-text-highlight{
-  line-height: 1;
-}
-
-.about-info{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-bottom: 1.5em;
+.column-margin{
+  margin:2em;
 }
