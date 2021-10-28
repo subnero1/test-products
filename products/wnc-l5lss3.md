@@ -10,21 +10,9 @@ section_id: products
 
 ## Silver Edition Standalone Configuration Modem
 
-The silver edition underwater modems also provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
+The silver edition underwater modems provides options for customization and extension at many levels, allowing network protocols as well as physical layer algorithms to be implemented and tested easily.
 
-## Key Features
-
-- Up to 20 km communication range in tropical shallow waters.
-- Up to 100 bps data rate\*.
-- Ranging functionality with 1 m precision.
-- Doppler resilience of ±4 knots or better.
-- Support for arbitrary waveform transmission as well as recording (passband, baseband).
-- Support for user defined communication schemes using [UnetStack]({{ site.baseurl }}{%link products/unet.md %}).
-- Enhanced performance with additional receiving channels.
-
-\* Depending on channel conditions and reliability requirements.
-
-<a href="mailto:sales@subnero.com"><button type="button">GET A QUOTE</button></a>
+<a href="mailto:sales@subnero.com"><button type="button">CONTACT US FOR DETAILS</button></a>
 
 <!-- <div class='full' style='background: #f5f5f5'> -->
   <div class='row bg-white'>
@@ -72,4 +60,3 @@ The silver edition underwater modems also provides options for customization and
 
 <div class='two spacing'></div>
 
-<a href="mailto:sales@subnero.com"><button type="button">CONTACT US FOR DETAILS</button></a>
