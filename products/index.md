@@ -31,19 +31,19 @@ excerpt: Subnero's underwater acoustic modems with UnetStack for underwater wire
                 <a href='{{site.baseurl}}/products/modem.html?&section=L5Lseries'>
                   <button class='button-outline'>L5L series</button>
                 </a>
-                <p>Long range modems</p>
+                <!-- <p>Long range modems</p> -->
               </div>
               <div class='modem-type'>
                 <a href='{{site.baseurl}}/products/modem.html?&section=M25Mseries'>
                   <button class='button-outline'>M25M series</button>
                 </a>
-                <p>Medium range modems</p>                
+                <!-- <p>Medium range modems</p>                 -->
               </div>
               <div class='modem-type'>
                 <a href='{{site.baseurl}}/products/modem.html'>
                   <button class='button-outline'>View all</button>
                 </a>
-                <p>All products</p>                
+                <!-- <p>All products</p>                 -->
               </div>
             </div>
           </div>

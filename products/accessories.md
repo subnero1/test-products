@@ -11,7 +11,7 @@ order: 3
 ---
 
 <h1 class='panel-heading'>Optional Accessories and Upgrades</h1>
-<h2 class='panel-sub-heading'>Enhanced performance</h2>
+<!-- <h2 class='panel-sub-heading'>Enhanced performance</h2> -->
 <div class='grey-container'>
 	<h2 class='edition'>Battery Packs</h2>
 	<ul class="edition-container">

@@ -7,7 +7,7 @@ order: 1
 ---
 
 <h1 class='panel-heading'>L5L SERIES ACOUSTIC MODEMS</h1>
-<h2 class='panel-sub-heading'>Long range communications</h2>
+<!-- <h2 class='panel-sub-heading'>Long range communications</h2> -->
 <div class='grey-container'>
     <h2 class='edition'>Silver Edition</h2>
     <ul class="edition-container">
