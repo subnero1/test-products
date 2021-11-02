@@ -4444,6 +4444,10 @@ p.small-title {
     padding: 0 5em 5em 5em;
   }
 
+  .about-text-section{
+    padding: 0 5em 5em 5em;
+  }
+
 }
 
 /*
@@ -4550,6 +4554,10 @@ p.small-title {
     padding: 0 5em 5em 5em;
   }
 
+  .about-text-section{
+    padding: 0 5em 5em 5em;
+  }
+
 }
 
 /*
@@ -4646,6 +4654,10 @@ p.small-title {
 
 .about-text-section{
     padding: 5em;
+  }
+  
+  .about-text-section{
+    padding: 0 5em 5em 5em;
   }
   
   .about-text-section{
