@@ -14,10 +14,6 @@ The silver edition underwater modems provides options for customization and exte
 
 <a href="mailto:sales@subnero.com"><button type="button">CONTACT US FOR DETAILS</button></a>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 3ce0a36d95a77501828d8f4bdf5db83b45a9f656
 <div class='row bg-white'>
   <div class='large-4 columns'>
     <div class ='media'>
