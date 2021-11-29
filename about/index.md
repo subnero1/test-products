@@ -82,9 +82,9 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
     <div class='large-4 columns bg-grey column-margin'>
         <i class='icon fa fa-quote-left'></i> 
         <div class='modTestimonials centered-text'>
-            <p>As of now, we have 6 of these nodes that will make up an underwater network. One of these will be attached to LoLo and will function as dynamic node in the network. It won't be gigabyte speeds, but being able to communicate anything efficiently and over long distances will be crucial for the future of underwater technology.</p>
-            <h3 class='author'>Maritime Robotic Laboratory LoLoAUV team</h3>
-            <p class='author'>KTH Royal Institute of Technology, Stockholm</p>
+            <p>As of now, we have 6 of these nodes that will make up an underwater network. One of these will be attached to LoLo and will function as a dynamic node in the network. It won't be gigabyte speeds, but being able to communicate anything efficiently and over long distances will be crucial for the future of underwater technology.</p>
+            <h3 class='author'><a href='https://www.linkedin.com/company/maribot-lolo/' target="_blank">LoLoAUV team</a></h3>
+            <p class='author'><a href='https://smarc.se/' target="_blank">Maritime Robotic Laboratory</a>, Stockholm</p>
         </div>
     </div>
     <div class='large-4 columns bg-grey column-margin'>
@@ -92,7 +92,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
         <div class='modTestimonials centered-text'>
             <p>Thank you Subnero for excellent Software-defined underwater acoustic modems! I am so glad to finally see something that can actually run developed software seamlessly on hardware without further modifications.</p>
             <h3 class='author'>Jay Patel</h3>
-            <p class='author'>PhD student, University of Dalhousie</p>
+            <p class='author'>PhD student, <a href='https://www.dal.ca/' target="_blank">University of Dalhousie</a></p>
         </div>            
     </div>
 </div>
