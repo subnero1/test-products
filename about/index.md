@@ -38,6 +38,7 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
         </div>            
     </div>
 </div>
+<div class='three spacing'></div>
 <div class='about-image-container'>
     <img src='{{site.baseurl}}/images/about-image1.jpg' class='about-image-item'>
     <img src='{{site.baseurl}}/images/about-image2.jpg' class='about-image-item'>
@@ -73,3 +74,26 @@ excerpt: Subnero provides underwater wireless communication, navigation, monitor
         <a href='{{site.baseurl}}/solutions'><button class='button-outline'>Explore our solutions</button></a>
     </div>
 </div>
+<div class='about-heading'>
+    <i class='icon fas fa-comments'></i>
+    <h2 align="center"> Our Testimonials</h2>
+</div>
+<div class='about-testimonials'>
+    <div class='large-4 columns bg-grey column-margin'>
+        <i class='icon fa fa-quote-left'></i> 
+        <div class='modTestimonials centered-text'>
+            <p>As of now, we have 6 of these nodes that will make up an underwater network. One of these will be attached to LoLo and will function as dynamic node in the network. It won't be gigabyte speeds, but being able to communicate anything efficiently and over long distances will be crucial for the future of underwater technology.</p>
+            <h3 class='author'>Maritime Robotic Laboratory LoLoAUV team</h3>
+            <p class='author'>KTH Royal Institute of Technology, Stockholm</p>
+        </div>
+    </div>
+    <div class='large-4 columns bg-grey column-margin'>
+        <i class='icon fa fa-quote-left'></i> 
+        <div class='modTestimonials centered-text'>
+            <p>Thank you Subnero for excellent Software-defined underwater acoustic modems! I am so glad to finally see something that can actually run developed software seamlessly on hardware without further modifications.</p>
+            <h3 class='author'>Jay Patel</h3>
+            <p class='author'>PhD student, University of Dalhousie</p>
+        </div>            
+    </div>
+</div>
+<div class='four spacing'></div>

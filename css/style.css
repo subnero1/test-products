@@ -3634,10 +3634,16 @@ body {
 }
 .modTestimonials p.author {
   font-style: italic;
+  font-size:1.1rem;
+  opacity: 0.8;
 }
 .modTestimonials .slick-dots li button:before {
   font-size: 30px;
   top: -40px;
+}
+
+.modTestimonials h3.author{
+  margin-bottom:0;
 }
 
 .modTestimonials.simple {
@@ -5589,7 +5595,7 @@ ul{
   display:flex;
   justify-content: center;
   flex-wrap:wrap;
-  padding:8em 1em;
+  padding:8em 1em 3em 1em;
 }
 
 .about-heading{
@@ -5623,4 +5629,14 @@ ul{
 
 .column-margin{
   margin:2em;
+}
+
+.icon.fa-quote-left{
+  opacity: 0.7;
+}
+
+.about-testimonials{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
 }
