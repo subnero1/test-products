@@ -5747,16 +5747,33 @@ h2.banner-sub-heading{
   margin-top: 15em;
 }
 
-.swan-intro{
+.swan-flex-col{
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+.section-sub-heading{
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.section-sub-heading h2{
+  text-transform: none;
+}
+
+.section-sub-heading i{
+  color:#E6782F;
+  margin-right: 1em;
+  font-size: 2em;
 }
 
 .section-heading{
   text-transform: none;
   text-align: center;
   margin-top: 2em;
+  border-radius: 5px;
 }
 
 .swan-highlight{
@@ -5769,10 +5786,21 @@ h2.banner-sub-heading{
 
 .section-margin{
   margin-top: 6em;
+  padding: 0 2em;
 }
 
 .row-padding-bottom{
   padding-bottom: 3em;
+}
+
+.heading-padding{
+  padding: 0.6em;
+}
+
+.card-content{
+  padding: 1.4em 1.4em 0 1.4em;
+  border-radius: 5px;
+  margin:5em;
 }
 
 .features-row{
@@ -5780,9 +5808,9 @@ h2.banner-sub-heading{
   max-width: 90rem;
 }
 
-.swan-features .media{
+/*.swan-features .media{
   margin-top: 5em;
-}
+}*/
 
 .fa.fa-check{
   color:limegreen;
@@ -5790,16 +5818,15 @@ h2.banner-sub-heading{
   font-size: 1.5rem;
 }
 
-.swan-features .media i, .swan-intro .media i{
+/*.swan-features .media i, .swan-intro .media i{
   color:#E6782F;
   margin-right: 1em;
   font-size: 2em;
-}
-
-.swan-features .media h3{
+}*/
+/*
+.swan-intro .media h2{
   text-transform: none;
-  font-size:1.3em;
-}
+}*/
 
 .orange{
   color:#E6782F;
@@ -5818,7 +5845,7 @@ h2.banner-sub-heading{
 .accordion-container{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 4em 0;
   width: 50%;
 }
@@ -5836,7 +5863,10 @@ h2.banner-sub-heading{
   font-size:2rem;
   font-weight: bold;
   cursor: pointer;
-  color: #E6782F;
+  color: #fff;
+  border-radius: 5px;
+  width: 17.5em;
+  margin: 0 !important;
 }
 
 .accordion-content {
@@ -5844,6 +5874,7 @@ h2.banner-sub-heading{
   padding: 0 1em;
   background: white;
   transition: all 0.35s;
+  width: 35em;
 }
 
 .accordion-content ul{
@@ -5852,6 +5883,7 @@ h2.banner-sub-heading{
 }
 .accordion-content ul li{
   list-style-type: none;
+  font-size: 1.1rem;
 }
 
 .accordion-content ul li::before{
@@ -5866,6 +5898,35 @@ h2.banner-sub-heading{
 
 input:checked ~ .accordion-content {
   max-height: 100vh;
-  padding: 0 1em;
+  padding: 0.5em 1em;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
 }
 /* End of Accordion */
+
+/*.section-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}*/
+
+.row-item{
+  flex:1 1 50%;
+  align-self: center;
+  padding: 4em 3em 5em 0; 
+}
+
+.row-item h2{
+  text-transform: none;
+}
+
+.item-list{
+  list-style: none;
+}
+
+.item-list li{
+  padding:0.8em 2em;
+}
+
+.list-border{
+  border-left: solid 2px #E6782F;
+}
