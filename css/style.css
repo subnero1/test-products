@@ -5370,7 +5370,7 @@ input[type='checkbox']{
 }
 
 .bg-grey{
-  background: #f5f5f5;
+  background: #f5f5f5 !important;
 }
 
 .bg-white{
@@ -5543,6 +5543,9 @@ h2.modem-sub-heading{
   display:none;
 }
 
+#SwanBot:checked ~ .type-container #swan-tab-one,
+#SwanCloud:checked ~ .type-container #swan-tab-two,
+#SwanNode:checked ~ .type-container #swan-tab-three,
 #all-products:checked ~ .type-container #tab-one,
 #L5Lseries:checked ~ .type-container #tab-two,
 #M25Mseries:checked ~ .type-container #tab-three, 
@@ -5550,6 +5553,9 @@ h2.modem-sub-heading{
     border-bottom:2px solid #E6782F;
 }
 
+#SwanBot:checked ~ .tab-panels #swan-panel-one,
+#SwanCloud:checked ~ .tab-panels #swan-panel-two,
+#SwanNode:checked ~ .tab-panels #swan-panel-three,
 #all-products:checked ~ .tab-panels #panel-one,
 #L5Lseries:checked ~ .tab-panels #panel-two,
 #M25Mseries:checked ~ .tab-panels #panel-three, 
@@ -5759,7 +5765,7 @@ h2.banner-sub-heading{
   align-items: baseline;
 }
 
-.section-sub-heading h2{
+.section-sub-heading h2, .section-sub-heading h3{
   text-transform: none;
 }
 
@@ -5777,11 +5783,10 @@ h2.banner-sub-heading{
 }
 
 .swan-highlight{
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-weight: 900;
   font-family: sans-serif;
   color: #333;
-  margin-top: 2em;
 }
 
 .section-margin{
@@ -5808,25 +5813,11 @@ h2.banner-sub-heading{
   max-width: 90rem;
 }
 
-/*.swan-features .media{
-  margin-top: 5em;
-}*/
-
 .fa.fa-check{
-  color:limegreen;
+  color:#E6782F;
   margin-right: 1em;
   font-size: 1.5rem;
 }
-
-/*.swan-features .media i, .swan-intro .media i{
-  color:#E6782F;
-  margin-right: 1em;
-  font-size: 2em;
-}*/
-/*
-.swan-intro .media h2{
-  text-transform: none;
-}*/
 
 .orange{
   color:#E6782F;
@@ -5834,6 +5825,32 @@ h2.banner-sub-heading{
 
 .bg-orange{
   background:#E6782F;
+}
+
+.swan-overlay{
+  background-image: linear-gradient(#000 0%, #000 60%, #000);
+  opacity: 0.4;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.swan-banner-overlay{
+  background-image: linear-gradient(#fff 0%, #fff 60%, #fff);
+  opacity: 0.6;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.swan-position{
+  position: relative;
 }
 
 /* Accordion styles */
@@ -5902,12 +5919,6 @@ input:checked ~ .accordion-content {
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
 }
 /* End of Accordion */
-
-/*.section-row{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}*/
 
 .row-item{
   flex:1 1 50%;

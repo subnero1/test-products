@@ -1,0 +1,13 @@
+swancomponents:
+    - name: SwanBot
+      id: swan-tab-one
+      input_id: SwanBot
+      panel_id: swan-panel-one
+    - name: SwanCloud
+      id: swan-tab-two
+      input_id: SwanCloud
+      panel_id: swan-panel-two
+    - name: SwanNode
+      id: swan-tab-three
+      input_id: SwanNode
+      panel_id: swan-panel-three
