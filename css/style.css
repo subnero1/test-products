@@ -5707,3 +5707,165 @@ ul{
   display: flex;
   justify-content: space-around;
 }
+
+/* SWAN page css */
+
+.full.tall.swan{
+  height:600px;
+  position: relative;
+}
+
+.full.tall.swan::before{
+  background-color: rgba(152, 66, 211, 0.63);
+  position:absolute;
+  /*z-index:0;*/
+  width:100%;
+  top:0;
+  left:0;
+  height:100%;
+}
+
+.banner-text{
+  font-size:3rem;
+  text-transform: none;
+  text-align: center;
+  position: relative;
+}
+
+h1.banner-text{
+  font-size:4rem;
+}
+
+h2.banner-sub-heading{
+  text-transform: none;
+  text-align: center;
+}
+
+.banner-heading{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15em;
+}
+
+.swan-intro{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.section-heading{
+  text-transform: none;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.swan-highlight{
+  font-size: 1.4em;
+  font-weight: 900;
+  font-family: sans-serif;
+  color: #333;
+  margin-top: 2em;
+}
+
+.section-margin{
+  margin-top: 6em;
+}
+
+.row-padding-bottom{
+  padding-bottom: 3em;
+}
+
+.features-row{
+  display: flex;
+  max-width: 90rem;
+}
+
+.swan-features .media{
+  margin-top: 5em;
+}
+
+.fa.fa-check{
+  color:limegreen;
+  margin-right: 1em;
+  font-size: 1.5rem;
+}
+
+.swan-features .media i, .swan-intro .media i{
+  color:#E6782F;
+  margin-right: 1em;
+  font-size: 2em;
+}
+
+.swan-features .media h3{
+  text-transform: none;
+  font-size:1.3em;
+}
+
+.orange{
+  color:#E6782F;
+}
+
+.bg-orange{
+  background:#E6782F;
+}
+
+/* Accordion styles */
+.accordion-row{
+  display: flex;
+  justify-content: center;
+}
+
+.accordion-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 4em 0;
+  width: 50%;
+}
+
+.accordion-tab {
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  font-size:2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #E6782F;
+}
+
+.accordion-content {
+  max-height: 0;
+  padding: 0 1em;
+  background: white;
+  transition: all 0.35s;
+}
+
+.accordion-content ul{
+  margin-bottom: 0 ;
+  line-height: 1.2;
+}
+.accordion-content ul li{
+  list-style-type: none;
+}
+
+.accordion-content ul li::before{
+  content: "\2022";  
+  color: #E6782F; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 0.5em; 
+  font-size:2em;
+  vertical-align: sub;
+}
+
+input:checked ~ .accordion-content {
+  max-height: 100vh;
+  padding: 0 1em;
+}
+/* End of Accordion */
