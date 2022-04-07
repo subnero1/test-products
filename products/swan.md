@@ -37,7 +37,7 @@ tabs: swancomponents
         <div class="accordion-tab">
           <div class="accordion-item">
             <input type="radio" id="rad2" name="radio" hidden>
-            <label class="accordion-label bg-orange" for="rad2">Scalable operations</label>
+            <label class="accordion-label bg-orange" for="rad2">Scalable operations<span class='accordion-icon'></span></label>
             <div class="accordion-content">
               <ul>
                 <li>Fully autonomous water quality monitoring with the SwanBots.</li>
@@ -86,10 +86,10 @@ tabs: swancomponents
     <div class='large-5 columns'>
       <div class='swan-flex-col'>
         <div class='section-sub-heading'>
-          <h2>Remote and real-time monitoring </h2>
+          <h2>Remote and real-time monitoring system</h2>
         </div>
-        <p><i class='fa fa-check orange'></i>Monitoring from the convenience of your office or home.</p>
-        <p><i class='fa fa-check orange'></i>Collect dense datasets in real-time.</p>
+        <p><i class='fa fa-check orange'></i>Remotely monitor data from the convenience of your office or home.</p>
+        <p><i class='fa fa-check orange'></i>Real-time and in-situ data processing along with collection of dense data sets.</p>
       </div>
     </div>
   </div>
@@ -199,7 +199,16 @@ tabs: swancomponents
       {% assign tabs = site.pages | where:"categories","swancomponents" | sort: "order" %}
       {% for page in tabs %}
       <div id='{{page.tab-id}}' class='tab-panel'>
-          {{ page.content }}
+        <div class='bg-grey'>
+          <div class='row row-width section-margin'>
+            <div class='large-6 columns'>
+              {{ page.content }}
+            </div>
+            <div class='large-5 columns'>
+              <img src="{{site.baseurl}}/{{page.thumbnail}}">
+            </div>
+          </div>
+        </div>
       </div>
       {% endfor %}
     </div>
@@ -209,7 +218,7 @@ tabs: swancomponents
 <!-- How it works -->
 <div>
   <div class='row row-padding-bottom'>
-    <h1 class='section-heading'>How it works?</h1>
+    <h1 class='section-heading'>SWAN in action</h1>
   </div>
   <div class='four-spacing'></div>
   <div class='row row-width row-padding-bottom'>
@@ -220,9 +229,9 @@ tabs: swancomponents
       </div>
     </div>
     <div class='large-5 columns'>
-      <div class='swan-flex-col'>
+      <div class='swan-flex-col ml-3'>
         <div class='section-sub-heading'>
-          <h2>Water quality monitoring in 3 simple steps</h2>
+          <h2>Water quality monitoring in 3 simple steps:</h2>
         </div>
         <p>1. <span class='swan-highlight'>Select</span> a mission in SwanViz.</p>
         <p>2. <span class='swan-highlight'>Deploy</span> the SwanBot in water.</p>
@@ -234,7 +243,7 @@ tabs: swancomponents
 <!-- SWAN in the news -->
 <div class='bg-grey'>
   <div class='row'>
-    <h2 class='section-heading'><span class='orange'>SWAN</span> in the news</h2>
+    <h1 class='section-heading'>SWAN in the news</h1>
   </div>
   <div class='row features-row section-margin'>
       {% assign count = 0 %}
