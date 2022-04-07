@@ -3,7 +3,7 @@ layout: page
 title:  SwanCloud
 categories: swancomponents
 tab-id: swan-panel-two
-thumbnail: images/swanviz-ui.png
+thumbnail: images/swancloud.png
 order: 2
 ---
 
@@ -13,7 +13,7 @@ order: 2
     <i class='fa fa-desktop'></i>
       <h3>SwanViz</h3>
   </div>
-  <p>A watertight container that captures water samples of 1 liter capacity at 1-2 selected locations.</p>
+  <p>Web based UI for mission planning and data visualization which is accessible via desktop and mobile. </p>
   <div class='section-sub-heading'>
     <i class='fa fa-brain'></i>
       <h3>Bevy Intelligence</h3>

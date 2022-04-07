@@ -4244,6 +4244,10 @@ p.small-title {
     font-size: 2.5rem;
   }
 
+  .banner-text{
+    font-size: 4rem;
+  }
+
 }
 
 /*
@@ -4346,6 +4350,10 @@ p.small-title {
 
   .quick-link-icons{
     font-size: 2.5rem;
+  }
+
+  .banner-text{
+    font-size: 3.8rem;
   }
 
 }
@@ -4462,6 +4470,10 @@ p.small-title {
     font-size: 2.1rem;
   }
 
+  .banner-text{
+    font-size: 3.5rem;
+  }
+
 }
 
 /*
@@ -4572,6 +4584,10 @@ p.small-title {
     font-size: 2.3rem;
   }
 
+  .banner-text{
+    font-size: 3rem;
+  }
+
 }
 
 /*
@@ -4672,6 +4688,10 @@ p.small-title {
 
   .quick-link-icons{
     font-size: 2.3rem;
+  }
+
+  .banner-text{
+    font-size: 3rem;
   }
 }
 
@@ -4821,6 +4841,10 @@ p.small-title {
 
   .quick-link-icons{
     font-size: 1.8rem;
+  }
+
+  .banner-text{
+    font-size: 2.5rem;
   }
 
 }
@@ -4977,6 +5001,10 @@ p.small-title {
     font-size: 1.8rem;
   }
 
+  .banner-text{
+    font-size: 2.1rem;
+  }
+
 }
 
 /*End of media queries for products page*/
@@ -5082,6 +5110,10 @@ photon-wifi:49*, *:after, *:before {
 
 .row-width{
   max-width: 90rem;
+}
+
+.row-lg-width{
+  max-width: 135rem;
 }
 
 .jumbotron {
@@ -5724,7 +5756,6 @@ ul{
 .full.tall.swan::before{
   background-color: rgba(152, 66, 211, 0.63);
   position:absolute;
-  /*z-index:0;*/
   width:100%;
   top:0;
   left:0;
@@ -5732,17 +5763,12 @@ ul{
 }
 
 .banner-text{
-  font-size:3rem;
   text-transform: none;
   text-align: center;
   position: relative;
 }
 
-h1.banner-text{
-  font-size:4rem;
-}
-
-h2.banner-sub-heading{
+h1.banner-sub-heading, h2.banner-sub-heading{
   text-transform: none;
   text-align: center;
 }
@@ -5750,7 +5776,7 @@ h2.banner-sub-heading{
 .banner-heading{
   display: flex;
   flex-direction: column;
-  margin-top: 15em;
+  margin-top: 12em;
 }
 
 .swan-flex-col{
@@ -5856,14 +5882,13 @@ h2.banner-sub-heading{
 .accordion-row{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .accordion-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 4em 0;
-  width: 50%;
 }
 
 .accordion-tab {
@@ -5881,7 +5906,6 @@ h2.banner-sub-heading{
   cursor: pointer;
   color: #fff;
   border-radius: 5px;
-  width: 17.5em;
   margin: 0 !important;
 }
 
@@ -5895,7 +5919,6 @@ h2.banner-sub-heading{
   padding: 0 1em;
   background: white;
   transition: all 0.35s;
-  width: 35em;
 }
 
 .accordion-content ul{

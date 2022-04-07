@@ -23,5 +23,5 @@ order: 1
   	<i class='fa fa-microchip'></i>
     	<h3>SwanSense</h3>
   </div>
-  <p>Third-party multi-parameter probes for collecting water quality data.</p>
+  <p>Supports integration with third party multi-parameter probes.</p>
 </div>
