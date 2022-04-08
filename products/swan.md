@@ -23,10 +23,10 @@ tabs: swancomponents
 <div class='four spacing'></div>
 <div class='row row-width row-padding-bottom'>
     <div class='large-12 columns swan-flex-col'>
-      <p>The Subnero Water Assessment Network (<span class='swan-highlight'>SWAN</span>) is a network of smart surface robots called the SwanBots, that automates the overall process of water quality monitoring. The network provides real-time monitoring and analysis of water quality data along with the ability to monitor water quality at depth and can span across diverse assets, including SwanBots, sensor nodes, and data analytics systems.</p>
+      <p>The Subnero Water Assessment Network (<span class='swan-highlight'>SWAN</span>) is a network of smart surface robots called the SwanBots, that automates the overall process of water quality monitoring. The network provides real-time monitoring and analysis of water quality at various depths along with the ability to collect water samples and can span across diverse assets, including SwanBots, sensor nodes, and data analytics systems.</p>
       <p>Let’s take a look at how <span class='swan-highlight'>SWAN</span> solves today’s challenges in water quality monitoring.</p>
-      <div class="flex-video video">
-        <iframe src="https://www.youtube.com/embed/kNGR6LmSVwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="flex-video">
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/kNGR6LmSVwE?list=PLnqY-RltGuGXQuOxIvyBLoF-4W1dcZl5S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">GET A QUOTE</button></a>
     </div>
@@ -37,11 +37,11 @@ tabs: swancomponents
         <div class="accordion-tab">
           <div class="accordion-item bg-orange">
             <input type="radio" id="rad2" name="radio" hidden>
-            <label class="accordion-label" for="rad2">Scalable operations<span class='accordion-icon'></span></label>
+            <label class="accordion-label" for="rad2">Dense datasets in real-time<span class='accordion-icon'></span></label>
             <div class="accordion-content">
               <ul>
-                <li>Fully autonomous water quality monitoring with the SwanBots.</li>
-                <li>Simultaneous coverage over large areas with multiple SwanBots using Bevy Intelligence.</li>
+                <li>Large datasets enable advanced data analytics methods for preventive controls.</li>
+                <li>Faster identification of hotspots leads to quicker response times on tackling potential issues.</li>
               </ul>
             </div>
           </div>
@@ -52,7 +52,7 @@ tabs: swancomponents
             <label class="accordion-label" for="rad1">Safe and sustainable</label>
             <div class="accordion-content">
               <ul>
-                <li>Deployable in adverse conditions, such as wastewater and poor weather.</li>
+                <li>Simultaneous coverage over large areas using networked operations powered by SWAN's Bevy Intelligence.</li>
                 <li>Carbon-free and eco-friendly. Runs on rechargeable batteries.</li>
               </ul>
             </div>
@@ -76,41 +76,7 @@ tabs: swancomponents
       </div>
   </div>
 </div>
-<!-- Features -->
-<div>
-  <div class='four-spacing'></div>
-  <div class='row row-lg-width section-margin'>
-    <div class='large-6 columns'>
-      <img src='{{site.baseurl}}/images/swan-remote.png'>
-    </div>
-    <div class='large-5 columns section-margin'>
-      <div class='swan-flex-col section-margin'>
-        <div class='section-sub-heading'>
-          <h2>Remote and real-time monitoring system</h2>
-        </div>
-        <p><i class='fa fa-check orange'></i>Remotely monitor data from the convenience of your office or home.</p>
-        <p><i class='fa fa-check orange'></i>Real-time and in-situ data processing along with collection of dense data sets.</p>
-      </div>
-    </div>
-  </div>
-  <div class='row row-lg-width section-margin row-padding-bottom'>
-    <div class='large-5 columns section-margin'>
-      <div class='swan-flex-col section-margin'>
-        <div class='section-sub-heading'>
-          <h2>Advance data analytics and mission control</h2>
-        </div>
-        <p><i class='fa fa-check orange'></i>View data and mission progress on a cloud-based web interface.</p>
-        <p><i class='fa fa-check orange'></i>Perform trend analysis using a range of visualization tools.</p>
-        <p><i class='fa fa-check orange'></i>Export data in multiple formats such as CSV, PNG and SVG for advanced data analysis.</p>
-      </div>
-    </div>
-    <div class='large-6 columns'>
-      <img src='{{site.baseurl}}/images/swan-remote.png'>
-    </div>
-  </div>
-</div> 
 <!-- Common problems -->
-<div class='bg-grey'>
   <div class='row accordion-row row-width'>
     <div class='row-item'>
       <div class='large-12 columns'>
@@ -126,54 +92,59 @@ tabs: swancomponents
       </ul>
     </div>
   </div>
-</div>
 <!-- Applications -->
-<div>
-  <div class='row'>
+<div class='bg-grey'>
+  <div class='row row-padding-bottom'>
     <h1 class='section-heading'>Applications of SWAN</h1>
   </div>
-  <div class='row row-width row-padding-bottom'>
-    <div class='large-4 columns swan-flex-col row-width section-margin'>
+  <div class='container row row-width row-padding-bottom'>
+    <div class='large-4 columns swan-flex-col row-width'>
       <div class='section-sub-heading'>
         <i class='fab fa-watchman-monitoring'></i>
         <h2>Water quality monitoring</h2>
       </div>
-      <p><span class='swan-highlight'>SWAN</span> performs autonomous navigation and in-situ monitoring of critical water parameters, which simplifies the monitoring of large and remote water bodies.</p>
+      <p class='auto-margin'>Critical water parameters in large and remote water bodies can be monitored continuously and in real-time, without the need for human intervention.</p>
     </div>
-    <div class='large-4 columns swan-flex-col row-width section-margin'>
+    <div class='large-4 columns swan-flex-col row-width'>
       <div class='section-sub-heading'>
         <i class='fa fa-search-location'></i>
         <h2>Hotspot detection</h2>
       </div>
-      <p>Problematic areas in the water can be identified quickly and alerted to the user in real-time, in the form of notifications and visualized data on the UI.</p>
+      <p class='auto-margin'>Problematic areas of the water body can be identified and alerted to the user quickly, in the form of notifications or heatmaps on the UI.</p>
     </div>
-    <div class='large-4 columns swan-flex-col row-width section-margin'>
+    <div class='large-4 columns swan-flex-col row-width'>
       <div class='section-sub-heading'>
         <i class='fa fa-binoculars'></i>
         <h2>Remote surveillance</h2>
       </div>
-      <p>Images captured by the HD camera onboard the SwanBot are available in real-time on the UI for remote surveillance or inspection of water bodies.</p>      
+      <p class='auto-margin'>Images captured by the SwanBot’s camera are available in real-time to the user, making it perfect for surveillance of wildlife or suspicious activities.</p>      
     </div>
     <div class='four-spacing'></div>
   </div>
 </div>
 <!-- Safer environments -->
-<div style='background-image: url({{site.baseurl}}/images/swan-safer-env.jpg);' class='swan-position'>
-  <div class="swan-overlay"></div>
-  <div class='row accordion-row swan-position'>
-    <h1 class='section-heading bg-white heading-padding'>Safer environments with SWAN</h1>
-  </div>
-  <div class='row row-width row-padding-bottom'>
-    <div class='large-6 columns'>
-      <div class='swan-flex-col bg-white card-content'>
-        <p>The amount of dissolved oxygen in water has to maintain certain levels as it has an immense impact on aquatic life.</p>
-        <p class='content-padding'><span class='swan-highlight'>SWAN</span> can generate alerts based on user settings, which notifies the user when dissolved oxygen levels go beyond a threshold value, for corrective measures to be taken in time.</p>
+<div class='row row-width'>
+  <div class='large-12 columns'>
+    <div class='swan-position' style='background-image: url({{site.baseurl}}/images/swan-safer-env.jpg);'>
+      <div class="swan-overlay"></div>
+      <div class='row accordion-row swan-position'>
+        <h1 class='section-heading bg-white heading-padding'>Safer environments with SWAN</h1>
       </div>
-    </div>
-    <div class='large-6 columns'>
-      <div class='swan-flex-col bg-white card-content'>
-        <p>Algae is a growing concern worldwide and a blue green algae outbreak can have a prolonged impact on the local water supply and leisure activies.</p>
-        <p><span class='swan-highlight'>SWAN</span> can predict the onset of algae blooms by monitoring chlorophyll-a and blue green algae levels, while providing historical data for trend analysis.</p>
+      <div class='row row-width row-padding-bottom'>
+        <div class='large-6 columns'>
+          <div class='swan-flex-col bg-white card-content'>
+            <h2> Monitoring dissolved oxygen</h2>
+            <p>The amount of dissolved oxygen in water has to maintain certain levels as it has an immense impact on aquatic life.</p>
+            <p class='content-padding'><span class='swan-highlight'>SWAN</span> generate alerts based on user settings, which notifies the user when dissolved oxygen levels go beyond a threshold value, for corrective measures to be taken in time.</p>
+          </div>
+        </div>
+        <div class='large-6 columns'>
+          <div class='swan-flex-col bg-white card-content'>
+            <h2> Monitoring blue green algae</h2>
+            <p>Algae is a growing concern worldwide. An outbreak in blue green algae can cause a prolonged, damaging impact on local water supplies and leisure activies.</p>
+            <p><span class='swan-highlight'>SWAN</span> helps to predict the onset of algae blooms by monitoring chlorophyll-a and blue green algae levels, while providing historical data for trend analysis.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -191,15 +162,14 @@ tabs: swancomponents
       {% endif %}
   <input id="{{ item.input_id }}" name='tab-control' type='radio' class='radio' {{checked}}>
   {% endfor %}
-  <div class='row row-width'>
-    <div class='type-container bg-grey'>
+    <div class='row row-width type-container bg-grey'>
       {% for item in site.data.swan-tabs[page.tabs] %}
           <label class='type-item' id="{{ item.id }}" for="{{ item.input_id }}">{{ item.name }}</label>
       {% endfor %}
     </div>
-  </div>
   <div class="tab-panels">
     <div class='row features-row'>
+      <div class='large-12 columns'>
       {% assign tabs = site.pages | where:"categories","swancomponents" | sort: "order" %}
       {% for page in tabs %}
       <div id='{{page.tab-id}}' class='tab-panel'>
@@ -216,6 +186,7 @@ tabs: swancomponents
       </div>
       {% endfor %}
     </div>
+    </div>
   </div>
 </div>
 {%- include radio-select.html -%}
@@ -226,41 +197,22 @@ tabs: swancomponents
   </div>
   <div class='four-spacing'></div>
   <div class='row row-width row-padding-bottom'>
-    <div class='large-7 columns'>
+    <div class='large-12 columns'>
+      <div class='swan-flex-col ml-3'>
+        <div class='section-sub-heading'>
+          <h2>Water quality monitoring in 3 simple steps:</h2>
+        </div>
+        <p>1. <span class='swan-highlight'>Select</span> a mission.</p>
+        <p>2. <span class='swan-highlight'>Deploy</span> the SwanBot.</p>
+        <p>3. <span class='swan-highlight'>Start</span> the mission.</p>
+      </div>
+    </div>
+    <div class='large-12 columns'>
       <div class="flex-video">
         <iframe src="https://www.youtube.com/embed/D9lNpEeCdII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
       </div>
     </div>
-    <div class='large-5 columns'>
-      <div class='swan-flex-col ml-3'>
-        <div class='section-sub-heading'>
-          <h2>Water quality monitoring in 3 simple steps:</h2>
-        </div>
-        <p>1. <span class='swan-highlight'>Select</span> a mission in SwanViz.</p>
-        <p>2. <span class='swan-highlight'>Deploy</span> the SwanBot in water.</p>
-        <p>3. <span class='swan-highlight'>Start</span> the mission in SwanViz.</p>
-      </div>
-    </div>
-  </div>
-  <div class='row row-width row-padding-bottom'>
-    <div class='large-12 columns'>
-    <div class='wrap-collapsible section-sub-heading'>
-      <h2>Brochures</h2>
-      <input id ='compatibility' class='toggle' type='checkbox'>
-      <label class='lbl-toggle' for='compatibility'></label>
-      <div class='collapsible-content'>
-        <div class="brochure-container">
-          <a href="{{site.baseurl}}/brochures/SWAN_Brochure.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swan_brochure.png"></a>
-          <a href="{{site.baseurl}}/brochures/SWAN_Brochure.pdf" target="_blank">Subnero Water Assessment Network (SWAN)</a>
-        </div>
-        <div class="brochure-container">
-          <a href="{{site.baseurl}}/brochures/SWAN-White-paper.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/white-paper.jpg"></a>
-          <a href="{{site.baseurl}}/brochures/SWAN-White-paper.pdf" target="_blank">Subnero Water Assessment Network (SWAN) White Paper</a>
-        </div>
-      </div>
-    </div>
-  </div>
   </div>
 </div>
 <!-- SWAN in the news -->
@@ -305,11 +257,24 @@ tabs: swancomponents
   <div class='row accordion-row row-padding-bottom'>
     <div class='media'>
       <div class='modem-type'>
-      <a href='{{site.baseurl}}/pulse'><button class='button-outline'>View related articles</button></a>
+      <a href='{{site.baseurl}}/pulse'><button class='button-outline'>Related articles</button></a>
     </div>
     <div class='modem-type'>
-      <a href='https://www.youtube.com/watch?v=612MNtANjmQ&list=PLnqY-RltGuGXQuOxIvyBLoF-4W1dcZl5S' target="_blank"><button class='button-outline'>Watch our videos</button></a>
+      <a href='https://www.youtube.com/watch?v=612MNtANjmQ&list=PLnqY-RltGuGXQuOxIvyBLoF-4W1dcZl5S' target="_blank"><button class='button-outline'>More videos</button></a>
     </div>
+    </div>
+  </div>
+  <div class='row row-width row-padding-bottom'>
+    <div class='large-12 columns swan-flex-col'>
+      <h2>Brochures</h2>
+      <div class="brochure-container">
+        <a href="{{site.baseurl}}/brochures/SWAN_Brochure.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/swan_brochure.png"></a>
+        <a href="{{site.baseurl}}/brochures/SWAN_Brochure.pdf" target="_blank">Subnero Water Assessment Network (SWAN)</a>
+      </div>
+      <div class="brochure-container">
+        <a href="{{site.baseurl}}/brochures/SWAN-White-paper.pdf" target="_blank"><img class="brochure-thumb" src="{{site.baseurl}}/brochures/white-paper.jpg"></a>
+        <a href="{{site.baseurl}}/brochures/SWAN-White-paper.pdf" target="_blank">Subnero Water Assessment Network (SWAN) White Paper</a>
+      </div>
     </div>
   </div>
 </div>
