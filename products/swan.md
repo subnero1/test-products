@@ -25,7 +25,7 @@ tabs: swancomponents
     <div class='large-12 columns swan-flex-col'>
       <p>The Subnero Water Assessment Network (<span class='swan-highlight'>SWAN</span>) is a network of smart surface robots called the SwanBots, that automates the overall process of water quality monitoring. The network provides real-time monitoring and analysis of water quality at various depths along with the ability to collect water samples and can span across diverse assets, including SwanBots, sensor nodes, and data analytics systems.</p>
       <p>Let’s take a look at how <span class='swan-highlight'>SWAN</span> solves today’s challenges in water quality monitoring.</p>
-      <div class="flex-video">
+      <div class="flex-video swan-video">
         <iframe width="1280" height="720" src="https://www.youtube.com/embed/kNGR6LmSVwE?list=PLnqY-RltGuGXQuOxIvyBLoF-4W1dcZl5S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <a href="mailto:sales@subnero.com" class='centered-text hOXnHC'><button class="button-outline">GET A QUOTE</button></a>
@@ -71,7 +71,7 @@ tabs: swancomponents
           </div>
         </div>
       </div>
-      <div class='large-6 columns accordion-container'>
+      <div class='large-6 columns container'>
         <img src='{{site.baseurl}}/images/swan-sustainable.png'>
       </div>
   </div>
@@ -198,7 +198,7 @@ tabs: swancomponents
   <div class='four-spacing'></div>
   <div class='row row-width row-padding-bottom'>
     <div class='large-12 columns'>
-      <div class='swan-flex-col ml-3'>
+      <div class='swan-flex-col row-padding-bottom'>
         <div class='section-sub-heading'>
           <h2>Water quality monitoring in 3 simple steps:</h2>
         </div>
@@ -208,9 +208,8 @@ tabs: swancomponents
       </div>
     </div>
     <div class='large-12 columns'>
-      <div class="flex-video">
-        <iframe src="https://www.youtube.com/embed/D9lNpEeCdII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+      <div class="flex-video swan-video">
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/D9lNpEeCdII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
