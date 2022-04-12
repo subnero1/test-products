@@ -5749,7 +5749,7 @@ ul{
 /* SWAN page css */
 
 .full.tall.swan{
-  height:600px;
+  height:700px;
   position: relative;
 }
 
@@ -5832,9 +5832,14 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   margin:5em 3.5em 2em;
 }
 
+.card-content h2{
+  border-bottom: 2px solid #E6782F;
+}
+
 .features-row{
   display: flex;
   max-width: 90rem;
+  margin-bottom: 1em;
 }
 
 .fa.fa-check{
@@ -5882,7 +5887,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 }
 
 .swan-video{
-  padding-bottom: 50%;
+  padding-bottom: 55%;
 }
 
 /* Accordion styles */
@@ -5896,13 +5901,17 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 7em 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
-.accordion-tab {
-  margin: 10px 0;
-  border-radius: 5px;
-  overflow: hidden;
+.accordion-tab{
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-img{
+  padding-left: 0;
 }
 
 .accordion-label {
@@ -5912,34 +5921,30 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   font-size:2rem;
   font-weight: bold;
   cursor: pointer;
-  color: #fff;
+  color: #333;
   border-radius: 5px;
   margin: 0 !important;
 }
 
-.accordion-icon{
-  content:'/f105';
-  float: left;
-}
-
 .accordion-content {
-  max-height: 0;
-  padding: 0 1em;
-  background: white;
+  padding: 1em;
+  height: 10em;
   transition: all 0.35s;
 }
 
 .accordion-content ul{
-  margin-bottom: 0 ;
-  line-height: 1.2;
+  margin: 0 ;
+  line-height: 1;
 }
+
 .accordion-content ul li{
   list-style-type: none;
+  color:#fff;
 }
 
 .accordion-content ul li::before{
   content: "\2022";  
-  color: #E6782F; 
+  color: #fff; 
   font-weight: bold; 
   display: inline-block; 
   width: 0.5em; 
@@ -5947,17 +5952,36 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   vertical-align: sub;
 }
 
-input:checked ~ .accordion-content {
-  max-height: 100vh;
-  padding: 0.5em 1em;
-  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
+.accordion-content div{
+  display: none;
 }
+
+.accordion-label:hover, .accordion-label:checked, 
+.accordion-tab > input.rad1:checked + .accordion-label,
+.accordion-tab > input.rad2:checked + .accordion-label,
+.accordion-tab > input.rad3:checked + .accordion-label{
+  color:#fff;
+}
+
+.accordion-tab > input.rad1:checked ~ .accordion-content .content-1,
+.accordion-tab > input.rad2:checked ~ .accordion-content .content-2,
+.accordion-tab > input.rad3:checked ~ .accordion-content .content-3{
+  display: block;
+}
+
+.accordion-container .accordion-tab > input.rad1:checked + .accordion-img .img-1,
+.accordion-container .accordion-tab > input.rad2:checked + .accordion-img .img-2,
+.accordion-container .accordion-tab > input.rad3:checked + .accordion-img .img-3{
+  display: block;
+}
+
 /* End of Accordion */
 
 .row-item{
   flex:1 1 50%;
   align-self: center;
   padding: 4em 3em 5em 0; 
+  margin:2em 0;
 }
 
 .row-item h2{
@@ -5966,6 +5990,7 @@ input:checked ~ .accordion-content {
 
 .item-list{
   list-style: none;
+  margin-bottom: 0;
 }
 
 .item-list li{
