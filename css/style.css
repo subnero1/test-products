@@ -5857,19 +5857,8 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 }
 
 .swan-overlay{
-  background-image: linear-gradient(#000 0%, #000 60%, #000);
-  opacity: 0.4;
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 100%;
-}
-
-.swan-banner-overlay{
   background-image: linear-gradient(#fff 0%, #fff 60%, #fff);
-  opacity: 0.6;
+  opacity: 0.5;
   position: absolute;
   z-index: 0;
   width: 100%;
@@ -5901,34 +5890,36 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 0;
-  padding-left: 0;
+  height: 100%;
 }
 
 .accordion-tab{
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .accordion-img{
   padding-left: 0;
+  padding-right: 0;
 }
 
 .accordion-label {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5em;
-  font-size:2rem;
+  padding: 0.7em;
+  font-size:2.2rem;
   font-weight: bold;
   cursor: pointer;
-  color: #333;
+  color: #E6782F;
   border-radius: 5px;
-  margin: 0 !important;
+  margin-top: 1em;
+  background: #fff;
+  width: 75%;
+  box-shadow:0 4px 15px 0 rgb(0 0 0 / 10%);
 }
 
 .accordion-content {
-  padding: 1em;
-  height: 10em;
+  padding-top: 2.5em;
+  height: 13em;
   transition: all 0.35s;
 }
 
@@ -5939,12 +5930,12 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 
 .accordion-content ul li{
   list-style-type: none;
-  color:#fff;
+  color:#777;
 }
 
 .accordion-content ul li::before{
   content: "\2022";  
-  color: #fff; 
+  color: #777; 
   font-weight: bold; 
   display: inline-block; 
   width: 0.5em; 
@@ -5961,6 +5952,7 @@ h1.banner-sub-heading, h2.banner-sub-heading{
 .accordion-tab > input.rad2:checked + .accordion-label,
 .accordion-tab > input.rad3:checked + .accordion-label{
   color:#fff;
+  background: #e6782f;
 }
 
 .accordion-tab > input.rad1:checked ~ .accordion-content .content-1,
@@ -5969,19 +5961,12 @@ h1.banner-sub-heading, h2.banner-sub-heading{
   display: block;
 }
 
-.accordion-container .accordion-tab > input.rad1:checked + .accordion-img .img-1,
-.accordion-container .accordion-tab > input.rad2:checked + .accordion-img .img-2,
-.accordion-container .accordion-tab > input.rad3:checked + .accordion-img .img-3{
-  display: block;
-}
-
 /* End of Accordion */
 
 .row-item{
   flex:1 1 50%;
   align-self: center;
-  padding: 4em 3em 5em 0; 
-  margin:2em 0;
+  padding: 2em 0; 
 }
 
 .row-item h2{

@@ -10,7 +10,7 @@ tabs: swancomponents
 ---
 
 <div class='full tall swan' style='background-image: url({{site.baseurl}}/{{page.banner}});'>
-  <div class='swan-banner-overlay'></div>
+  <div class='swan-overlay'></div>
     <div class='large-12 columns'>
       <h1 class='banner-sub-heading'>Smart monitoring of the world's most precious resource.</h1>
       <div class='banner-heading'>
@@ -23,7 +23,7 @@ tabs: swancomponents
 <div class='four spacing'></div>
 <div class='row row-width row-padding-bottom'>
   <div class='large-12 columns swan-flex-col row-padding-bottom'>
-    <h2 class='centered-text'>Automated water quality monitoring with smart surface robots</h2>
+    <h2 class='centered-text'>Autonomous water quality monitoring with smart surface robots</h2>
   </div>
   <div class='large-4 columns swan-flex-col'>
     <p>The Subnero Water Assessment Network (<span class='swan-highlight'>SWAN</span>) is a network that provides real-time monitoring and analysis of water quality at various depths along with the ability to collect water samples and can span across diverse assets, including SwanBots, sensor nodes, and data analytics systems.</p>
@@ -39,59 +39,64 @@ tabs: swancomponents
   </div>
 </div>
 <div class='bg-grey'>
-  <div class='row accordion-row row-width'>
-      <div class='large-6 columns accordion-container bg-orange'>
-        <div class='accordion-tab'>
-          <input type="radio" id="rad1" class='rad1' name="radio" hidden checked>
-          <label class="accordion-label" for="rad1">Dense datasets in real-time</label>
-          <input type="radio" id="rad2" class='rad2' name="radio" hidden>
-          <label class="accordion-label" for="rad2">Safe and sustainable</label>
-          <input type="radio" id="rad3" class='rad3' name="radio" hidden>
-          <label class="accordion-label" for="rad3">High cost savings</label>
-          <div class="accordion-content bg-orange">
-            <div class='content-1'>
-              <ul>
-                <li>Large datasets enable advanced data analytics methods for preventive controls.</li>
-                <li>Faster identification of hotspots leads to quicker response times on tackling potential issues.</li>
-              </ul>
-            </div>
-            <div class='content-2'>
-              <ul>
-                <li>Simultaneous coverage over large areas using networked operations powered by SWAN's Bevy Intelligence.</li>
-                <li>Carbon-free and eco-friendly. Runs on rechargeable batteries.</li>
-              </ul>
-            </div>
-            <div class='content-3'>
-              <ul>
-                <li>Minimal need for human intervention.</li>
-                <li>Up to 10x cost savings per sample.</li>
-              </ul>
+  <div class='accordion-row'>
+      <div class='large-1 columns'></div>
+      <div class='large-5 columns'>
+        <div class='accordion-container'>
+          <div class='accordion-tab'>
+            <input type="radio" id="rad1" class='rad1' name="radio" hidden checked>
+            <label class="accordion-label" for="rad1">Dense datasets in real-time</label>
+            <input type="radio" id="rad2" class='rad2' name="radio" hidden>
+            <label class="accordion-label" for="rad2">Safe and sustainable</label>
+            <input type="radio" id="rad3" class='rad3' name="radio" hidden>
+            <label class="accordion-label" for="rad3">High cost savings</label>
+            <div class="accordion-content">
+              <div class='content-1'>
+                <ul>
+                  <li>Large datasets enable advanced data analytics methods for preventive controls.</li>
+                  <li>Faster identification of hotspots leads to quicker response times on tackling potential issues.</li>
+                </ul>
+              </div>
+              <div class='content-2'>
+                <ul>
+                  <li>Simultaneous coverage over large areas using networked operations powered by SWAN's Bevy Intelligence.</li>
+                  <li>Carbon-free and eco-friendly. Runs on rechargeable batteries.</li>
+                </ul>
+              </div>
+              <div class='content-3'>
+                <ul>
+                  <li>Minimal need for human intervention.</li>
+                  <li>Up to 10x cost savings per sample.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class='large-6 columns container accordion-img'>
-        <img src='{{site.baseurl}}/images/swan-sustainable.png'>
+        <img src='{{site.baseurl}}/images/swan-sustainable.jpg'>
       </div>
+    <!-- </div> -->
   </div>
 </div>
 <!-- Common problems -->
-  <div class='row accordion-row row-width'>
-    <div class='row-item'>
-      <div class='large-12 columns'>
-        <h2>Common problems with traditional methods of water sampling</h2>
-        </div>
-    </div>
-    <div class='row-item'>
-      <ul class='item-list list-border'>
-        <li>Labour-intensive</li>
-        <li>Lacks in-field data processing capability</li>
-        <li>Lacks real-time monitoring</li>
-        <li>Insufficient data for trend analysis</li>
-        <li>Costly operations</li>
-      </ul>
-    </div>
+<div class='row-padding-bottom'></div>
+<div class='row accordion-row row-width row-padding-bottom'>
+  <div class='large-6 columns'>
+    <div class='accordion-container row-item'>
+      <h2>Common problems with traditional methods of water sampling</h2>
+      </div>
   </div>
+  <div class='row-item '>
+    <ul class='item-list list-border'>
+      <li>Labour-intensive</li>
+      <li>Lacks in-field data processing capability</li>
+      <li>Lacks real-time monitoring</li>
+      <li>Insufficient data for trend analysis</li>
+      <li>Costly operations</li>
+    </ul>
+  </div>
+</div>
 <!-- Applications -->
 <div class='bg-grey'>
   <div class='row row-padding-bottom'>
@@ -119,8 +124,8 @@ tabs: swancomponents
       </div>
       <p class='auto-margin'>Images captured by the SwanBot’s camera are available in real-time to the user, making it perfect for surveillance of wildlife or suspicious activities.</p>      
     </div>
-    <div class='four-spacing'></div>
   </div>
+  <div class='row-padding-bottom'></div>
 </div>
 <!-- Safer environments -->
 <div style='background-image: url({{site.baseurl}}/images/swan-safer-env.jpg);'>
@@ -211,6 +216,7 @@ tabs: swancomponents
       </div>
     </div>
   </div>
+  <div class='row-padding-bottom'></div>
 </div>
 <!-- SWAN in the news -->
 <div class='bg-grey'>
@@ -266,13 +272,13 @@ tabs: swancomponents
       <h2>Brochures</h2>
       <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/SWAN_Brochure.pdf" target="_blank" class='brochure-margin'>
-          <img class="brochure-thumb-small" src="{{site.baseurl}}/brochures/swan_brochure.png">
+          <img class="brochure-thumb" src="{{site.baseurl}}/brochures/swan_brochure.jpg">
         </a>
         <a href="{{site.baseurl}}/brochures/SWAN_Brochure.pdf" target="_blank">Subnero Water Assessment Network (SWAN)</a>
       </div>
       <div class="brochure-container">
         <a href="{{site.baseurl}}/brochures/SWAN-White-paper.pdf" target="_blank" class='brochure-margin'>
-          <img class="brochure-thumb-small" src="{{site.baseurl}}/brochures/white-paper.jpg">
+          <img class="brochure-thumb" src="{{site.baseurl}}/brochures/white-paper.jpg">
         </a>
         <a href="{{site.baseurl}}/brochures/SWAN-White-paper.pdf" target="_blank">Subnero Water Assessment Network (SWAN) White Paper</a>
       </div>
