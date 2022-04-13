@@ -179,7 +179,16 @@ tabs: swancomponents
         <div class='bg-grey'>
           <div class='row row-width section-margin'>
             <div class='large-6 columns'>
-              {{ page.content }}
+              <div class='swan-flex-col'>
+                <p> {{ page.intro }}</p>
+                {% for section in page.sections %}
+                <div class='section-sub-heading'>
+                  <i class='{{ section.icon }}'></i>
+                    <h3>{{section.name}}</h3>
+                </div>
+                <p>{{section.description}}</p>
+                {% endfor %}
+              </div>
             </div>
             <div class='large-5 columns'>
               <img src="{{site.baseurl}}/{{page.thumbnail}}">
