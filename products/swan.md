@@ -182,7 +182,7 @@ tabs: swancomponents
                 <p> {{ item.introduction }}</p>
                 {% for section in item.sections %}
                 <div class='section-sub-heading'>
-                  <i class='{{ section.icon }}'></i>
+                  <i class='fa fa-{{ section.icon }}'></i>
                     <h3>{{section.name}}</h3>
                 </div>
                 <p>{{section.description}}</p>
