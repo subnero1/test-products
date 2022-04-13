@@ -16,7 +16,7 @@ tabs: swancomponents
       <div class='banner-heading'>
         <h1 class='banner-text'>
           <span class='orange'>S</span>ubnero <span class='orange'>W</span>ater <span class='orange'>A</span>ssessment <span class='orange'>N</span>etwork</h1>
-        <h2 class='banner-sub-heading'>Redefine water quality monitoring.</h2>
+        <h2 class='banner-sub-heading'>Redefines water quality monitoring.</h2>
       </div>
     </div>
 </div>

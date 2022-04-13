@@ -23,5 +23,5 @@ order: 1
   	<i class='fa fa-microchip'></i>
     	<h3>SwanSense</h3>
   </div>
-  <p>Third party industry-standard probes which can be integrated to the system for monitoring multiple parameters.</p>
+  <p>Third party industry-standard that which can be integrated to the system for monitoring multiple parameters.</p>
 </div>
