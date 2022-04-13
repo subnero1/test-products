@@ -190,7 +190,7 @@ tabs: swancomponents
               </div>
             </div>
             <div class='large-5 columns'>
-              <img src="{{site.baseurl}}/{{page.thumbnail}}">
+              <img src="{{site.baseurl}}/{{item.thumbnail}}">
             </div>
           </div>
         </div>

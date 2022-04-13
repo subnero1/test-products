@@ -2,6 +2,7 @@
   id: swan-tab-one
   input_id: SwanBot
   panel_id: swan-panel-one
+  thumbnail: images/swanbot.png
   order: 1
   introduction: A portable Unmanned Surface Vessel (USV) that navigates the water surface for real-time data collection. A SwanBot is equipped with the following.
   sections:
@@ -18,6 +19,7 @@
   id: swan-tab-two
   input_id: SwanCloud
   panel_id: swan-panel-two
+  thumbnail: images/swancloud.png
   order: 2
   introduction: The cloud-based decision support system powered by Unetstack, for executing intelligent missions in the SWAN, as well as visualizing the collected water quality data on SwanViz User Interface (UI).
   sections:
@@ -31,6 +33,7 @@
   id: swan-tab-three
   input_id: SwanNode
   panel_id: swan-panel-three
+  thumbnail: images/swansense.jpg
   order: 3
   introduction: Robust communication links in the cloud provide real-time updates through technologies such as Disruption Tolerant Networking (DTN) technology. DTN is incorporated in SWAN to ensure that data is not lost during intermittent or limited network connectivity.
   sections:
