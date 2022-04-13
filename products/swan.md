@@ -157,7 +157,7 @@ tabs: swancomponents
   <div class='row'>
     <h1 class='section-heading'>Components of SWAN</h1>
   </div>
-  {% for item in site.data.swan-tabs[page.tabs] %}
+  {% for item in site.data.swan-tabs %}
       {% if item.name ==  "SwanBot" %}
           {% assign checked = "checked" %}
       {% else %}
@@ -166,22 +166,21 @@ tabs: swancomponents
   <input id="{{ item.input_id }}" name='tab-control' type='radio' class='radio' {{checked}}>
   {% endfor %}
     <div class='row row-width type-container bg-grey'>
-      {% for item in site.data.swan-tabs[page.tabs] %}
+      {% for item in site.data.swan-tabs %}
           <label class='type-item' id="{{ item.id }}" for="{{ item.input_id }}">{{ item.name }}</label>
       {% endfor %}
     </div>
   <div class="tab-panels">
     <div class='row features-row'>
       <div class='large-12 columns'>
-      {% assign tabs = site.pages | where:"categories","swancomponents" | sort: "order" %}
-      {% for page in tabs %}
-      <div id='{{page.tab-id}}' class='tab-panel'>
+      {% for item in site.data.swan-tabs %}
+      <div id='{{item.panel_id}}' class='tab-panel'>
         <div class='bg-grey'>
           <div class='row row-width section-margin'>
             <div class='large-6 columns'>
               <div class='swan-flex-col'>
-                <p> {{ page.intro }}</p>
-                {% for section in page.sections %}
+                <p> {{ item.introduction }}</p>
+                {% for section in item.sections %}
                 <div class='section-sub-heading'>
                   <i class='{{ section.icon }}'></i>
                     <h3>{{section.name}}</h3>
