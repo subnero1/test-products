@@ -40,45 +40,42 @@ tabs: swancomponents
 </div>
 <div class='bg-grey'>
   <div class='accordion-row'>
-      <div class='large-1 columns'></div>
-      <div class='large-5 columns'>
-        <div class='accordion-container'>
-          <div class='accordion-tab'>
-            <input type="radio" id="rad1" class='rad1' name="radio" hidden checked>
-            <label class="accordion-label" for="rad1">Dense datasets in real-time</label>
-            <input type="radio" id="rad2" class='rad2' name="radio" hidden>
-            <label class="accordion-label" for="rad2">Safe and sustainable</label>
-            <input type="radio" id="rad3" class='rad3' name="radio" hidden>
-            <label class="accordion-label" for="rad3">High cost savings</label>
-            <div class="accordion-content">
-              <div class='content-1'>
-                <ul>
-                  <li>Large datasets enable advanced data analytics methods for preventive controls.</li>
-                  <li>Faster identification of hotspots leads to quicker response times on tackling potential issues.</li>
-                </ul>
-              </div>
-              <div class='content-2'>
-                <ul>
-                  <li>Simultaneous coverage over large areas using networked operations powered by SWAN's Bevy Intelligence.</li>
-                  <li>Carbon-free and eco-friendly. Runs on rechargeable batteries.</li>
-                </ul>
-              </div>
-              <div class='content-3'>
-                <ul>
-                  <li>Minimal need for human intervention.</li>
-                  <li>Up to 10x cost savings per sample.</li>
-                </ul>
-              </div>
+    <div class='large-1 columns'></div>
+    <div class='large-5 columns'>
+      <div class='accordion-container'>
+        <div class='accordion-tab'>
+          <label class="accordion-label hover-active" id='accordion-label-1' for="rad1">Dense datasets in real-time</label>
+          <label class="accordion-label" for="rad2" id='accordion-label-2' >Safe and sustainable</label>
+          <label class="accordion-label" for="rad3" id='accordion-label-3' >High cost savings</label>
+          <div class="accordion-content">
+            <div class='content-1'>
+              <ul>
+                <li>Large datasets enable advanced data analytics methods for preventive controls.</li>
+                <li>Faster identification of hotspots leads to quicker response times on tackling potential issues.</li>
+              </ul>
+            </div>
+            <div class='content-2'>
+              <ul>
+                <li>Simultaneous coverage over large areas using networked operations powered by SWAN's Bevy Intelligence.</li>
+                <li>Carbon-free and eco-friendly. Runs on rechargeable batteries.</li>
+              </ul>
+            </div>
+            <div class='content-3'>
+              <ul>
+                <li>Minimal need for human intervention.</li>
+                <li>Up to 10x cost savings per sample.</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class='large-6 columns container accordion-img'>
-        <img src='{{site.baseurl}}/images/swan-sustainable.jpg'>
-      </div>
-    <!-- </div> -->
+    </div>
+    <div class='large-6 columns container accordion-img'>
+      <img src='{{site.baseurl}}/images/swan-sustainable.jpg'>
+    </div>
   </div>
 </div>
+{%- include hover-display.html -%}
 <!-- Common problems -->
 <div class='row-padding-bottom'></div>
 <div class='row accordion-row row-width row-padding-bottom'>
@@ -218,9 +215,9 @@ tabs: swancomponents
         <div class='section-sub-heading'>
           <h2>Monitor water quality in 3 simple steps:</h2>
         </div>
-        <p>1. <span class='swan-highlight'>Select</span> a mission.</p>
-        <p>2. <span class='swan-highlight'>Deploy</span> the SwanBot.</p>
-        <p>3. <span class='swan-highlight'>Start</span> the mission.</p>
+        <p class='large-text'>1. <span class='swan-highlight'>Select</span> a mission.</p>
+        <p class='large-text'>2. <span class='swan-highlight'>Deploy</span> the SwanBot.</p>
+        <p class='large-text'>3. <span class='swan-highlight'>Start</span> the mission.</p>
       </div>
     </div>
   </div>
@@ -250,7 +247,7 @@ tabs: swancomponents
               <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
             {% endfor %}
           </div>
-          <div class='content'>
+          <div class='content fixed-height'>
             <div class='image'>
               <a {% if isnews %}target="_blank"{% endif %} href="{% if isnews %}{{post.external_url}}{% else %}{{site.baseurl}}{{post.url}}{% endif %}">
               <img alt="" src="{% if isimage %}{{site.url}}/{{post.thumbnail}}{% else %}{{site.url}}/{{ site.default_image }}{% endif %}" />

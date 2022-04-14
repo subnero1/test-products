@@ -1,0 +1,23 @@
+<!-- Start hover-display.html -->
+<script>
+let labels = document.querySelectorAll('.accordion-label');
+let hoverElemId;
+labels.forEach(function(l,i){
+	l.addEventListener('mouseover',function(ev){
+		hoverElemId = i;
+		let hovElems = document.querySelectorAll('.hover-active');
+		hovElems.forEach(function(h,i){
+			if(h.id != l.id)
+				h.classList.remove('hover-active')
+		})
+		if(!l.classList.contains('hover-active')) 
+			l.classList.add('hover-active')
+	})
+})
+let container = document.querySelector('.accordion-tab');
+container.addEventListener('mouseleave',function(ev){
+	if(!labels[hoverElemId].classList.contains('hover-active')) 
+		labels[hoverElemId].classList.add('hover-active')
+})
+</script>
+<!-- End hover-display.html -->
